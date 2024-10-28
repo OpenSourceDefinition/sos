@@ -1,7 +1,7 @@
 ---
 layout: signed
-title: Pernyataan komunitas mendukung Definisi Open Source (OSD)
-description: Pernyataan dari komunitas yang mendukung Definisi Open Source (OSD) versi 1.9
+title: Pernyataan Komunitas Mendukung Definisi Open Source (OSD)
+description: Pernyataan dari komunitas untuk mendukung Definisi Open Source (OSD) versi 1.9
 image: /assets/social-media-preview.png
 locale: id_ID
 twitter:
@@ -10,61 +10,61 @@ twitter:
 
 # **Deklarasi**
 
-## *Kami, anggota komunitas Open Source yang bertandatangan, menegaskan bahwa Open Source didefinisikan hanya oleh Definisi Open Source (OSD) versi 1.9.*
+## *Kami, anggota komunitas Open Source yang bertanda tangan, menyatakan bahwa Open Source hanya didefinisikan oleh Definisi Open Source (OSD) versi 1.9.*
 
-## *Setiap amandemen atau definisi baru hanya diakui jika dinyatakan melalui konsensus komunitas yang jelas melalui proses transparan yang akan ditentukan.*
+## *Setiap perubahan atau definisi baru hanya akan diakui jika dinyatakan melalui konsensus komunitas yang jelas melalui proses transparan yang akan ditentukan.*
 
 ---
 <br>
 
-28-10-2024
+2024-10-28
 
-Kepada Teman & Sekutu Open Source,
+Para Sahabat & Sekutu Open Source yang Terhormat,
 
-Selama lebih dari dua dekade, Definisi Open Source (OSD) telah menjadi fondasi bersama kita, melindungi kebebasan perangkat lunak dan mendorong ekosistem kolaboratif. Berasal dari Pedoman Perangkat Lunak Bebas Debian (DFSG), tetapi sejauh ini sejalan dengan mereka, OSD telah selalu menetapkan standar untuk Open Source. Namun hari ini, Open Source Initiative (OSI) telah memperkenalkan [Definisi AI Open Source (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition) yang baru dan memecah belah, dikembangkan melalui proses tertutup yang secara mendasar bertentangan dengan prinsip keterbukaan dan transparansi yang mendasari gerakan kita. Dengan cakupan yang luas pada perangkat lunak mana pun yang "mengambil kesimpulan dari input yang diterima, tentang bagaimana menghasilkan output", OSAID bertentangan langsung dengan standar yang ada, gagal dalam dimensi keterbukaan dan kelengkapan.
+Selama lebih dari dua dekade, Definisi Open Source (OSD) telah menjadi pondasi bersama kita, melindungi kebebasan perangkat lunak dan mendorong ekosistem kolaboratif. Berasal dari Pedoman Perangkat Lunak Bebas Debian (DFSG), namun sejauh ini selaras dengan mereka, OSD telah secara konsisten menetapkan standar untuk Open Source. Namun hari ini, Inisiatif Open Source (OSI) telah memperkenalkan [Definisi Open Source AI (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition) yang baru dan memecah belah, dikembangkan melalui proses tertutup yang fundamental bertentangan dengan prinsip keterbukaan dan transparansi yang mendasari gerakan kita. Secara luas mencakup perangkat lunak apa pun yang "menafsirkan, dari masukan yang diterimanya, bagaimana menghasilkan keluaran", OSAID bertentangan langsung dengan standar yang ada, gagal dalam aspek keterbukaan dan kelengkapan.
 
-## Tantangan Pengelolaan
+## Tantangan Tata Kelola
 
-Penanganan OSAID oleh OSI telah menyoroti masalah yang telah lama ada. Selama beberapa tahun terakhir, tata kelola OSI menghadapi kritik karena tidak sepenuhnya mewakili kepentingan komunitas, dengan kontroversi termasuk kepergian pendiri & larangan, serta pengunduran diri anggota dewan. Dengan mengabaikan tren seperti komputasi awan (pergeseran dari produk ke layanan), dan pentingnya data yang semakin meningkat, termasuk model AI (tetapi juga audio, video, gambar, dan basis data), OSI telah mengabaikan aspek penting dari perangkat lunak modern. Sekarang, dengan OSAID, OSI mencoba mendefinisikan ulang konsep keterbukaan itu sendiri—kali ini dengan sedikit memperhatikan umpan balik yang tidak sejalan dengan pendekatannya yang sudah ditentukan terhadap data. Dengan pengakuan mereka sendiri, "proses yang tidak terbuka tidak dapat dipercaya untuk menghasilkan produk yang dapat dianggap terbuka".
+Penanganan OSI terhadap OSAID telah menyoroti masalah yang sudah lama ada. Selama beberapa tahun terakhir, tata kelola OSI telah menghadapi kritik karena tidak sepenuhnya mewakili kepentingan komunitas, dengan kontroversi termasuk keberangkatan dan pelarangan salah satu pendiri, dan pengunduran diri anggota dewan. Dengan mengabaikan tren seperti komputasi awan (peralihan dari produk ke layanan), dan pentingnya data yang semakin meningkat, termasuk model AI (tetapi juga audio, video, gambar, dan basis data), OSI telah mengabaikan aspek penting dari perangkat lunak modern. Sekarang, dengan OSAID, OSI berusaha untuk mendefinisikan ulang konsep keterbukaan itu sendiri—kali ini dengan sedikit memperhatikan umpan balik yang tidak sejalan dengan pendekatan predetermined mereka terhadap data. Menurut pengakuan mereka sendiri, "proses yang tidak terbuka tidak dapat dipercaya menghasilkan produk yang dapat dianggap terbuka".
 
 ## Empat Kebebasan Esensial
 
-Di jantung Perangkat Lunak Bebas & Open Source (FOSS) ada Empat Kebebasan Esensial, yang sebagian besar didapatkan OSAID dengan benar:
+Inti dari Perangkat Lunak Bebas & Open Source (FOSS) adalah Empat Kebebasan Esensial, yang sebagian besar telah dipahami dengan benar oleh OSAID:
 
 1. Kebebasan untuk **menggunakan** sistem untuk tujuan apa pun tanpa harus meminta izin.
-2. Kebebasan untuk **mempelajari** bagaimana sistem dan setiap komponennya bekerja.
-3. Kebebasan untuk **memodifikasi** sistem untuk tujuan apa pun, termasuk mengubah outputnya.
-4. Kebebasan untuk **membagikan** sistem untuk digunakan orang lain, dengan atau tanpa modifikasi, untuk tujuan apa pun.
+2. Kebebasan untuk **mempelajari** bagaimana sistem bekerja dan bagaimana setiap komponennya berfungsi.
+3. Kebebasan untuk **memodifikasi** sistem untuk tujuan apa pun, termasuk mengubah hasilnya.
+4. Kebebasan untuk **berbagi** sistem agar dapat digunakan oleh orang lain, dengan atau tanpa modifikasi, untuk tujuan apa pun.
 
-Kebebasan ini memastikan bahwa pengguna—bukan hanya vendor—mempertahankan kontrol atas perangkat lunak, memungkinkan mereka untuk menggunakan, mempelajari, memodifikasi, dan membagikannya sesuai keinginan, dan untuk "berdiri di atas bahu raksasa" dalam menciptakan karya turunan. Hal ini berakhir dengan OSAID, yang gagal melindungi kebebasan ini sepenuhnya dengan tidak lagi membuat akses ke label Open Source bergantung pada memiliki akses ke data yang diperlukan.
+Kebebasan-kebebasan ini memastikan bahwa pengguna—bukan hanya vendor—mengendalikan perangkat lunak, memungkinkan mereka menggunakan, mempelajari, memodifikasi, dan membagikannya sesuai keinginan mereka, dan untuk "berdiri di atas pundak raksasa" dalam menciptakan karya turunan. Itu berakhir di sini dengan OSAID, yang gagal sepenuhnya melindungi kebebasan-kebebasan ini dengan tidak lagi membuat akses ke moniker Open Source bersyarat memiliki akses ke data yang diperlukan.
 
 ## Keterbukaan dan Kelengkapan
 
-Ada dua dimensi dalam Definisi Open Source: **keterbukaan** dan **kelengkapan**. Kredensial keterbukaan sudah mapan, tetapi kelengkapannya tersirat, dan ditantang oleh semakin kompleksnya sistem dan jumlah komponen yang mungkin perlu dimasukkan di bawah lisensi Open Source untuk melindungi Empat Kebebasan. Misalnya, panduan perjalanan yang mencakup data OpenStreetMap (berlisensi ODbL) dan Wikivoyage (berlisensi CC-BY-SA) adalah Open Source, tetapi kode sumber aplikasi "baterai tidak termasuk" tanpa data (atau data berpemilik) adalah pelayan. Hal ini terutama benar untuk sistem Kecerdasan Buatan (AI), di mana kode inferensi lebih dari sekadar sistem pendukung kehidupan bagi model.
+Ada dua dimensi dalam Definisi Open Source: **keterbukaan** dan **kelengkapan**. Kredensial keterbukaannya sudah mapan, tetapi kelengkapan bersifat implisit, dan ditantang oleh semakin kompleksnya sistem dan jumlah komponen yang mungkin perlu disertakan dalam lisensi Open Source untuk melindungi Empat Kebebasan. Sebagai contoh, panduan perjalanan yang mencantumkan OpenStreetMap (berlisensi ODbL) dan data Wikivoyage (berlisensi CC-BY-SA) adalah Open Source, tetapi kode sumber aplikasi "baterai tidak termasuk" tanpa data (atau data proprietary) adalah bawahan. Ini terutama benar untuk sistem Kecerdasan Buatan (AI), di mana kode inferensi sedikit lebih dari sekadar sistem dukungan hidup untuk model.
 
-Menurut Bruce Perens (penulis asli OSD), "*data adalah kode sumber*", dan dia menegaskan “*Anda dapat menerapkan Definisi Open Source asli ke pembelajaran mesin*.” Dia memperingatkan bahwa ketika data dan model tidak dapat diakses, “*hasilnya kurang dari Open Source.*” Ini menunjukkan bahwa standar yang ada sudah mencakup kebutuhan pembelajaran mesin yang berkembang tanpa modifikasi, dan bahwa dokumen baru itu tidak perlu.
+Menurut Bruce Perens (penulis asli OSD), "*data adalah kode sumber*", dan dia menegaskan "*Anda dapat menerapkan Definisi Open Source yang asli untuk pembelajaran mesin*". Dia memperingatkan bahwa ketika data dan model tidak dapat diakses, “*hasilnya kurang dari Open Source.*” Ini menunjukkan bahwa standar yang ada sudah mencakup kebutuhan berkembang pembelajaran mesin tanpa modifikasi, dan bahwa dokumen baru tidak perlu.
 
-Sementara posisi default adalah tidak membuat perubahan apa pun pada standar yang ada, penting juga untuk memastikan bahwa standar tetap relevan dan komprehensif. Satu area untuk eksplorasi potensial adalah perluasan ruang lingkup untuk mencakup data, tetapi ini harus didekati dengan standar tinggi yang sama seperti amandemen konstitusi, membutuhkan konsensus luas dan pertimbangan hati-hati untuk menghindari konsekuensi yang tidak diinginkan. Hal ini tidak terjadi dengan OSAID, yang menghadirkan risiko besar bagi proyek yang ada dan inovasi di masa depan.
+Sementara posisi default adalah tidak melakukan perubahan sama sekali pada standar, juga penting untuk memastikan bahwa ia tetap relevan dan komprehensif. Satu area untuk eksplorasi potensial adalah perluasan cakupan untuk mencakup data, tetapi ini harus didekati dengan standar tinggi yang sama seperti amendemen konstitusi, memerlukan konsensus luas dan pertimbangan hati-hati untuk menghindari konsekuensi yang tidak diinginkan. Hal itu tidak terjadi dengan OSAID, yang mempresentasikan risiko besar pada proyek yang ada dan inovasi masa depan.
 
-## Terbang, Menavigasi, Berkomunikasi
+## Aviate, Navigasi, Komunikasi
 
-Dalam penerbangan, ketika pilot menghadapi keadaan darurat, mereka mengikuti tiga langkah: Terbang, Menavigasi, Berkomunikasi. Pendekatan ini berlaku di sini juga, membantu kami mendapatkan kembali kendali, merencanakan jalur aman ke depan, dan meningkatkan komunikasi.
+Dalam penerbangan, ketika pilot menghadapi keadaan darurat, mereka mengikuti tiga langkah: Aviasi, Navigasi, Komunikasi. Pendekatan ini berlaku di sini juga, membantu kita mendapatkan kembali kendali, menyusun jalur aman ke depan, dan memperbaiki komunikasi.
 
-1. *Terbang*: Langkah pertama adalah menarik pesawat keluar dari penurunan dan mendapatkan kembali stabilitas. Yang terutama berarti menjaga integritas OSD. Situs Definisi Open Source baru [https://opensourcedefinition.org](https://opensourcedefinition.org) bertindak sebagai perahu penyelamat, mempertahankan Definisi Open Source saat ini pada versi 1.9, dan artefak yang diperlukan untuk ekosistem Open Source yang fungsional, serta fitur tambahan seperti riwayat versi dan repository Git. Kami mendorong semua orang untuk menyalin dan mendistribusikan secara luas dokumen berlisensi CC-BY, memastikan ketersediaannya di seluruh komunitas daripada mengandalkan repository pusat mana pun.
-2. *Navigasi*: Dengan stabilitas dipulihkan, kami dapat menilai dengan hati-hati apakah akan tetap di jalur, dengan asumsi jalur saat ini masih melayani semua aspek Open Source. Setelah dua dekade, komunitas mungkin setuju untuk memperluas ruang lingkup OSD ke area baru—seperti data dan pembelajaran mesin—tanpa mengganggu proyek yang ada, atau mungkin mempertimbangkan perubahan yang tidak layak untuk risiko besar. Stabilitas tetap menjadi default, dan setiap amandemen harus menghormati (dan sebaiknya secara eksplisit menggabungkan) Empat Kebebasan Inti, menghindari gangguan yang tidak perlu terhadap norma yang sudah mapan. Komunitas harus memimpin proses ini, dan mengingat sensor yang berat di forum yang ada, kami menawarkan padanan yang tidak disensor di [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org) yang terbuka untuk semua, memastikan setiap suara dapat didengar.
-3. *Berkomunikasi*: Akhirnya, kita harus berinteraksi dengan dan mendidik mereka yang bergantung pada Open Source, baik mereka memilih untuk berpartisipasi dalam proses ini atau tidak. Definisi Open Source yang bermakna adalah fondasi dari kehidupan dan mata pencaharian, penelitian, dan perusahaan di seluruh dunia, yang terhubung oleh ekosistem Open Source yang menopang internet, layanan awan, sistem AI, dan lainnya. Meskipun mereka tidak terlibat langsung dengan komunitas Open Source, pekerjaan dan kepercayaan mereka dibangun di atas fondasi bersama ini. Sangat penting mereka memahami risiko dan kemampuan mereka untuk mendukung dan melindungi Empat Kebebasan.
+1. *Aviasi*: Langkah pertama adalah menarik pesawat dari terjun bebas dan mendapatkan kembali stabilitas. Yang paling utama, ini berarti mempertahankan integritas OSD. Situs Definisi Open Source yang baru [https://opensourcedefinition.org](https://opensourcedefinition.org) berfungsi sebagai rakit penyelamat, mempertahankan Definisi Open Source saat ini pada versi 1.9, dan artefak yang diperlukan untuk ekosistem Open Source yang fungsional, ditambah fitur tambahan seperti riwayat versi dan repositori Git. Kami mendorong semua orang untuk menggandakan dan menyebarluaskannya secara luas dokumen berlisensi CC-BY, memastikan ketersediaannya di seluruh komunitas daripada bergantung pada repositori pusat mana pun.
+2. *Navigasi*: Dengan stabilitas terpulihkan, kita dapat dengan hati-hati menilai apakah kita tetap pada jalur, jika jalur saat ini masih melayani semua aspek Open Source. Setelah dua dekade, komunitas mungkin setuju untuk memperluas cakupan OSD ke area baru seperti data dan pembelajaran mesin tanpa mengganggu proyek-proyek yang ada, atau mungkin mempertimbangkan perubahan tidak sebanding dengan risiko signifikan. Stabilitas tetap menjadi default, dan setiap perubahan harus menghormati (dan sebaiknya secara eksplisit memasukkan) Empat Kebebasan Inti, menghindari gangguan yang tidak perlu terhadap norma-norma yang sudah ada. Komunitas harus memimpin proses ini, dan mengingat penyensoran berat di forum yang ada, kami menawarkan setara yang tidak disensor di [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org) yang terbuka untuk semua, memastikan setiap suara dapat didengar.
+3. *Komunikasi*: Akhirnya, kita harus melibatkan dan mendidik mereka yang bergantung pada Open Source, apakah mereka memilih untuk berpartisipasi dalam proses atau tidak. Definisi Open Source yang bermakna adalah pondasi bagi kehidupan dan mata pencaharian, penelitian, dan usaha di seluruh dunia, terhubung oleh ekosistem Open Source yang menopang internet, layanan awan, sistem AI, dan lebih banyak lagi. Bahkan jika mereka tidak terlibat langsung dengan komunitas Open Source, pekerjaan dan kepercayaan mereka dibangun di atas pondasi bersama ini. Penting bagi mereka untuk memahami baik taruhannya maupun kemampuan mereka untuk mendukung dan melindungi Empat Kebebasan.
 
 ## Mengapa Ini Penting
 
-Melindungi integritas Definisi Open Source lebih dari sekadar semantik—ini tentang mempertahankan komitmen bersama terhadap kebebasan. Dengan sistem AI yang menyentuh, mengubah, dan berpotensi meracuni setiap aspek usaha manusia di masa depan, taruhannya sangat tinggi. Dengan mendukung deklarasi ini, pengembang, pengguna, akademisi, dan pemangku kepentingan lainnya menegaskan bahwa prinsip Open Source sejati hanya dapat didefinisikan oleh komunitas itu sendiri.
+Melindungi integritas Definisi Open Source bukan hanya tentang semantik—itu tentang mempertahankan komitmen bersama terhadap kebebasan. Dengan sistem AI menyentuh, mengubah, dan berpotensi merusak setiap aspek usaha manusia di masa depan, taruhannya tinggi. Dengan mendukung deklarasi ini, pengembang, pengguna, akademisi, dan pemangku kepentingan lainnya menegaskan bahwa prinsip-prinsip Open Source yang sebenarnya hanya dapat didefinisikan oleh komunitas itu sendiri.
 
-Menandatangani deklarasi ini adalah tindakan dukungan untuk transparansi, kolaborasi, dan kepemilikan kolektif etos Open Source. Bersama-sama, kita dapat memastikan bahwa Open Source terus dibentuk oleh mereka yang membangun, menggunakan, dan mempercayainya, daripada kepentingan korporat. Dukungan Anda tidak hanya menegaskan komitmen Anda tetapi juga mengirimkan pesan kepada mereka yang mengabaikan suara komunitas bahwa ini harus dipatuhi.
+Menandatangani deklarasi ini adalah tindakan dukungan untuk transparansi, kolaborasi, dan kepemilikan kolektif etos Open Source. Bersama, kita dapat memastikan bahwa Open Source terus dibentuk oleh mereka yang membangun, menggunakan, dan percaya pada prinsip itu, daripada terutama oleh kepentingan korporat. Dukungan Anda tidak hanya menegaskan komitmen Anda tetapi juga mengirimkan pesan kepada mereka yang akan mengabaikan suara komunitas bahwa suara itu harus diperhatikan.
 
 ---
 <br>
 
-- Untuk menandatangani melalui email, kirim [email teks polos](https://useplaintext.email/) dengan atau tanpa isi ke [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Untuk menandatangani di GitHub, silakan [komentar di isu ini](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), atau [ajukan permintaan tarik](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
-- Untuk menandatangani di Codeberg, silakan [komentar di isu ini](https://codeberg.org/osd/sos/issues/1) atau [ajukan permintaan tarik](https://codeberg.org/osd/sos/pulls).
-- Atau, fork dan clone repo, buat file `_data/signed/<username>.yaml` secara manual, lalu commit dan ajukan PR.
+- Untuk menandatangani melalui email, kirim [email teks biasa](https://useplaintext.email/) dengan isi apa pun atau tidak ada ke [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Untuk menandatangani di GitHub, silakan [berikan komentar pada isu ini](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), atau [ajukan permintaan penarikan](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Untuk menandatangani di Codeberg, silakan [berikan komentar pada isu ini](https://codeberg.org/osd/sos/issues/1) atau [ajukan permintaan penarikan](https://codeberg.org/osd/sos/pulls).
+- Alternatifnya, cabang dan klon repositori, buat file `_data/signed/<username>.yaml` secara manual, kemudian lakukan commit dan ajukan PR.
 - Anda juga dapat mengusulkan perubahan pada surat informatif di atas garis dengan [membuka isu](https://codeberg.org/osd/sos/issues).
