@@ -63,10 +63,21 @@ def convert_svg_to_png(svg_path):
 logo_path = script_dir.parent / "assets" / "logo.svg"
 logo_image = convert_svg_to_png(logo_path).convert("RGBA")
 
+# Resize logo while maintaining aspect ratio
+def resize_logo(image, max_width, max_height):
+    aspect_ratio = image.width / image.height
+    if image.width > image.height:
+        new_width = min(max_width, image.width)
+        new_height = int(new_width / aspect_ratio)
+    else:
+        new_height = min(max_height, image.height)
+        new_width = int(new_height * aspect_ratio)
+    return image.resize((new_width, new_height), Image.LANCZOS)
+
 # Resize and position the logo
-logo_size = (100, 100)  # Adjust size as needed
-logo_image = logo_image.resize(logo_size, Image.LANCZOS)
-logo_position = (background_image.width - logo_size[0] - 20, 20)  # Top right with padding
+logo_size = (200, 200)  # Adjust max size as needed
+logo_image = resize_logo(logo_image, *logo_size)
+logo_position = (background_image.width - logo_image.width - 20, 20)  # Top right with padding
 
 # Load the main font
 main_font = ImageFont.truetype(str(FONT_PATH), 40)  # Adjust the size as needed
@@ -101,14 +112,13 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # Paste the logo
     img.paste(logo_image, logo_position, logo_image)
 
-    # Draw main text
-    text_bbox = draw.textbbox((0, 0), text_main, font=main_font)
-    text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
+    # Draw main text, wrapping to fit
     draw.text(
-        ((IMAGE_SIZE[0] - text_width) / 2, (IMAGE_SIZE[1] - text_height) / 2),
+        (20, logo_image.height + 40),  # Position below the logo
         text_main,
         font=main_font,
-        fill=TEXT_COLOR
+        fill=TEXT_COLOR,
+        width=background_image.width - 40  # Allow some padding on the sides
     )
 
     # Draw call-to-action text
@@ -121,9 +131,24 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
         fill=TEXT_COLOR
     )
 
-    # Draw button
-    button_position = (20, IMAGE_SIZE[1] - BUTTON_SIZE[1] - 20)  # Bottom left with padding
-    create_pill_button(draw, button_position, BUTTON_SIZE, BUTTON_COLOR, button_text, button_font, TEXT_COLOR)
+    # Adjust button color and position
+    button_color = "#0072CE"  # Blue color from the logo
+    button_size = (150, 50)  # Adjust size as needed
+    button_position = (background_image.width - button_size[0] - 20, background_image.height - button_size[1] - 20)  # Bottom right with padding
+
+    # Draw the button
+    draw.rectangle(
+        [button_position, (button_position[0] + button_size[0], button_position[1] + button_size[1])],
+        fill=button_color
+    )
+
+    # Draw button text
+    draw.text(
+        (button_position[0] + 10, button_position[1] + 10),  # Center text within the button
+        button_text,
+        font=button_font,
+        fill="white"
+    )
 
     # Determine the output path based on language code
     if language_code == "en":
