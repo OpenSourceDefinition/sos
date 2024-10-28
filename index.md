@@ -8,6 +8,14 @@ twitter:
   card: summary_large_image
 ---
 
+# **Declaration**
+
+## *We, the undersigned members of the Open Source community, assert that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.*
+
+## *Any amendments or new definitions shall only be recognized if declared by clear community consensus through a transparent process to be determined.*
+
+---
+
 2024-10-28
 
 Dear Open Source Friends & Allies,
@@ -59,12 +67,3 @@ Signing this declaration is an act of support for transparency, collaboration, a
 - Alternatively, fork and clone the repo, create the file `_data/signed/<username>.yaml` manually, then commit and submit a PR.
 - You can also propose changes to the informative letter above the line by [opening an issue](https://codeberg.org/osd/sos/issues).
 
----
-
-# **Declaration**
-
-## *We, the undersigned members of the Open Source community, assert that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.*
-
-## *Any amendments or new definitions shall only be recognized if declared by clear community consensus through a transparent process to be determined.*
-
----
