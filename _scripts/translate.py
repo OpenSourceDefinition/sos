@@ -120,7 +120,7 @@ def main():
 
         if translate_target in ["index", "both"]:
             logging.info(f"Translating index.md to {lang_name[0]} ({index}/{total_languages})...")
-            translated_content = translate_file("_translations/index.md", lang_code, client)
+            translated_content = translate_file("index.md", lang_code, client)
             save_translated_file(translated_content, f"_translations/index_{lang_code}.md")
             logging.info(f"Saved translated index for {lang_name[0]}")
 
