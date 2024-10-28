@@ -22,16 +22,16 @@ The OSI’s handling of OSAID has highlighted longstanding issues. Over recent y
 
 At the heart of Free & Open Source Software (FOSS) are the Four Essential Freedoms, which was one point the OSAID did get right:
 
-1.	The freedom to *use* the system for any purpose and without having to ask for permission.
-2.	The freedom to *study* how the system works and inspect its components.
-3.	The freedom to *modify* the system for any purpose, including to change its output.
-4.	The freedom to *share* the system for others to use, with or without modifications, for any purpose.
+1.	The freedom to **use** the system for any purpose and without having to ask for permission.
+2.	The freedom to **study** how the system works and inspect its components.
+3.	The freedom to **modify** the system for any purpose, including to change its output.
+4.	The freedom to **share** the system for others to use, with or without modifications, for any purpose.
 
 These freedoms ensure that users—not just vendors—retain control over software, allowing them to use, study, modify, and share it as they see fit, and to "stand on the shoulders of giants" in creating derivative works. That ends here with OSAID, which fails to fully protect these freedoms by no longer making access to the Open Source moniker conditional on having access to the requisite data.
 
 ## Openness and Completeness
 
-There are two dimensions to the Open Source Definition: openness and completeness. Its openness credentials are already well-established, but completeness is implicit, and challenged by increasing system complexity and number of components that may need to be included under Open Source licenses to protect the four freedoms. A travel guide that includes OpenStreetMap (ODbL licensed) and Wikivoyage (CC-BY-SA licensed) data is Open Source, but the "batteries not included" application source code with no data (or proprietary data) is a vassal. This is particularly true of Artificial Intelligence (AI) systems, where the inference code is little more than a life support system for the model.
+There are two dimensions to the Open Source Definition: **openness** and **completeness**. Its openness credentials are already well-established, but completeness is implicit, and challenged by increasing system complexity and number of components that may need to be included under Open Source licenses to protect the four freedoms. For example, a travel guide that includes OpenStreetMap (ODbL licensed) and Wikivoyage (CC-BY-SA licensed) data is Open Source, but the "batteries not included" application source code with no data (or proprietary data) is a vassal. This is particularly true of Artificial Intelligence (AI) systems, where the inference code is little more than a life support system for the model.
 
 According to Bruce Perens (original author of the OSD), "the data is the source code", and he asserts “you can apply the original Open Source Definition to machine learning”. He warned that when data and models aren’t accessible, “the result is less than Open Source.” This suggests that the OSD already covers the evolving needs of machine learning without modification, and that the OSAID is unnecessary.
 
