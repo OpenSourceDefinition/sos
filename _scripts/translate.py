@@ -5,36 +5,36 @@ import logging
 import argparse
 
 languages = {
-    "es": "Español",
-    "zh-cn": "简体中文",
-    "hi": "हिन्दी",
-    "fr": "Français",
-    "de": "Deutsch",
-    "ru": "Русский",
-    "pt-br": "Português (Brasil)",
-    "ja": "日本語",
-    "ar": "العربية",
-    "ko": "한국어",
-    "it": "Italiano",
-    "tr": "Türkçe",
-    "nl": "Nederlands",
-    "vi": "Tiếng Việt",
-    "id": "Bahasa Indonesia",
-    "th": "ไทย",
-    "pl": "Polski",
-    "sv": "Svenska",
-    "uk": "Українська",
-    "he": "עברית",
-    "fa": "فارسی",
-    "tl": "Tagalog",
-    "ms": "Bahasa Melayu",
-    "ro": "Română",
-    "cs": "Čeština",
-    "hu": "Magyar",
-    "el": "Ελληνικά",
-    "bn": "বাংলা",
-    "ta": "தமிழ்",
-    "sr": "Српски"
+    "ar": ("العربية", "🇦🇪"),
+    "bn": ("বাংলা", "🇧🇩"),
+    "cs": ("Čeština", "🇨🇿"),
+    "de": ("Deutsch", "🇩🇪"),
+    "el": ("Ελληνικά", "🇬🇷"),
+    "es": ("Español", "🇪🇸"),
+    "fa": ("فارسی", "🇮🇷"),
+    "fr": ("Français", "🇫🇷"),
+    "he": ("עברית", "🇮🇱"),
+    "hi": ("हिन्दी", "🇮🇳"),
+    "hu": ("Magyar", "🇭🇺"),
+    "id": ("Bahasa Indonesia", "🇮🇩"),
+    "it": ("Italiano", "🇮🇹"),
+    "ja": ("日本語", "🇯🇵"),
+    "ko": ("한국어", "🇰🇷"),
+    "ms": ("Bahasa Melayu", "🇲🇾"),
+    "nl": ("Nederlands", "🇳🇱"),
+    "pl": ("Polski", "🇵🇱"),
+    "pt-br": ("Português (Brasil)", "🇧🇷"),
+    "ro": ("Română", "🇷🇴"),
+    "ru": ("Русский", "🇷🇺"),
+    "sr": ("Српски", "🇷🇸"),
+    "sv": ("Svenska", "🇸🇪"),
+    "ta": ("தமிழ்", "🇮🇳"),
+    "th": ("ไทย", "🇹🇭"),
+    "tl": ("Tagalog", "🇵🇭"),
+    "tr": ("Türkçe", "🇹🇷"),
+    "uk": ("Українська", "🇺🇦"),
+    "vi": ("Tiếng Việt", "🇻🇳"),
+    "zh-cn": ("简体中文", "🇨🇳")
 }
 
 def translate_file(file_path: str, target_language: str, client: openai.AzureOpenAI) -> str:
@@ -43,7 +43,7 @@ def translate_file(file_path: str, target_language: str, client: openai.AzureOpe
         content = f.read()
     
     system_prompt = f"""
-    You are a professional translator. Translate the following content to {languages[target_language]}.
+    You are a professional translator. Translate the following content to {languages[target_language][0]}.
     """
     
     user_prompt = content
@@ -63,6 +63,26 @@ def save_translated_file(content: str, file_name: str):
     """Save the translated content to a file."""
     with open(file_name, "w") as f:
         f.write(content)
+
+def update_readme_flag_list(readme_path: str):
+    """Update the README file with the new flag list."""
+    with open(readme_path, "r") as f:
+        content = f.readlines()
+    
+    # Find the start and end of the flag list
+    start_index = next(i for i, line in enumerate(content) if line.strip() == "This README is available in:")
+    end_index = next(i for i, line in enumerate(content[start_index:], start=start_index) if line.strip() == "")
+    
+    # Generate the new flag list
+    flag_list = "\n".join(
+        f"[{flag}](README_{code.upper()}.md)" for code, (name, flag) in sorted(languages.items(), key=lambda x: x[1][0])
+    )
+    
+    # Replace the old flag list with the new one
+    content[start_index + 1:end_index] = [flag_list + "\n"]
+    
+    with open(readme_path, "w") as f:
+        f.writelines(content)
 
 def main():
     # Set up argument parser
@@ -97,16 +117,19 @@ def main():
     
     for lang_code, lang_name in languages.items():
         if translate_target in ["readme", "both"]:
-            logging.info(f"Translating README to {lang_name}...")
+            logging.info(f"Translating README to {lang_name[0]}...")
             translated_content = translate_file("README.md", lang_code, client)
             save_translated_file(translated_content, f"README_{lang_code.upper()}.md")
-            logging.info(f"Saved translated README for {lang_name}")
+            logging.info(f"Saved translated README for {lang_name[0]}")
 
         if translate_target in ["index", "both"]:
-            logging.info(f"Translating index.md to {lang_name}...")
+            logging.info(f"Translating index.md to {lang_name[0]}...")
             translated_content = translate_file("_translations/index.md", lang_code, client)
             save_translated_file(translated_content, f"_translations/index_{lang_code}.md")
-            logging.info(f"Saved translated index for {lang_name}")
+            logging.info(f"Saved translated index for {lang_name[0]}")
+
+    # Update the README flag list
+    update_readme_flag_list("README.md")
 
 if __name__ == "__main__":
     main()
