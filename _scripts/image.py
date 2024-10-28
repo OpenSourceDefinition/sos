@@ -2,8 +2,10 @@
 
 import json
 import os
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 from pathlib import Path
+import cairosvg
+import io
 
 # Determine the script's directory
 script_dir = Path(__file__).resolve().parent
@@ -46,44 +48,64 @@ else:
 # Create output directory
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# Function to create a gradient image
-def create_gradient_image(size, color1, color2):
-    base = Image.new('RGBA', size)
-    draw = ImageDraw.Draw(base)
-    for y in range(size[1]):
-        r, g, b = (
-            int(color1[0] + (color2[0] - color1[0]) * y / size[1]),
-            int(color1[1] + (color2[1] - color1[1]) * y / size[1]),
-            int(color1[2] + (color2[2] - color1[2]) * y / size[1])
-        )
-        draw.line([(0, y), (size[0], y)], fill=(r, g, b))
-    return base
+# Load the new background image
+background_path = script_dir.parent / "assets" / "social-media-preview-background.jpg"
+background_image = Image.open(background_path).convert("RGBA")
 
-# Create a gradient base image
-color_start = (255, 255, 255)  # White
-color_end = (0, 178, 89)  # Green
-base_image = create_gradient_image(IMAGE_SIZE, color_start, color_end)
+# Convert SVG to PNG
+def convert_svg_to_png(svg_path):
+    with open(svg_path, 'rb') as svg_file:
+        svg_data = svg_file.read()
+    png_data = cairosvg.svg2png(bytestring=svg_data)
+    return Image.open(io.BytesIO(png_data))
 
-# Font setup
-try:
-    main_font = ImageFont.truetype(str(FONT_PATH), 48)
-    button_font = ImageFont.truetype(str(FONT_PATH), 32)
-except IOError:
-    print("Font file not found. Please update FONT_PATH to a valid font.")
-    # Use a default font as a fallback
-    main_font = ImageFont.load_default()
-    button_font = ImageFont.load_default()
+# Use the function to open the logo
+logo_path = script_dir.parent / "assets" / "logo.svg"
+logo_image = convert_svg_to_png(logo_path).convert("RGBA")
+
+# Resize and position the logo
+logo_size = (100, 100)  # Adjust size as needed
+logo_image = logo_image.resize(logo_size, Image.LANCZOS)
+logo_position = (background_image.width - logo_size[0] - 20, 20)  # Top right with padding
+
+# Load the main font
+main_font = ImageFont.truetype(str(FONT_PATH), 40)  # Adjust the size as needed
+
+# Load the button font
+button_font = ImageFont.truetype(str(FONT_PATH), 30)  # Adjust the size as needed
+
+# Function to create a pill-shaped button
+def create_pill_button(draw, position, size, color, text, font, text_color):
+    x, y = position
+    width, height = size
+    radius = height // 2
+    draw.rounded_rectangle(
+        [x, y, x + width, y + height],
+        radius=radius,
+        fill=color
+    )
+    text_bbox = draw.textbbox((0, 0), text, font=font)
+    text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
+    draw.text(
+        (x + (width - text_width) / 2, y + (height - text_height) / 2),
+        text,
+        font=font,
+        fill=text_color
+    )
 
 # Function to create a preview image with translations
 def create_image(text_main, text_call_to_action, button_text, language_code):
-    img = base_image.copy()
+    img = background_image.copy()
     draw = ImageDraw.Draw(img)
-    
+
+    # Paste the logo
+    img.paste(logo_image, logo_position, logo_image)
+
     # Draw main text
     text_bbox = draw.textbbox((0, 0), text_main, font=main_font)
     text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
     draw.text(
-        ((IMAGE_SIZE[0] - text_width) / 2, 200),  # Centered positioning
+        ((IMAGE_SIZE[0] - text_width) / 2, (IMAGE_SIZE[1] - text_height) / 2),
         text_main,
         font=main_font,
         fill=TEXT_COLOR
@@ -93,35 +115,21 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     cta_bbox = draw.textbbox((0, 0), text_call_to_action, font=main_font)
     cta_width, cta_height = cta_bbox[2] - cta_bbox[0], cta_bbox[3] - cta_bbox[1]
     draw.text(
-        ((IMAGE_SIZE[0] - cta_width) / 2, 100),
+        ((IMAGE_SIZE[0] - cta_width) / 2, (IMAGE_SIZE[1] - cta_height) / 2 + 60),
         text_call_to_action,
         font=main_font,
         fill=TEXT_COLOR
     )
 
-    # Draw button background
-    button_x = (IMAGE_SIZE[0] - BUTTON_SIZE[0]) / 2
-    button_y = 400
-    draw.rectangle(
-        [button_x, button_y, button_x + BUTTON_SIZE[0], button_y + BUTTON_SIZE[1]],
-        fill=BUTTON_COLOR
-    )
-
-    # Draw button text
-    button_text_bbox = draw.textbbox((0, 0), button_text, font=button_font)
-    button_text_width, button_text_height = button_text_bbox[2] - button_text_bbox[0], button_text_bbox[3] - button_text_bbox[1]
-    draw.text(
-        (button_x + (BUTTON_SIZE[0] - button_text_width) / 2, button_y + (BUTTON_SIZE[1] - button_text_height) / 2),
-        button_text,
-        font=button_font,
-        fill=TEXT_COLOR
-    )
+    # Draw button
+    button_position = (20, IMAGE_SIZE[1] - BUTTON_SIZE[1] - 20)  # Bottom left with padding
+    create_pill_button(draw, button_position, BUTTON_SIZE, BUTTON_COLOR, button_text, button_font, TEXT_COLOR)
 
     # Determine the output path based on language code
     if language_code == "en":
-        output_path = script_dir / "../assets/social-media-preview.png"
+        output_path = script_dir.parent / "assets" / "social-media-preview.png"
     else:
-        output_path = script_dir / f"../assets/social-media-preview_{language_code}.png"
+        output_path = script_dir.parent / "assets" / f"social-media-preview_{language_code}.png"
 
     # Save image with the determined path
     img.save(output_path)
