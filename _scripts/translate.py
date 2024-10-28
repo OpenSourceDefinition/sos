@@ -67,22 +67,18 @@ def save_translated_file(content: str, file_name: str):
 def update_readme_flag_list(readme_path: str):
     """Update the README file with the new flag list."""
     with open(readme_path, "r") as f:
-        content = f.readlines()
-    
-    # Find the start and end of the flag list
-    start_index = next(i for i, line in enumerate(content) if line.strip() == "This README is available in:")
-    end_index = next(i for i, line in enumerate(content[start_index:], start=start_index) if line.strip() == "")
+        content = f.read()
     
     # Generate the new flag list
     flag_list = "\n".join(
         f"[{flag}](README_{code.upper()}.md)" for code, (name, flag) in sorted(languages.items(), key=lambda x: x[1][0])
     )
     
-    # Replace the old flag list with the new one
-    content[start_index + 1:end_index] = [flag_list + "\n"]
+    # Replace the __TRANSLATIONS__ token with the new flag list
+    updated_content = content.replace("__TRANSLATIONS__", flag_list)
     
     with open(readme_path, "w") as f:
-        f.writelines(content)
+        f.write(updated_content)
 
 def main():
     # Set up argument parser
@@ -95,11 +91,10 @@ def main():
     )
     args = parser.parse_args()
 
-    # Set up logging
+    # Set up logging to console
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        filename='translate.log'
+        format='%(asctime)s - %(levelname)s - %(message)s'
     )
     
     # Load environment variables from .env file in the parent directory
@@ -115,15 +110,16 @@ def main():
     # Determine which files to translate based on the command line argument
     translate_target = args.translate_target.lower()
     
-    for lang_code, lang_name in languages.items():
+    total_languages = len(languages)
+    for index, (lang_code, lang_name) in enumerate(languages.items(), start=1):
         if translate_target in ["readme", "both"]:
-            logging.info(f"Translating README to {lang_name[0]}...")
+            logging.info(f"Translating README to {lang_name[0]} ({index}/{total_languages})...")
             translated_content = translate_file("README.md", lang_code, client)
             save_translated_file(translated_content, f"README_{lang_code.upper()}.md")
             logging.info(f"Saved translated README for {lang_name[0]}")
 
         if translate_target in ["index", "both"]:
-            logging.info(f"Translating index.md to {lang_name[0]}...")
+            logging.info(f"Translating index.md to {lang_name[0]} ({index}/{total_languages})...")
             translated_content = translate_file("_translations/index.md", lang_code, client)
             save_translated_file(translated_content, f"_translations/index_{lang_code}.md")
             logging.info(f"Saved translated index for {lang_name[0]}")
