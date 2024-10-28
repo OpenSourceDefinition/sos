@@ -20,10 +20,10 @@ The OSI’s handling of OSAID has highlighted longstanding issues. Over recent y
 
 ## The Four Essential Freedoms
 
-At the heart of Free & Open Source Software (FOSS) are the Four Essential Freedoms, which was one point the OSAID did get right:
+At the heart of Free & Open Source Software (FOSS) are the Four Essential Freedoms, which was one point the OSAID did get mostly right:
 
 1.	The freedom to **use** the system for any purpose and without having to ask for permission.
-2.	The freedom to **study** how the system works and inspect its components.
+2.	The freedom to **study** how the system works and how each of its components work.
 3.	The freedom to **modify** the system for any purpose, including to change its output.
 4.	The freedom to **share** the system for others to use, with or without modifications, for any purpose.
 
