@@ -149,7 +149,7 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # )
 
     # Adjust button size and position
-    button_size = (600, 140)  # Increase size to 2-3x
+    button_size = (500, 120)  # Increase size to 2-3x
     button_position = (background_image.width - button_size[0] - 80, background_image.height - button_size[1] - 80)  # Further from the bottom right corner
 
     # Draw the pill-shaped button
