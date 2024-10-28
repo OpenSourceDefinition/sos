@@ -12,15 +12,15 @@ twitter:
 
 Dear Open Source Friends & Allies,
 
-For over two decades, the Open Source Definition (OSD) has been our shared foundation, safeguarding software freedoms and fostering a collaborative ecosystem. Forked from the Debian Free Software Guidelines (DFSG), but until now aligned with them, the OSD has consistently set the standard for Open Source. Yet today, the Open Source Initiative (OSI) has introduced a new and divisive [Open Source AI Definition (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition), developed through closed-door processes that fundamentally conflict with the principles of openness and transparency that underpin our movement. Broadly covering any software that "infers, from the input it receives, how to generate outputs" the OSAID is in direct conflict with the OSD, failing in both openness and completeness dimensions.
+For over two decades, the Open Source Definition (OSD) has been our shared foundation, safeguarding software freedoms and fostering a collaborative ecosystem. Forked from the Debian Free Software Guidelines (DFSG), but until now aligned with them, the OSD has consistently set the standard for Open Source. Yet today, the Open Source Initiative (OSI) has introduced a new and divisive [Open Source AI Definition (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition), developed through closed-door processes that fundamentally conflict with the principles of openness and transparency that underpin our movement. Broadly covering any software that "infers, from the input it receives, how to generate outputs", the OSAID is in direct conflict with the existing standard, failing in both openness and completeness dimensions.
 
 ## Stewardship Challenges
 
-OSI’s handling of OSAID has highlighted longstanding issues. Over recent years, OSI’s governance has faced criticism for not fully representing community interests, with controversies including co-founder departures and bans and board member resignations. By neglecting trends like cloud computing (the shift from products to services), and the growing importance of data including AI models (but also audio, video, images, and databases), the OSI has overlooked essential aspects of modern software. Now, with OSAID, OSI is attempting to redefine the concept of openness itself—this time with little regard for feedback that doesn’t align with its predetermined approach to data. By their own [admission](https://opensource.org/blog/simon-phipps-was-right), "a process that is not open cannot be trusted to produce a product that can be considered open".
+The OSI’s handling of OSAID has highlighted longstanding issues. Over recent years, OSI’s governance has faced criticism for not fully representing community interests, with controversies including co-founder departures & bans, and board member resignations. By neglecting trends like cloud computing (the shift from products to services), and the growing importance of data, including AI models (but also audio, video, images, and databases), the OSI has overlooked essential aspects of modern software. Now, with OSAID, OSI is attempting to redefine the concept of openness itself—this time with little regard for feedback that doesn’t align with its predetermined approach to data. By their own admission, "a process that is not open cannot be trusted to produce a product that can be considered open".
 
 ## The Four Essential Freedoms
 
-At the heart of open source are the Four Essential Freedoms, which was one point the OSAID did get right:
+At the heart of Open Source are the Four Essential Freedoms, which was one point the OSAID did get right:
 
 1.	The freedom to *use* the system for any purpose and without having to ask for permission.
 2.	The freedom to *study* how the system works and inspect its components.
@@ -43,7 +43,7 @@ In aviation, when pilots encounter an emergency, they follow three steps: Aviate
 
 1.	*Aviate*: The first step is to pull the plane out of the dive and stabilize. First and foremost, this means maintaining the integrity of the OSD. The website [https://opensourcedefinition.org](https://opensourcedefinition.org) serves as a life raft, preserving the current Open Source Definition documentation and artefacts required for the function of the Open Source ecosystem, plus additional features like a version history and a Git repository. We encourage everyone to clone and widely distribute this CC-BY licensed document, cementing its availability throughout the community.
 2.	*Navigate*: With stability restored, we can carefully assess whether to stay the course should the current path still serve all facets of Open Source. After two decades the community may agree to expand the OSD’s scope in new areas—such as data and machine learning—without disrupting existing projects, or it may consider changes not worth the significant risk. Stability remains the default, and any amendments must respect the Four Core Freedoms, avoiding unnecessary disruptions to established norms. The community must drive this process, and in light of heavy-handed censorship in the existing forums, we offer uncensored equivalents at [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org) which are open to all, ensuring every voice can be heard.
-3.	*Communicate*: Finally, we must engage with and educate those who rely on Open Source, whether or not they choose to participate in the process. A meaningful Open Source Definition is the foundation of lives and livelihoods, research, and enterprises across the globe, connected by the open source ecosystem that sustains the internet, cloud services, AI systems, and more. Even if they don't engage with the Open Source community directly, their work and trust are built on this shared foundation. It’s critical they understand both the stakes and their ability to support and protect the four freedoms.
+3.	*Communicate*: Finally, we must engage with and educate those who rely on Open Source, whether or not they choose to participate in the process. A meaningful Open Source Definition is the foundation of lives and livelihoods, research, and enterprises across the globe, connected by the Open Source ecosystem that sustains the internet, cloud services, AI systems, and more. Even if they don't engage with the Open Source community directly, their work and trust are built on this shared foundation. It’s critical they understand both the stakes and their ability to support and protect the four freedoms.
 
 ## Why This Matters
 
@@ -61,10 +61,10 @@ Signing this declaration is an act of support for transparency, collaboration, a
 
 ---
 
-# Declaration
+# *Declaration*
 
-## We, the undersigned members of the open source community, assert that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.
+## We, the undersigned members of the Open Source community, assert that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.
 
-## Any amendments or new definitions shall only be recognized if declared by clear community consensus through a transparent process yet to be determined.
+## Any amendments or new definitions shall only be recognized if declared by clear community consensus through a transparent process to be determined.
 
 ---
