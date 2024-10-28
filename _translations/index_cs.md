@@ -64,7 +64,7 @@ Podpis tohoto prohlášení je aktem podpory pro transparentnost, spolupráci a 
 <br>
 
 - Chcete-li podepsat e-mailem, zašlete [plain-text email](https://useplaintext.email/) s jakýmkoli nebo bez obsahu na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Chcete-li podepsat na GitHubu, prosíme [okomentujte tento problém](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) nebo [odešlete pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Chcete-li podepsat na GitHubu, prosíme [okomentujte tento problém](https://github.com/OpenSourceDefinition/sos/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) nebo [odešlete pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Chcete-li podepsat na Codeberg, prosíme [okomentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativně fork and clone the repo, manually create the file `_data/signed/<username>.yaml`, then commit and submit a PR.
 - You can also propose changes to the informative letter above the line by [opening an issue](https://codeberg.org/osd/sos/issues).

@@ -35,7 +35,7 @@
 ### Потписивање
 
 Да бисте се потписали путем имејла, пошаљите [plain-text имејл](https://useplaintext.email/) било ког садржаја или без њега на [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Да се потпишете на GitHub-у, [коментаришите на овом питању](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [користите веб интерфејс да креирате нови фајл](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), или [пошаљите pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Да се потпишете на GitHub-у, [коментаришите на овом питању](https://github.com/OpenSourceDefinition/sos/issues/1), [користите веб интерфејс да креирате нови фајл](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), или [пошаљите pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 Да се потпишете на Codeberg-у, [коментаришите на овом питању](https://codeberg.org/osd/sos/issues/1) или [пошаљите pull request](https://codeberg.org/osd/sos/pulls).
 Алтернативно, направите fork и клонирајте репо, креирајте фајл `_data/signed/<username>.yaml` ручно, затим commit и пошаљите PR.
 

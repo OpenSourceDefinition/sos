@@ -35,7 +35,7 @@
 ### Подписание
 
 Чтобы подписать по электронной почте, отправьте [текстовое письмо](https://useplaintext.email/) с любым содержимым или без него на адрес [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).  
-Чтобы подписать на GitHub, [оставьте комментарий по этому вопросу](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [используйте веб-интерфейс для создания нового файла](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) или [отправьте pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).  
+Чтобы подписать на GitHub, [оставьте комментарий по этому вопросу](https://github.com/OpenSourceDefinition/sos/issues/1), [используйте веб-интерфейс для создания нового файла](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) или [отправьте pull request](https://github.com/OpenSourceDefinition/sos/pulls).  
 Чтобы подписать на Codeberg, [оставьте комментарий по этому вопросу](https://codeberg.org/osd/sos/issues/1) или [отправьте pull request](https://codeberg.org/osd/sos/pulls).  
 Или же форкните и клонируйте репозиторий, создайте файл `_data/signed/<username>.yaml` вручную, затем зафиксируйте и отправьте PR.
 

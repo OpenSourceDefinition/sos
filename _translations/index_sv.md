@@ -64,7 +64,7 @@ Att skriva under denna deklaration är en handling av stöd för transparens, sa
 <br>
 
 - För att skriva under via e-post, skicka ett [plain-text email](https://useplaintext.email/) med valfritt eller inget innehåll till [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- För att skriva under på GitHub, kommentera på denna [issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), använd webbgränssnittet för att skapa en ny fil eller [skicka en pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- För att skriva under på GitHub, kommentera på denna [issue](https://github.com/OpenSourceDefinition/sos/issues/1), använd webbgränssnittet för att skapa en ny fil eller [skicka en pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - För att skriva under på Codeberg, kommentera på denna [issue](https://codeberg.org/osd/sos/issues/1) eller [skicka en pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativt, fork och klona repo, skapa filen `_data/signed/<username>.yaml` manuellt, sedan commit och skicka en PR.
 - Du kan också föreslå ändringar till det informativa brevet ovanför linjen genom att [öppna en issue](https://codeberg.org/osd/sos/issues).

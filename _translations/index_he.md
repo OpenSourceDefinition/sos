@@ -64,7 +64,7 @@ twitter:
 <br>
 
 - כדי לחתום במייל, שלחו [מייל plain-text](https://useplaintext.email/) עם או בלי תוכן לכתובת [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- כדי לחתום ב-GitHub, יש [להגיב על הנושא הזה](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [להשתמש בממשק האינטרנט ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), או [לשלוח בקשת משיכה](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- כדי לחתום ב-GitHub, יש [להגיב על הנושא הזה](https://github.com/OpenSourceDefinition/sos/issues/1), [להשתמש בממשק האינטרנט ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), או [לשלוח בקשת משיכה](https://github.com/OpenSourceDefinition/sos/pulls).
 - כדי לחתום ב-Codeberg, יש [להגיב על הנושא הזה](https://codeberg.org/osd/sos/issues/1) או [לשלוח בקשת משיכה](https://codeberg.org/osd/sos/pulls).
 - ניתן גם לפצל ולהעתיק את המאגר, ליצור את הקובץ `_data/signed/<username>.yaml` באופן ידני, ואז לבצע ולאשר משיכה.
 - ניתן גם להציע שינויים למכתב המידע שמעל הקו על ידי [פתיחת בעיה](https://codeberg.org/osd/sos/issues).

@@ -65,7 +65,7 @@ twitter:
 <br>
 
 - برای امضا از طریق ایمیل، [ایمیل متنی ساده](https://useplaintext.email/) با هر محتوا یا بدون محتوا به [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) ارسال کنید.
-- برای امضا در GitHub، لطفاً [روی این موضوع نظر بگذارید](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)، [از رابط وب برای ایجاد یک فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)، یا [یک درخواست pull ارسال کنید](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- برای امضا در GitHub، لطفاً [روی این موضوع نظر بگذارید](https://github.com/OpenSourceDefinition/sos/issues/1)، [از رابط وب برای ایجاد یک فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)، یا [یک درخواست pull ارسال کنید](https://github.com/OpenSourceDefinition/sos/pulls).
 - برای امضا در Codeberg، لطفاً [روی این موضوع نظر بگذارید](https://codeberg.org/osd/sos/issues/1) یا [یک درخواست pull ارسال کنید](https://codeberg.org/osd/sos/pulls).
 - به‌طور متناوب، مخزن را فورک و کلون کنید، فایل `_data/signed/<username>.yaml` را به صورت دستی ایجاد کنید، سپس متعهد شوید و یک PR ارسال کنید.
 - شما همچنین می‌توانید پیشنهاد تغییرات در نامه اطلاع‌رسانی بالا خط را با [باز کردن یک موضوع](https://codeberg.org/osd/sos/issues) ارائه دهید.

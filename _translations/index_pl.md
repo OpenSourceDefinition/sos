@@ -65,7 +65,7 @@ Podpisanie tej deklaracji to akt wsparcia dla transparentności, współpracy i 
 <br>
 
 - Aby podpisać się mailowo, wyślij [plain-text email](https://useplaintext.email/) z jakąkolwiek treścią lub bez niej na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Aby podpisać na GitHubie, dodaj [komentarz w tym wątku](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [użyj interfejsu web do stworzenia nowego pliku](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), lub [wyślij pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Aby podpisać na GitHubie, dodaj [komentarz w tym wątku](https://github.com/OpenSourceDefinition/sos/issues/1), [użyj interfejsu web do stworzenia nowego pliku](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), lub [wyślij pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Aby podpisać na Codeberg, dodaj [komentarz w tym wątku](https://codeberg.org/osd/sos/issues/1) lub [wyślij pull request](https://codeberg.org/osd/sos/pulls).
 - Alternatywnie, zrób fork i klonuj repozytorium, utwórz plik `_data/signed/<username>.yaml` ręcznie, a następnie commituj i wyślij PR.
 - Możesz także zaproponować zmiany do informacyjnego listu powyżej linii, [otwierając wątek](https://codeberg.org/osd/sos/issues).

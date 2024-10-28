@@ -64,7 +64,7 @@ Signer cette déclaration est un acte de soutien pour la transparence, la collab
 <br>
 
 - Pour signer par email, envoyez un [email en texte brut](https://useplaintext.email/) avec ou sans contenu à [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Pour signer sur GitHub, veuillez [commenter sur ce sujet](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [utiliser l'interface web pour créer un nouveau fichier](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), ou [soumettre une demande de tirage](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Pour signer sur GitHub, veuillez [commenter sur ce sujet](https://github.com/OpenSourceDefinition/sos/issues/1), [utiliser l'interface web pour créer un nouveau fichier](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ou [soumettre une demande de tirage](https://github.com/OpenSourceDefinition/sos/pulls).
 - Pour signer sur Codeberg, veuillez [commenter sur ce sujet](https://codeberg.org/osd/sos/issues/1) ou [soumettre une demande de tirage](https://codeberg.org/osd/sos/pulls).
 - Alternativement, fourchez et clonez le dépôt, créez le fichier `_data/signed/<username>.yaml` manuellement, puis engagez et soumettez une PR.
 - Vous pouvez également proposer des modifications à la lettre informative ci-dessus en [ouvrant un sujet](https://codeberg.org/osd/sos/issues).

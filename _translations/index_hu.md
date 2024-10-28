@@ -64,7 +64,7 @@ Ennek a nyilatkozatnak az aláírása a transzparencia, az együttműködés és
 <br>
 
 - E-mailben történő aláíráshoz küldjön egy [egyszerű szöveges e-mailt](https://useplaintext.email/) bármilyen vagy semmilyen tartalommal a következő címre: [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Aláírás GitHub-on, kérjük, [kommenteljen erre a problémára](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [használja a webes felületet egy új fájl létrehozásához](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), vagy [nyújtson be egy húzási kérelmet](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Aláírás GitHub-on, kérjük, [kommenteljen erre a problémára](https://github.com/OpenSourceDefinition/sos/issues/1), [használja a webes felületet egy új fájl létrehozásához](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), vagy [nyújtson be egy húzási kérelmet](https://github.com/OpenSourceDefinition/sos/pulls).
 - Aláírás Codeberg-en, kérjük, [kommenteljen erre a problémára](https://codeberg.org/osd/sos/issues/1) vagy [nyújtson be egy húzási kérelmet](https://codeberg.org/osd/sos/pulls).
 - Alternatív megoldásként klónozza és forkázza a repót, manuálisan hozza létre a `_data/signed/<felhasználónév>.yaml` fájlt, majd elkötelezze és nyújtson be egy PR-t.
 - Javaslatokat is tehet az informativ levél megváltoztatására a vonal felett [egy probléma megnyitásával](https://codeberg.org/osd/sos/issues).

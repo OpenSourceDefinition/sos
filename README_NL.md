@@ -35,7 +35,7 @@ Deze README is beschikbaar in:
 ### Ondertekenen
 
 Om per e-mail te ondertekenen, stuur een [platte-tekst e-mail](https://useplaintext.email/) met enige inhoud of geen inhoud naar  [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Om op GitHub te ondertekenen, [reageer op dit issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [gebruik de webinterface om een nieuw bestand te maken](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), of [dien een pull-aanvraag in](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Om op GitHub te ondertekenen, [reageer op dit issue](https://github.com/OpenSourceDefinition/sos/issues/1), [gebruik de webinterface om een nieuw bestand te maken](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), of [dien een pull-aanvraag in](https://github.com/OpenSourceDefinition/sos/pulls).
 Om op Codeberg te ondertekenen, [reageer op dit issue](https://codeberg.org/osd/sos/issues/1) of [dien een pull-aanvraag in](https://codeberg.org/osd/sos/pulls).
 Alternatief, fork en clone de repo, maak het bestand `_data/signed/<gebruikersnaam>.yaml` handmatig aan, commit en dien dan een PR in.
 

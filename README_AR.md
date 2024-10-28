@@ -35,7 +35,7 @@
 ### التوقيع
 
 للتوقيع بالبريد الإلكتروني، أرسل بريدًا نصيًا بسيطًا [plain-text email](https://useplaintext.email/) مع أي محتوى أو بدونه إلى [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).  
-للتوقيع على GitHub، يرجى [التعليق على هذه المسألة](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)، أو [استخدام الواجهة الويب لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)، أو [تقديم طلب سحب](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).  
+للتوقيع على GitHub، يرجى [التعليق على هذه المسألة](https://github.com/OpenSourceDefinition/sos/issues/1)، أو [استخدام الواجهة الويب لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)، أو [تقديم طلب سحب](https://github.com/OpenSourceDefinition/sos/pulls).  
 للتوقيع على Codeberg، يرجى [التعليق على هذه المسألة](https://codeberg.org/osd/sos/issues/1) أو [تقديم طلب سحب](https://codeberg.org/osd/sos/pulls).  
 بدلاً من ذلك، قم بتفريع واستنساخ المستودع، وإنشاء الملف `_data/signed/<username>.yaml` يدويًا، ثم قم بالتزم وتقديم طلب سحب.
 

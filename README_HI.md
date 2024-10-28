@@ -34,7 +34,7 @@
 
 ### हस्ताक्षर करना
 
-ईमेल के माध्यम से हस्ताक्षर करने के लिए, [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) को किसी भी सामग्री के साथ या बिना सामग्री के [प्लेन-टेक्स्ट ईमेल](https://useplaintext.email/) भेजें। GitHub पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [वेब इंटरफेस का उपयोग करके एक नई फाइल बनाएं](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), या [एक पुल रिक्वेस्ट जमा करें](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)।
+ईमेल के माध्यम से हस्ताक्षर करने के लिए, [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) को किसी भी सामग्री के साथ या बिना सामग्री के [प्लेन-टेक्स्ट ईमेल](https://useplaintext.email/) भेजें। GitHub पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://github.com/OpenSourceDefinition/sos/issues/1), [वेब इंटरफेस का उपयोग करके एक नई फाइल बनाएं](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), या [एक पुल रिक्वेस्ट जमा करें](https://github.com/OpenSourceDefinition/sos/pulls)।
 Codeberg पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://codeberg.org/osd/sos/issues/1) या [एक पुल रिक्वेस्ट जमा करें](https://codeberg.org/osd/sos/pulls)।
 वैकल्पिक रूप से, रिपॉजिटरी को फोर्क और क्लोन करें, मैन्युअली `_data/signed/<username>.yaml` फाइल बनाएं, फिर कमिट करें और एक PR जमा करें।
 

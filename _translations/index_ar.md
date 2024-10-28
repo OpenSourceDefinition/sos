@@ -64,7 +64,7 @@ twitter:
 <br>
 
 - للتوقيع عبر البريد الإلكتروني، أرسل [بريدًا نصيًا بسيطًا](https://useplaintext.email/) مع أي محتوى أو بدون محتوى إلى [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- للتوقيع على GitHub، يرجى [التعليق على هذه المسألة](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)، [استخدم الواجهة لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)، أو [قدم طلب سحب](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- للتوقيع على GitHub، يرجى [التعليق على هذه المسألة](https://github.com/OpenSourceDefinition/sos/issues/1)، [استخدم الواجهة لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)، أو [قدم طلب سحب](https://github.com/OpenSourceDefinition/sos/pulls).
 - للتوقيع على Codeberg، يرجى [التعليق على هذه المسألة](https://codeberg.org/osd/sos/issues/1) أو [قدم طلب سحب](https://codeberg.org/osd/sos/pulls).
 - بدلاً من ذلك، يمكن استنساخ وإعادة تحميل المستودع، إنشاء ملف `_data/signed/<username>.yaml` يدويًا، ثم الالتزام وتقديم سحب PR.
 - يمكنك أيضًا اقتراح تغييرات على الرسالة الإعلامية أعلاه عن طريق [فتح قضية](https://codeberg.org/osd/sos/issues).

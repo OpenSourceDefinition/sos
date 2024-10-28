@@ -35,7 +35,7 @@
 ### חתימה
 
 כדי לחתום במייל, שלח [מייל טקסט רגיל](https://useplaintext.email/) עם או בלי תוכן לכתובת [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).  
-כדי לחתום ב-GitHub, נא [להגיב לנושא זה](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [להשתמש בממשק הווב ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), או [להגיש בקשת משיכה](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).  
+כדי לחתום ב-GitHub, נא [להגיב לנושא זה](https://github.com/OpenSourceDefinition/sos/issues/1), [להשתמש בממשק הווב ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), או [להגיש בקשת משיכה](https://github.com/OpenSourceDefinition/sos/pulls).  
 כדי לחתום ב-Codeberg, נא [להגיב לנושא זה](https://codeberg.org/osd/sos/issues/1) או [להגיש בקשת משיכה](https://codeberg.org/osd/sos/pulls).  
 לחילופין, אפשר לפצל ולהעתיק את הרפו, ליצור את הקובץ `_data/signed/<username>.yaml` ידנית, ואז לבצע commit ולהגיש PR.
 

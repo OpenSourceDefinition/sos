@@ -35,7 +35,7 @@
 ### স্বাক্ষর
 
 ইমেলের মাধ্যমে স্বাক্ষর করতে, [সাধারণ টেক্সট ইমেল](https://useplaintext.email/) পাঠান যেকোনো বা কোনো বিষয়বস্তু ছাড়াই [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) তে।
-GitHub-এ স্বাক্ষর করতে, [এই ইস্যুতে মন্তব্য করুন](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [ওয়েব ইন্টারফেস ব্যবহার করে একটি নতুন ফাইল তৈরি করুন](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) বা [একটি পুল রিকোয়েস্ট জমা দিন](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)।
+GitHub-এ স্বাক্ষর করতে, [এই ইস্যুতে মন্তব্য করুন](https://github.com/OpenSourceDefinition/sos/issues/1), [ওয়েব ইন্টারফেস ব্যবহার করে একটি নতুন ফাইল তৈরি করুন](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) বা [একটি পুল রিকোয়েস্ট জমা দিন](https://github.com/OpenSourceDefinition/sos/pulls)।
 Codeberg-এ স্বাক্ষর করতে, [এই ইস্যুতে মন্তব্য করুন](https://codeberg.org/osd/sos/issues/1) অথবা [একটি পুল রিকোয়েস্ট জমা দিন](https://codeberg.org/osd/sos/pulls)।
 অন্যথায়, রেপো ফর্ক এবং ক্লোন করুন, ম্যানুয়ালি `_data/signed/<username>.yaml` ফাইল তৈরি করুন, তারপর কমিট এবং একটি PR সাবমিট করুন।
 

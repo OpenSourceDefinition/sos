@@ -64,7 +64,7 @@ OSI 对 OSAID 的处理揭示了长期存在的问题。近年来，OSI 的治�
 <br>
 
 - 要通过电子邮件签名，请发送任意或无内容的[纯文本电子邮件](https://useplaintext.email/)至 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)。
-- 要在 GitHub 上签名，请[评论此问题](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)，[使用网页界面创建新文件](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)，或[提交拉取请求](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)。
+- 要在 GitHub 上签名，请[评论此问题](https://github.com/OpenSourceDefinition/sos/issues/1)，[使用网页界面创建新文件](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)，或[提交拉取请求](https://github.com/OpenSourceDefinition/sos/pulls)。
 - 要在 Codeberg 上签名，请[评论此问题](https://codeberg.org/osd/sos/issues/1)或[提交拉取请求](https://codeberg.org/osd/sos/pulls)。
 - 或者，分叉并克隆仓库，手动创建文件 `_data/signed/<username>.yaml`，然后提交并提交 PR。
 - 您还可以通过[打开一个问题](https://codeberg.org/osd/sos/issues)来提议对上述信息信的修改。

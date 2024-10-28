@@ -35,7 +35,7 @@ Diese README ist verfügbar in:
 ### Unterzeichnung
 
 Um per E-Mail zu unterzeichnen, senden Sie eine [Text-E-Mail](https://useplaintext.email/) mit beliebigem Inhalt an [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Um auf GitHub zu unterzeichnen, [kommentieren Sie dieses Issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [verwenden Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), oder [reichen Sie einen Pull Request ein](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Um auf GitHub zu unterzeichnen, [kommentieren Sie dieses Issue](https://github.com/OpenSourceDefinition/sos/issues/1), [verwenden Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), oder [reichen Sie einen Pull Request ein](https://github.com/OpenSourceDefinition/sos/pulls).
 Um auf Codeberg zu unterzeichnen, [kommentieren Sie dieses Issue](https://codeberg.org/osd/sos/issues/1) oder [reichen Sie einen Pull Request ein](https://codeberg.org/osd/sos/pulls).
 Alternativ, forken und klonen Sie das Repository, erstellen Sie die Datei `_data/signed/<username>.yaml` manuell, dann commiten und reichen Sie eine PR ein.
 

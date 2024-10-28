@@ -64,7 +64,7 @@ Het ondertekenen van deze verklaring is een daad van steun voor transparantie, s
 <br>
 
 - Om per e-mail te tekenen, stuur een [plain-texte-mail](https://useplaintext.email/) met eventuele of geen inhoud naar [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Om op GitHub te tekenen, [reageer op dit issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [gebruik de webinterface om een nieuw bestand te maken](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), of [dien een pull-aanvraag in](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Om op GitHub te tekenen, [reageer op dit issue](https://github.com/OpenSourceDefinition/sos/issues/1), [gebruik de webinterface om een nieuw bestand te maken](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), of [dien een pull-aanvraag in](https://github.com/OpenSourceDefinition/sos/pulls).
 - Om op Codeberg te tekenen, [reageer op dit issue](https://codeberg.org/osd/sos/issues/1) of [dien een pull-aanvraag in](https://codeberg.org/osd/sos/pulls).
 - Of fork en clone de repo, maak het bestand `_data/signed/<gebruikersnaam>.yaml` handmatig aan, commit en dien een PR in.
 - Je kunt ook wijzigingen in de informatieve brief hierboven voorstellen door [een issue te openen](https://codeberg.org/osd/sos/issues).

@@ -64,7 +64,7 @@ twitter:
 <br>
 
 - Για υπογραφή μέσω email, στείλτε ένα [απλό email](https://useplaintext.email/) με οποιοδήποτε ή καθόλου περιεχόμενο στο [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Για υπογραφή στο GitHub, παρακαλώ [σχολιάστε σε αυτό το ζήτημα](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [χρησιμοποιήστε τη διεπαφή ιστού για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), ή [υποβάλετε μία ένσταση](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Για υπογραφή στο GitHub, παρακαλώ [σχολιάστε σε αυτό το ζήτημα](https://github.com/OpenSourceDefinition/sos/issues/1), [χρησιμοποιήστε τη διεπαφή ιστού για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ή [υποβάλετε μία ένσταση](https://github.com/OpenSourceDefinition/sos/pulls).
 - Για υπογραφή στο Codeberg, παρακαλώ [σχολιάστε σε αυτό το ζήτημα](https://codeberg.org/osd/sos/issues/1) ή [υποβάλετε μία ένσταση](https://codeberg.org/osd/sos/pulls).
 - Εναλλακτικά, διακλαδώστε και κλωνοποιήστε το αποθετήριο, δημιουργήστε το αρχείο `_data/signed/<username>.yaml` χειροκίνητα, και στη συνέχεια δεσμεύστε και υποβάλετε μία ένσταση.
 - Μπορείτε επίσης να προτείνετε αλλαγές στην ενημερωτική επιστολή παραπάνω από τη διαχωριστική γραμμή [ανοίγοντας ένα ζήτημα](https://codeberg.org/osd/sos/issues).
