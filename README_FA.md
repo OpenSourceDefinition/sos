@@ -35,7 +35,7 @@
 ### امضا
 
 برای امضا از طریق ایمیل، یک [ایمیل متنی ساده](https://useplaintext.email/) با محتوا یا بدون محتوا به [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) ارسال کنید.
-برای امضا در گیت‌هاب، لطفاً [در این موضوع نظر دهید](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)، [از رابط وب برای ایجاد فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) یا [یک درخواست پول ارسال کنید](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+برای امضا در گیت‌هاب، لطفاً [در این موضوع نظر دهید](https://github.com/OpenSourceDefinition/sos/issues/1)، [از رابط وب برای ایجاد فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) یا [یک درخواست پول ارسال کنید](https://github.com/OpenSourceDefinition/sos/pulls).
 برای امضا در کدبرگ، لطفاً [در این موضوع نظر دهید](https://codeberg.org/osd/sos/issues/1) یا [یک درخواست پول ارسال کنید](https://codeberg.org/osd/sos/pulls).
 همچنین می‌توانید مخزن را فورک و کلون کنید، فایل `_data/signed/<username>.yaml` را به صورت دستی ایجاد کرده و سپس متعهد شوید و یک درخواست پول ارسال کنید.
 

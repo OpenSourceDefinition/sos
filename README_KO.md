@@ -34,7 +34,7 @@
 
 ### 서명하기
 
-이메일로 서명하려면, [plain-text 이메일](https://useplaintext.email/)을 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)으로 보내세요. GitHub에서 서명하려면, [이 이슈에 댓글을 남기거나](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [새 파일을 생성하세요](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed). 혹은 [풀 리퀘스트를 제출하세요](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls). Codeberg에서 서명하려면, [이 이슈에 댓글을 남기거나](https://codeberg.org/osd/sos/issues/1) [풀 리퀘스트 제출](https://codeberg.org/osd/sos/pulls)하세요. 또는 레포를 포크하고 클론하여 `_data/signed/<username>.yaml` 파일을 직접 생성한 후 커밋 및 PR을 제출하세요.
+이메일로 서명하려면, [plain-text 이메일](https://useplaintext.email/)을 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)으로 보내세요. GitHub에서 서명하려면, [이 이슈에 댓글을 남기거나](https://github.com/OpenSourceDefinition/sos/issues/1), [새 파일을 생성하세요](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed). 혹은 [풀 리퀘스트를 제출하세요](https://github.com/OpenSourceDefinition/sos/pulls). Codeberg에서 서명하려면, [이 이슈에 댓글을 남기거나](https://codeberg.org/osd/sos/issues/1) [풀 리퀘스트 제출](https://codeberg.org/osd/sos/pulls)하세요. 또는 레포를 포크하고 클론하여 `_data/signed/<username>.yaml` 파일을 직접 생성한 후 커밋 및 PR을 제출하세요.
 
 위의 정보 편지에 대한 변경 제안은 [이슈 열기](https://codeberg.org/osd/sos/issues)를 통해 할 수 있습니다.
 

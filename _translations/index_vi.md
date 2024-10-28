@@ -64,7 +64,7 @@ Ký tên vào tuyên bố này là hành động hỗ trợ cho sự minh bạch
 <br>
 
 - Để ký bằng email, gửi một [email văn bản thuần túy](https://useplaintext.email/) với bất kỳ nội dung nào hoặc không có nội dung nào đến [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Để ký trên GitHub, vui lòng [bình luận về vấn đề này](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [sử dụng giao diện web để tạo một tệp mới](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), hoặc [gửi yêu cầu pull](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Để ký trên GitHub, vui lòng [bình luận về vấn đề này](https://github.com/OpenSourceDefinition/sos/issues/1), [sử dụng giao diện web để tạo một tệp mới](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), hoặc [gửi yêu cầu pull](https://github.com/OpenSourceDefinition/sos/pulls).
 - Để ký trên Codeberg, vui lòng [bình luận về vấn đề này](https://codeberg.org/osd/sos/issues/1) hoặc [gửi yêu cầu pull](https://codeberg.org/osd/sos/pulls).
 - Hoặc, bạn có thể fork và clone repo, tạo tệp `_data/signed/<username>.yaml` thủ công, sau đó cam kết và gửi PR.
 - Bạn cũng có thể đề xuất các thay đổi cho thư thông tin trên dòng trên bằng cách [mở một vấn đề](https://codeberg.org/osd/sos/issues).

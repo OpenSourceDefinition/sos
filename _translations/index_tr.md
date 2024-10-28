@@ -64,7 +64,7 @@ Bu bildiriyi imzalamak, şeffaflık, işbirliği ve Açık Kaynak ethosunun kole
 <br>
 
 - E-posta ile imzalamak için, herhangi bir içerikle ya da boş olarak [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) adresine bir [düz metin e-posta](https://useplaintext.email/) gönderin.
-- GitHub'da imzalamak için, lütfen [bu konuya yorum yapın](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- GitHub'da imzalamak için, lütfen [bu konuya yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1), [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codeberg'de imzalamak için, lütfen [bu konuya yorum yapın](https://codeberg.org/osd/sos/issues/1) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).
 - Alternatif olarak, depoyu fork edin ve klonlayın, `_data/signed/<kullanıcıadı>.yaml` dosyasını manuel olarak oluşturun, ardından komit yapıp bir PR gönderin.
 - Yukarıdaki bilgilendirici mektuba değişiklik önermek için, [bir konu açarak](https://codeberg.org/osd/sos/issues) bunu yapabilirsiniz.

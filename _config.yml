@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://osd.fyi"
 
 github_username: OpenSourceDefinition
-repository: OpenSourceDefinition/SaveOpenSource
+repository: OpenSourceDefinition/sos
 
 collections:
   translations:

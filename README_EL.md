@@ -35,7 +35,7 @@
 ### Υπογραφή
 
 Για υπογραφή μέσω email, στείλτε ένα [απλό email](https://useplaintext.email/) με οποιοδήποτε ή χωρίς περιεχόμενο στο [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Για υπογραφή στο GitHub, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [χρησιμοποιήστε τη διαδικτυακή διεπαφή για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), ή [υποβάλετε ένα pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Για υπογραφή στο GitHub, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://github.com/OpenSourceDefinition/sos/issues/1), [χρησιμοποιήστε τη διαδικτυακή διεπαφή για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ή [υποβάλετε ένα pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 Για υπογραφή στο Codeberg, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://codeberg.org/osd/sos/issues/1) ή [υποβάλετε ένα pull request](https://codeberg.org/osd/sos/pulls).
 Εναλλακτικά, παρακλάδος και κλωνοποίηση του αποθετηρίου, δημιουργία του αρχείου `_data/signed/<username>.yaml` χειροκίνητα, μετά δεσμεύστε και υποβάλετε ένα PR.
 

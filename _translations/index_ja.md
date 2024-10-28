@@ -66,7 +66,7 @@ Bruce Perens（OSDの原著者）によれば、「*データはソースコー�
 <br>
 
 - メールで署名するには、[プレーンテキストメール](https://useplaintext.email/)を内容なしまたは内容を加えて[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)に送信してください。
-- GitHubで署名するには、この[イシューにコメント](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)するか、[ウェブインターフェースで新しいファイルを作成](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)するか、または[プルリクエストを提出](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)してください。
+- GitHubで署名するには、この[イシューにコメント](https://github.com/OpenSourceDefinition/sos/issues/1)するか、[ウェブインターフェースで新しいファイルを作成](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)するか、または[プルリクエストを提出](https://github.com/OpenSourceDefinition/sos/pulls)してください。
 - Codebergで署名するには、この[イシューにコメント](https://codeberg.org/osd/sos/issues/1)するか、または[プルリクエストを提出](https://codeberg.org/osd/sos/pulls)してください。
 - または、リポジトリをフォークし、クローンし、`_data/signed/<username>.yaml` ファイルを手動で作成し、コミットしてPRを提出してください。
 - コンテンツの上の情報的な手紙に対する変更を提案することも可能です。[イシューを開く](https://codeberg.org/osd/sos/issues)ことによって行ってください。

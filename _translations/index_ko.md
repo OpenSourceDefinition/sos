@@ -64,7 +64,7 @@ OSD의 원작자인 Bruce Perens에 따르면, "*데이터가 소스 코드*"이
 <br>
 
 - 이메일로 서명하려면, [plain-text email](https://useplaintext.email/)로 내용을 포함하거나 않거나 하여 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)로 발송하십시오.
-- GitHub에서 서명하려면, [이 이슈에 댓글](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)을 달거나, [웹 인터페이스를 사용해 새 파일을 생성](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)하거나, [풀 리퀘스트를 제출](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)하십시오.
+- GitHub에서 서명하려면, [이 이슈에 댓글](https://github.com/OpenSourceDefinition/sos/issues/1)을 달거나, [웹 인터페이스를 사용해 새 파일을 생성](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)하거나, [풀 리퀘스트를 제출](https://github.com/OpenSourceDefinition/sos/pulls)하십시오.
 - Codeberg에서 서명하려면, [이 이슈에 댓글](https://codeberg.org/osd/sos/issues/1)을 달거나 [풀 리퀘스트를 제출](https://codeberg.org/osd/sos/pulls)하십시오.
 - 또는 저장소를 포크하고, `_data/signed/<username>.yaml` 파일을 수동으로 생성한 후 커밋하고 PR을 제출하십시오.
 - 위의 정보 편지에 대한 변경 사항을 제안하려면 [이슈를 열](https://codeberg.org/osd/sos/issues) 수 있습니다.

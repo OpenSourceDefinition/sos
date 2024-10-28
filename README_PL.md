@@ -35,7 +35,7 @@ Ten plik README jest dostępny w:
 ### Podpisywanie
 
 Aby podpisać drogą mailową, wyślij [wiadomość tekstową](https://useplaintext.email/) z dowolną zawartością lub bez do [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Aby podpisać przez GitHub, proszę [skomentować ten problem](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [użyć interfejsu do utworzenia nowego pliku](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) lub [przesłać pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Aby podpisać przez GitHub, proszę [skomentować ten problem](https://github.com/OpenSourceDefinition/sos/issues/1), [użyć interfejsu do utworzenia nowego pliku](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) lub [przesłać pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 Aby podpisać na Codeberg, proszę [skomentować ten problem](https://codeberg.org/osd/sos/issues/1) lub [przesłać pull request](https://codeberg.org/osd/sos/pulls).
 Alternatywnie, zrób fork i sklonuj repozytorium, utwórz plik `_data/signed/<nazwa_użytkownika>.yaml` ręcznie, następnie prześlij i zgłoś PR.
 

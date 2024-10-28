@@ -35,7 +35,7 @@
 ### 署名
 
 メールで署名するには、[プレーンテキストのメール](https://useplaintext.email/)を[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)に送信してください（内容は任意）。
-GitHubで署名するには、[この問題にコメント](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1)するか、[ウェブインターフェースを使用して新しいファイルを作成](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed)するか、[プルリクエストを提出](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)してください。
+GitHubで署名するには、[この問題にコメント](https://github.com/OpenSourceDefinition/sos/issues/1)するか、[ウェブインターフェースを使用して新しいファイルを作成](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)するか、[プルリクエストを提出](https://github.com/OpenSourceDefinition/sos/pulls)してください。
 Codebergで署名するには、[この問題にコメント](https://codeberg.org/osd/sos/issues/1)するか、[プルリクエストを提出](https://codeberg.org/osd/sos/pulls)してください。
 または、リポジトリをフォークしてクローンし、ファイル `_data/signed/<username>.yaml` を手動で作成し、コミットしてPRを提出してください。
 

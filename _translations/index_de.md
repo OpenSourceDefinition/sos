@@ -64,5 +64,5 @@ Diese Erklärung zu unterschreiben, ist ein Akt der Unterstützung von Transpare
 <br>
 
 - Um per E-Mail zu unterschreiben, senden Sie eine [klartext E-Mail](https://useplaintext.email/) mit beliebigem oder keinem Inhalt an [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Um auf GitHub zu unterschreiben, kommentieren Sie bitte [dieses Issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [nutzen Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), oder [reichen Sie einen Pull-Request ein](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Um auf GitHub zu unterschreiben, kommentieren Sie bitte [dieses Issue](https://github.com/OpenSourceDefinition/sos/issues/1), [nutzen Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), oder [reichen Sie einen Pull-Request ein](https://github.com/OpenSourceDefinition/sos/pulls).
 - Um auf Codeberg zu unterschreiben, kommentieren Sie bitte [dieses Issue](https://codeberg.org/osd/sos/issues/1) oder [re

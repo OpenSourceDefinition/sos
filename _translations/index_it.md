@@ -64,7 +64,7 @@ Firmare questa dichiarazione è un atto di supporto per la trasparenza, la colla
 <br>
 
 - Per firmare via email, invia una [email in testo normale](https://useplaintext.email/) con contenuto qualsiasi o vuoto a [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Per firmare su GitHub, per favore [commenta su questo problema](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [usa l’interfaccia web per creare un nuovo file](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) o [sottoponi una pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Per firmare su GitHub, per favore [commenta su questo problema](https://github.com/OpenSourceDefinition/sos/issues/1), [usa l’interfaccia web per creare un nuovo file](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) o [sottoponi una pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Per firmare su Codeberg, per favore [commenta su questo problema](https://codeberg.org/osd/sos/issues/1) o [sottoponi una pull request](https://codeberg.org/osd/sos/pulls).
 - In alternativa, clona e fork il repo, crea manualmente il file `_data/signed/<username>.yaml`, quindi commit e invia un PR.
 - Puoi anche proporre modifiche alla lettera informativa sopra la linea aprendo [un problema](https://codeberg.org/osd/sos/issues).

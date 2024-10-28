@@ -64,7 +64,7 @@ twitter:
 <br>
 
 - Чтобы подписать по электронной почте, отправьте [электронное письмо в формате текстового сообщения](https://useplaintext.email/) с любым содержимым или без него на [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Чтобы подписать на GitHub, пожалуйста, [прокомментируйте этот вопрос](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [используйте веб-интерфейс для создания нового файла](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) или [отправьте запрос на слияние](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Чтобы подписать на GitHub, пожалуйста, [прокомментируйте этот вопрос](https://github.com/OpenSourceDefinition/sos/issues/1), [используйте веб-интерфейс для создания нового файла](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) или [отправьте запрос на слияние](https://github.com/OpenSourceDefinition/sos/pulls).
 - Чтобы подписать на Codeberg, пожалуйста, [прокомментируйте этот вопрос](https://codeberg.org/osd/sos/issues/1) или [отправьте запрос на слияние](https://codeberg.org/osd/sos/pulls).
 - В качестве альтернативы можно форкать и клонировать репозиторий, создать файл `_data/signed/<username>.yaml` вручную, затем зафиксировать и отправить PR.
 - Вы также можете предложить изменения в информационное письмо выше линии, открыв [вопрос](https://codeberg.org/osd/sos/issues).

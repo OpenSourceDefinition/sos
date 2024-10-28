@@ -35,7 +35,7 @@ README này có sẵn bằng:
 ### Ký tên
 
 Để ký tên qua email, gửi một [email văn bản thuần](https://useplaintext.email/) với bất kỳ nội dung nào hoặc không có nội dung đến [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-Để ký tên trên GitHub, vui lòng [bình luận trên vấn đề này](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [sử dụng giao diện web để tạo tệp mới](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), hoặc [gửi yêu cầu kéo](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+Để ký tên trên GitHub, vui lòng [bình luận trên vấn đề này](https://github.com/OpenSourceDefinition/sos/issues/1), [sử dụng giao diện web để tạo tệp mới](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), hoặc [gửi yêu cầu kéo](https://github.com/OpenSourceDefinition/sos/pulls).
 Để ký tên trên Codeberg, vui lòng [bình luận trên vấn đề này](https://codeberg.org/osd/sos/issues/1) hoặc [gửi yêu cầu kéo](https://codeberg.org/osd/sos/pulls).
 Ngoài ra, bạn cũng có thể fork và clone repo, tạo tệp `_data/signed/<username>.yaml` thủ công, sau đó commit và nộp PR.
 

@@ -64,7 +64,7 @@ Menandatangani deklarasi ini adalah tindakan dukungan untuk transparansi, kolabo
 <br>
 
 - Untuk menandatangani melalui email, kirim [email teks biasa](https://useplaintext.email/) dengan isi apa pun atau tidak ada ke [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Untuk menandatangani di GitHub, silakan [berikan komentar pada isu ini](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), atau [ajukan permintaan penarikan](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Untuk menandatangani di GitHub, silakan [berikan komentar pada isu ini](https://github.com/OpenSourceDefinition/sos/issues/1), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), atau [ajukan permintaan penarikan](https://github.com/OpenSourceDefinition/sos/pulls).
 - Untuk menandatangani di Codeberg, silakan [berikan komentar pada isu ini](https://codeberg.org/osd/sos/issues/1) atau [ajukan permintaan penarikan](https://codeberg.org/osd/sos/pulls).
 - Alternatifnya, cabang dan klon repositori, buat file `_data/signed/<username>.yaml` secara manual, kemudian lakukan commit dan ajukan PR.
 - Anda juga dapat mengusulkan perubahan pada surat informatif di atas garis dengan [membuka isu](https://codeberg.org/osd/sos/issues).

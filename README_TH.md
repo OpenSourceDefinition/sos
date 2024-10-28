@@ -35,7 +35,7 @@ README นี้มีให้ใน:
 ### การลงนาม
 
 หากต้องการลงนามทางอีเมล ให้ส่ง [อีเมลแบบ plain-text](https://useplaintext.email/) พร้อมเนื้อหาหรือไม่มีก็ได้ไปที่ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)  
-หากต้องการลงนามใน GitHub โปรด [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [ใช้เว็บอินเตอร์เฟซเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), หรือ [ส่ง pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls)  
+หากต้องการลงนามใน GitHub โปรด [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/sos/issues/1), [ใช้เว็บอินเตอร์เฟซเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), หรือ [ส่ง pull request](https://github.com/OpenSourceDefinition/sos/pulls)  
 หากต้องการลงนามใน Codeberg โปรด [แสดงความคิดเห็นในประเด็นนี้](https://codeberg.org/osd/sos/issues/1) หรือ [ส่ง pull request](https://codeberg.org/osd/sos/pulls)  
 หรืออีกวิธีหนึ่งคือ fork และ clone repo, สร้างไฟล์ `_data/signed/<username>.yaml` ด้วยตนเอง จากนั้น commit และส่ง PR
 

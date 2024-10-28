@@ -65,7 +65,7 @@ twitter:
 <br>
 
 - Да бисте потписали путем е-поште, пошаљите [plain-text е-поруку](https://useplaintext.email/) са било којим или без садржаја на [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Да бисте потписали на GitHub-у, молимо вас [коментаришите ову тему](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [користите веб интерфејс да креирате нову датотеку](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), или [пошаљите pull захтев](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Да бисте потписали на GitHub-у, молимо вас [коментаришите ову тему](https://github.com/OpenSourceDefinition/sos/issues/1), [користите веб интерфејс да креирате нову датотеку](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), или [пошаљите pull захтев](https://github.com/OpenSourceDefinition/sos/pulls).
 - Да бисте потписали на Codeberg-у, молимо вас [коментаришите ову тему](https://codeberg.org/osd/sos/issues/1) или [пошаљите pull захтев](https://codeberg.org/osd/sos/pulls).
 - Алтернативно, fork-ујте и клонирајте репо, ручно креирајте датотеку `_data/signed/<корисничко_име>.yaml`, затим commit и пошаљите PR.
 - Такође можете предложити измене у информативном писму изнад линије отварањем [нове теме](https://codeberg.org/osd/sos/issues).
