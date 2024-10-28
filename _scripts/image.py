@@ -65,23 +65,30 @@ logo_path = script_dir.parent / "assets" / "logo.svg"
 logo_image = convert_svg_to_png(logo_path).convert("RGBA")
 
 # Resize logo while maintaining aspect ratio
-def resize_logo(image, max_width, max_height):
-    aspect_ratio = image.width / image.height
-    if image.width > image.height:
-        new_width = min(max_width, image.width)
-        new_height = int(new_width / aspect_ratio)
-    else:
-        new_height = min(max_height, image.height)
-        new_width = int(new_height * aspect_ratio)
+def resize_logo(image, scale_factor, max_width, max_height):
+    new_width = int(image.width * scale_factor)
+    new_height = int(image.height * scale_factor)
+    
+    # Ensure the new dimensions do not exceed the maximum allowed dimensions
+    if new_width > max_width or new_height > max_height:
+        aspect_ratio = image.width / image.height
+        if new_width > new_height:
+            new_width = min(max_width, new_width)
+            new_height = int(new_width / aspect_ratio)
+        else:
+            new_height = min(max_height, new_height)
+            new_width = int(new_height * aspect_ratio)
+    
     return image.resize((new_width, new_height), Image.LANCZOS)
 
 # Resize and position the logo
-logo_size = (600, 600)  # Increase max size significantly
-logo_image = resize_logo(logo_image, *logo_size)
-logo_position = (background_image.width - logo_image.width - 40, 40)  # Top right with more padding
+scale_factor = 2  # Scale the logo to approximately 2x its original size
+logo_size = (500, 500)  # Maximum size constraints
+logo_image = resize_logo(logo_image, scale_factor, *logo_size)
+logo_position = (background_image.width - logo_image.width - 20, 20)  # Closer to the top right corner
 
 # Load the main font
-main_font = ImageFont.truetype(str(FONT_PATH), 40)  # Adjust the size as needed
+main_font = ImageFont.truetype(str(FONT_PATH), 50)  # Adjust the size as needed
 
 # Load the button font
 button_font = ImageFont.truetype(str(FONT_PATH), 30)  # Adjust the size as needed
@@ -113,49 +120,50 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # Paste the logo
     img.paste(logo_image, logo_position, logo_image)
 
-    # Draw the main title text, wrapping to fit
-    text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))  # Adjust width for wrapping
+    # Draw additional text in top left
+    #additional_text = "CALL TO OPEN SOURCE SOFTWARE USERS"
     draw.text(
-        (40, logo_image.height + 60),  # Position below the logo with more padding
-        text_main_wrapped,
-        font=main_font,
-        fill=TEXT_COLOR
-    )
-
-    # Draw call-to-action text
-    cta_bbox = draw.textbbox((0, 0), text_call_to_action, font=main_font)
-    cta_width, cta_height = cta_bbox[2] - cta_bbox[0], cta_bbox[3] - cta_bbox[1]
-    draw.text(
-        ((IMAGE_SIZE[0] - cta_width) / 2, (IMAGE_SIZE[1] - cta_height) / 2 + 60),
-        text_call_to_action,
-        font=main_font,
-        fill=TEXT_COLOR
-    )
-
-    # Draw additional text in bottom left
-    additional_text = "CALL TO OPEN SOURCE SOFTWARE USERS"
-    draw.text(
-        (40, background_image.height - 80),  # Bottom left with padding
-        additional_text,
+        (40, 40),  # Top left with padding
+        text_call_to_action.upper(),
         font=button_font,  # Use smaller font
         fill=TEXT_COLOR
     )
 
-    # Adjust button color, position, and shape
-    button_color = "#0072CE"  # Blue color from the logo
-    button_size = (250, 70)  # Adjust size for pill shape
-    button_position = (background_image.width - button_size[0] - 40, background_image.height - button_size[1] - 40)  # Bottom right with more padding
+    # Draw the main title text, wrapping to fit and increase size
+    text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))  # Adjust width for wrapping
+    draw.text(
+        (40, logo_image.height + 80),  # Position below the logo with more padding
+        text_main_wrapped,
+        font=main_font,  # Consider using a larger font size
+        fill=TEXT_COLOR
+    )
+
+    # Draw call-to-action text
+    # cta_bbox = draw.textbbox((0, 0), text_call_to_action, font=main_font)
+    # cta_width, cta_height = cta_bbox[2] - cta_bbox[0], cta_bbox[3] - cta_bbox[1]
+    # draw.text(
+    #     ((IMAGE_SIZE[0] - cta_width) / 2, (IMAGE_SIZE[1] - cta_height) / 2 + 60),
+    #     text_call_to_action,
+    #     font=main_font,
+    #     fill=TEXT_COLOR
+    # )
+
+    # Adjust button size and position
+    button_size = (600, 140)  # Increase size to 2-3x
+    button_position = (background_image.width - button_size[0] - 80, background_image.height - button_size[1] - 80)  # Further from the bottom right corner
 
     # Draw the pill-shaped button
     draw.rounded_rectangle(
         [button_position, (button_position[0] + button_size[0], button_position[1] + button_size[1])],
-        radius=35,  # Radius for pill shape
-        fill=button_color
+        radius=70,  # Adjust radius for larger button
+        fill=BUTTON_COLOR
     )
 
     # Draw button text
+    text_bbox = draw.textbbox((0, 0), button_text, font=button_font)
+    text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
     draw.text(
-        (button_position[0] + 20, button_position[1] + 15),  # Center text within the button
+        (button_position[0] + (button_size[0] - text_width) / 2, button_position[1] + (button_size[1] - text_height) / 2),
         button_text,
         font=button_font,
         fill="white"
