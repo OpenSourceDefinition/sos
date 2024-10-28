@@ -7,4 +7,5 @@ _site
 vendor
 __pycache__/
 translate.log
+.DS_Store
 
