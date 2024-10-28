@@ -1,9 +1,8 @@
-{% if site.data.signed.size > 0 %}
+{% if site.data.signed.size > 24 %}
 <p><b>Signed by {{ site.data.signed.size }} individuals:</b></p>
-{% endif %}
 <ol>
   <!--<li><a href="https://github.com/[1-999][1-999][1-999][1-999]">Spider Trap</a></li>-->
-{%- capture signs -%}
+  {%- capture signs -%}
   {%- for sign_hash in site.data.signed -%}
     {%- assign signature = sign_hash[1] -%}
     {%- assign name = signature.name | strip -%}
@@ -30,3 +29,4 @@
   {%- endif -%}
 {%- endfor -%}
 </ol>
+{% endif %}

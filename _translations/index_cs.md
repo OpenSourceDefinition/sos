@@ -1,18 +1,18 @@
 ---
 layout: signed
-title: Prohlášení komunity podporující Definici open source (OSD)
-description: Prohlášení od komunity na podporu Definice open source (OSD) verze 1.9
+title: Prohlášení komunity na podporu Open Source Definition (OSD)
+description: Prohlášení komunity na podporu Open Source Definition (OSD) verze 1.9
 image: /assets/social-media-preview.png
 locale: cs_CZ
 twitter:
   card: summary_large_image
 ---
 
-# **Deklarace**
+# **Prohlášení**
 
-## *My, níže podepsaní členové komunity Open Source, potvrzujeme, že Open Source je definován výhradně Definicí open source (OSD) verze 1.9.*
+## *My, níže podepsaní členové Open Source komunity, prohlašujeme, že Open Source je definováno výhradně Open Source Definition (OSD) verzí 1.9.*
 
-## *Jakékoliv úpravy nebo nové definice budou uznány pouze tehdy, pokud budou prohlášeny za jasný konsensus komunity prostřednictvím transparentního procesu, který bude určen.*
+## *Jakékoliv úpravy nebo nové definice budou uznány pouze tehdy, pokud budou deklarovány jasnou komunitní shodou prostřednictvím transparentního procesu, který bude stanoven.*
 
 ---
 <br>
@@ -21,50 +21,51 @@ twitter:
 
 Drazí přátelé a spojenci Open Source,
 
-Již více než dvě desetiletí je Definice open source (OSD) naším společným základem, který chrání svobodu softwaru a podporuje spolupráci v ekosystému. Navzdory tomu, že se odvíjí od Debian Free Software Guidelines (DFSG), ale dosud je s nimi sladěna, OSD soustavně stanovuje standard pro open source. Dnes však Iniciativa Open Source (OSI) představila novou a rozdělující [Definici open source AI (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition), která byla vyvinuta prostřednictvím netransparentních procesů, jež zásadně odporují principům otevřenosti a průhlednosti, které jsou základem našeho hnutí. Tato definice, jež se široce vztahuje na jakýkoliv software, který "odvozuje, z přijatých vstupů, jak generovat výstupy", je v přímém konfliktu se stávajícím standardem, selhává v dimenzích otevřenosti a úplnosti.
+Více než dvě desetiletí byla Open Source Definition (OSD) naším společným základem, který chránil softwarové svobody a podporoval spolupracující ekosystém. Pocházející z Debian Free Software Guidelines (DFSG), ale až dosud s nimi sladěný, OSD kontinuálně nastavuje standard pro Open Source. Dnes však Open Source Initiative (OSI) představila novou a kontroverzní [Open Source AI Definition (OSAID) 1.0](https://opensource.org/ai/open-source-ai-definition), vyvinutou prostřednictvím uzavřených procesů, které zásadně odporují principům otevřenosti a transparentnosti, na nichž náš hnutí spočívá. OSAID, který široce pokrývá jakýkoli software, jenž "odvozuje z příchozích dat, jak generovat výstupy", je v přímém konfliktu s existujícím standardem, selhává v oblasti otevřenosti i úplnosti.
 
-## Výzvy v oblasti řízení
+## Výzvy správcovství
 
-Způsob, jakým OSI řeší OSAID, poukázal na dlouhodobé problémy. Během posledních let čelilo řízení OSI kritice za to, že plně nereprezentuje zájmy komunity. Kontroverze zahrnovaly odchody a zákazy spoluzakladatelů, rezignace členů rady. OSI zanedbalo trendy jako cloud computing (přechod od produktů ke službám) a rostoucí význam dat včetně AI modelů (ale i audio, video, obrazy a databáze), čímž přehlíželi klíčové aspekty moderního softwaru. Nyní se snaží OSI prostřednictvím OSAID předefinovat samotný koncept otevřenosti—tentokrát bez ohledu na zpětnou vazbu, která není v souladu s jejich předem stanoveným přístupem k datům. Sami přiznávají, že "proces, který není otevřený, nelze důvěryhodně považovat za otevřený produkt".
+Postup OSI s OSAID zvýraznil dlouhotrvající problémy. V posledních letech čelilo řízení OSI kritice za to, že plně nereprezentuje zájmy komunity, s kontroverzemi zahrnujícími odchody a zákazy spoluzakladatelů a rezignace členů rady. Přehlížením trendů, jako je cloud computing (posun od produktů ke službám) a rostoucí význam dat, včetně AI modelů (ale také zvuků, videí, obrázků a databází), OSI přehlížela klíčové aspekty moderního software. Nyní se s OSAID, OSI pokouší redefinovat samotný koncept otevřenosti—tentokrát s malým zřetelem na zpětnou vazbu, která nesplňuje její předem daný přístup k datům. Jak sami přiznávají, "proces, který není otevřený, nemůže být důvěryhodný k vytvoření produktu, který by mohl být považován za otevřený".
 
 ## Čtyři základní svobody
 
-Jádrem svobodného a open source softwaru (FOSS) jsou Čtyři základní svobody, což je jeden bod, který OSAID většinou správně zachytil:
+V jádru svobodného a Open Source softwaru (FOSS) jsou Čtyři základní svobody, což bylo jeden bod, který OSAID převážně správně pochopil:
 
-1. Svoboda **používat** systém za jakýmkoliv účelem a bez nutnosti žádat o povolení.
-2. Svoboda **studovat**, jak systém funguje a jak pracuje každá jeho součást.
-3. Svoboda **modifikovat** systém za jakýmkoliv účelem, včetně změny jeho výstupů.
-4. Svoboda **sdílet** systém pro ostatní k použití, s nebo bez úprav, za jakýmkoliv účelem.
+1. Svoboda **používat** systém pro jakýkoli účel bez nutnosti žádat o povolení.
+2. Svoboda **studovat**, jak systém funguje a jak fungují jeho jednotlivé součásti.
+3. Svoboda **modifikovat** systém pro jakýkoli účel, včetně změny jeho výstupu.
+4. Svoboda **sdílet** systém, aby jej mohli ostatní používat, s nebo bez úprav, pro jakýkoli účel.
 
-Tyto svobody zajišťují, že uživatelé—nejen prodejci—si zachovávají kontrolu nad softwarem, umožňují jim ho používat, studovat, modifikovat a sdílet podle libosti a umožňují "stát na ramenou gigantů" při vytváření odvozených prací. To ale s OSAID končí, jelikož přestává plně chránit tyto svobody tím, že již neposkytuje přístup k označení Open Source jako podmínku přístupu k potřebným datům.
+Tyto svobody zajišťují, že uživatelé—nejen dodavatelé—mají kontrolu nad softwarem, což jim umožňuje jej používat, studovat, modifikovat a sdílet, jak uznají za vhodné, a "stát na ramenou obrů" při vytváření odvozených prací. To s OSAID končí, což plně nechrání tyto svobody tím, že již nepodmiňuje přístup k Open Source označení přístupem k potřebným datům.
 
 ## Otevřenost a úplnost
 
-Definice open source má dvě dimenze: **otevřenost** a **úplnost**. Její pověst otevřenosti je již dobře zavedená, ale úplnost je implicitní a ohrožena rostaoucí složitostí systému a počtem komponent, které mohou být potřeba zahrnout pod open source licence k ochraně Čtyř svobod. Například cestovní průvodce, který zahrnuje data z OpenStreetMap (licencováno ODbL) a Wikivoyage (licencováno CC-BY-SA), je open source, ale aplikační zdrojový kód "bez baterií" bez dat (nebo s proprietálními daty) je vazalem. Toto je obzvláště pravdivé u systémů umělé inteligence (AI), kde je inferenční kód jen málo víc než systém podpory života pro model.
+Existují dvě dimenze Open Source Definition: **otevřenost** a **úplnost**. Její otevřenost je již dobře etablovaná, ale úplnost je implicitní a je vyzývána rostoucí složitostí systému a počtem součástí, které mohou být zahrnuty pod Open Source licencemi, aby se chránily Čtyři svobody. Například turistický průvodce, který obsahuje OpenStreetMap (licence ODbL) a data Wikivoyage (licence CC-BY-SA), je Open Source, ale aplikace bez "baterií v ceně" s proprietárními daty je vazalem. To platí zejména pro systémy umělé inteligence (AI), kde inference kód je jen podpůrným systémem pro model.
 
-Podle Bruce Perense (původního autora OSD) "*data jsou zdrojový kód*", a tvrdí: "*můžete aplikovat původní Definici open source na strojové učení*". Varoval, že když data a modely nejsou přístupné, "*výsledek je méně než open source.*" To naznačuje, že stávající standard již pokrývá rostoucí potřeby strojového učení bez úprav a že nový dokument je zbytečný.
+Podle Bruce Perense (původního autora OSD) "*data jsou zdrojový kód*", a tvrdí, že “*můžete aplikovat původní Open Source Definition na strojové učení*". Varoval, že když data a modely nejsou dostupné, “*výsledek je méně než Open Source.*” To naznačuje, že existující standard již pokrývá vyvíjející se potřeby strojového učení bez úprav a že nový dokument je zbytečný.
 
-Zatímco výchozí pozice je nezměňovat standard vůbec, je také důležité zajistit, aby zůstal relevantní a komplexní. Jednou oblastí potenciálního zkoumání je rozšíření působnosti na data, ale to by muselo být přistoupeno se stejnými vysokými standardy, jako ústavní změny, vyžadující široký konsensus a pečlivé zvážení, aby se předešlo nežádoucím důsledkům. To nebylo v případě OSAID, které představuje značná rizika pro stávající projekty i budoucí inovace.
+I když výchozí pozicí je neprovádět žádné změny standardu, je také důležité zajistit, že zůstane relevantní a komplexní. Jedna oblast pro potenciální průzkum je rozšíření rozsahu na pokrytí dat, ale to by muselo být přistoupeno s vysokými standardy jako u ústavní změny, vyžadující široký konsenzus a pečlivé zvážení, aby se předešlo neplánovaným následkům. Toto nebyl případ u OSAID, který představuje značné riziko pro existující projekty i budoucí inovace.
 
-## Aviate, Navigate, Communicate
+## Létat, Navigovat, Komunikovat
 
-V letectví, když piloti narazí na nouzovou situaci, postupují podle tří kroků: Aviate, Navigate, Communicate. Tento přístup platí i zde, pomáhá nám znovu získat kontrolu, nalézt bezpečnou cestu vpřed a zlepšit komunikaci.
+V letectví, když piloti potkají nouzovou situaci, následují tři kroky: Létat, Navigovat, Komunikovat. Tento přístup se hodí i zde, pomáhá nám znovu získat kontrolu, naplánovat bezpečnou cestu vpřed a zlepšit komunikaci.
 
-1. *Aviate*: Prvním krokem je vyvést letadlo z pádu a obnovit stabilitu. Především to znamená udržet integritu OSD. Nová webová stránka Open Source Definition [https://opensourcedefinition.org](https://opensourcedefinition.org) slouží jako záchranný člun, zachovávající současnou Definici open source ve verzi 1.9 a artefakty potřebné pro funkční open source ekosystém, plus dodatečné funkce jako historie verzí a Git repozitář. Doporučujeme všem, aby si tento dokument licencovaný CC-BY klonovali a široce distribuovali, čímž zajistí jeho dostupnost v komunitě, namísto spoléhání na centrální repozitář.
-2. *Navigate*: Se stabilitou obnovenou můžeme pečlivě posoudit, zda si zachovat směr, za předpokladu, že současná cesta stále slouží všem aspektům open source. Po dvou desetiletích může komunita souhlasit s rozšířením rozsahu OSD na nové oblasti—jako data a strojové učení—aniž by narušila stávající projekty, nebo může zvážit, že změny za riziko nestojí. Stabilita zůstává výchozím bodem a jakékoli úpravy musí respektovat (a ideálně explicitně zahrnovat) Čtyři základní svobody, zabránit zbytečným narušením zavedených norem. Proces musí řídit komunita a z důvodů tvrdého cenzurování v existujících fórech nabízíme necenzurované ekvivalenty na [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org) otevřené pro všechny, čímž zajistíme, že každý hlas může být slyšen.
-3. *Communicate*: Nakonec musíme navázat kontakt a vzdělávat ty, kdo se spoléhají na open source, ať už se rozhodnou účastnit procesu, nebo ne. Smysluplná Definice open source je základem životů a živobytí, výzkumu a podnikání po celém světě, propojena open source ekosystémem, který udržuje internet, cloudové služby, AI systémy a další. I když se přímo nezapojí do open source komunity, jejich práce a důvěra jsou postaveny na tomto sdíleném základu. Je klíčové, aby pochopili jak sázku, tak svou schopnost podporovat a chránit Čtyři svobody.
+1. *Létat*: Prvním krokem je dostat letadlo z pádu a obnovit stabilitu. Především to znamená zachovat integritu OSD. Nový web Open Source Definition [https://opensourcedefinition.org](https://opensourcedefinition.org) slouží jako záchranný člun, zachovávající aktuální definici Open Source ve verzi 1.9, a artefakty nezbytné pro funkční Open Source ekosystém, plus další funkce jako historie verzí a Git repository. Povzbuzujeme všechny k tomu, aby klonovali a široce šířili dokument s licencí CC-BY, aby se zajistila jeho dostupnost všude v komunitě, nikoli spoléhat se na centrální repository.
+2. *Navigovat*: Se stabilitou obnovenou můžeme pečlivě posoudit, zda zůstat na kurzu, předpokládajíc, že aktuální cesta stále slouží všem aspektům Open Source. Po dvou dekádách se může komunita dohodnout na rozšíření rozsahu OSD do nových oblastí—jako data a strojové učení—bez narušení existujících projektů, nebo může považovat změny za nestojící za významné riziko. Stabilita zůstává výchozím bodem a jakékoliv úpravy musí respektovat (a ideálně výslovně integrovat) Čtyři základní svobody, vyhýbající se zbytečným narušením zavedených norem. Tento proces musí řídit komunita, a ve světle přehnané cenzury v existujících fórech, nabízíme necenzurované ekvivalenty na [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org), které jsou otevřené pro všechny, zajišťující, že každý hlas může být vyslyšen.
+3. *Komunikovat*: Nakonec musíme zapojit a vzdělávat ty, kteří se spoléhají na Open Source, ať už se rozhodnou nebo nerozhodnou zúčastnit se procesu. Smysluplná Open Source Definition je základem životů a živobytí, výzkumu a podniků po celém světě, spojených Open Source ekosystémem, který podporuje internet, cloudové služby, AI systémy a další. I když se přímo nezapojí do Open Source komunity, jejich práce a důvěra jsou postaveny na tomto společném základu. Je kritické, aby pochopili jak sázky, tak jejich schopnost podporovat a chránit Čtyři svobody.
 
-## Proč na tom záleží
+## Proč je to důležité
 
-Ochrana integrity Definice open source není jen o slovíčkaření—jde o zachování společného závazku ke svobodě. Systémy umělé inteligence, které se dotýkají, transformují a potenciálně otráví každý aspekt budoucí lidské činnosti, sázka je vysoká. Podporou tohoto prohlášení vývojáři, uživatelé, akademici a další zainteresovaní strany potvrzují, že skutečné principy open source mohou být definovány pouze samotnou komunitou.
+Ochrana integrity Open Source Definition je o něčem více, než jen o semantice—je to o zachování sdíleného závazku ke svobodě. Vzhledem k tomu, že AI systémy zasahují, transformují a potenciálně otravují každý aspekt budoucího lidského úsilí, sázky jsou vysoké. Podporou tohoto prohlášení programátoři, uživatelé, akademici a další zainteresované strany potvrzují, že skutečné Open Source principy mohou být definovány pouze komunitou samotnou.
 
-Podepsání této deklarace je aktem podpory transparentnosti, spolupráce a kolektivního vlastnictví etosu open source. Společně můžeme zajistit, aby open source nadále formovali ti, kdo ho budují, používají a věří v něj, namísto primárně korporátních zájmů. Vaše podpora nejen potvrzuje váš závazek, ale také vysílá zprávu těm, kdo by přehlíželi hlas komunity, že musí být vyslyšen.
+Podpis tohoto prohlášení je aktem podpory pro transparentnost, spolupráci a kolektivní vlastnictví ethosů Open Source. Společně můžeme zajistit, že Open Source bude nadále formováno těmi, kdo jej tvoří, používají a věří v něj, a nikoli primárně korporátními zájmy. Vaše podpora potvrzuje nejen váš závazek, ale také vysílá zprávu těm, kdo by ignorovali hlas komunity, že musí být vyslyšen.
 
 ---
 <br>
 
-- Chcete-li podepsat e-mailem, odešlete [plain-text email](https://useplaintext.email/) s jakýmkoliv nebo žádným obsahem na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Chcete-li podepsat na GitHubu, prosím [okomentujte tento problém](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), nebo [odešlete pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
-- Chcete-li podepsat na Codebergu, prosím [okomentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
-- Alternativně, forkněte a klonujte repo, ručně vytvořte soubor `_data/signed/<username>.yaml`, poté commitněte a odešlete PR.
-- Můžete také navrhnout změny k informačnímu dopisu nad řádkem otevřením [tohoto problému](https://codeberg.org/osd/sos/issues).
+- Chcete-li podepsat e-mailem, zašlete [plain-text email](https://useplaintext.email/) s jakýmkoli nebo bez obsahu na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Chcete-li podepsat na GitHubu, prosíme [okomentujte tento problém](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed) nebo [odešlete pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
+- Chcete-li podepsat na Codeberg, prosíme [okomentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
+- Alternativně fork and clone the repo, manually create the file `_data/signed/<username>.yaml`, then commit and submit a PR.
+- You can also propose changes to the informative letter above the line by [opening an issue](https://codeberg.org/osd/sos/issues).
+
