@@ -52,8 +52,10 @@ link: https://path/to/your/site-or-gitrepo OR mailto:email@address.nul
 ```
 
 ### Suggestions
-- Use your real name if possible
-- Add affiliated organizations or projects if applicable (e.g. `Sam Johnston (Kwaai Open Source AI Lab, pAI-OS Developer)`)
+- Share the letter on your website, forums, and social media.
+- Use your real name if possible.
+- Add affiliated organizations or projects if applicable (e.g. `Sam Johnston (Kwaai Open Source AI Lab, pAI-OS Developer)`).
+- Companies should link or post the letter so we can verify your signature.
 
 ### Example
 
