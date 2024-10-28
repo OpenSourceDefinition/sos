@@ -15,6 +15,7 @@ twitter:
 ## *Any amendments or new definitions shall only be recognized if declared by clear community consensus through a transparent process to be determined.*
 
 ---
+<br>
 
 2024-10-28
 
@@ -60,6 +61,7 @@ Protecting the integrity of the Open Source Definition is about more than semant
 Signing this declaration is an act of support for transparency, collaboration, and the collective ownership of the Open Source ethos. Together, we can ensure that Open Source continues to be shaped by those who build, use, and believe in it, rather than primarily corporate interests. Your support not only affirms your commitment but also sends a message to those who would ignore the community’s voice that it must be heeded.
 
 ---
+<br>
 
 - To sign by email, send a [plain-text email](https://useplaintext.email/) with any or no contents to [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
 - To sign on GitHub, please [comment on this issue](https://github.com/OpenSourceDefinition/SaveOpenSource/issues/1), [use the web interface to create a new file](https://github.com/OpenSourceDefinition/SaveOpenSource/new/master/_data/signed), or [submit a pull request](https://github.com/OpenSourceDefinition/SaveOpenSource/pulls).
