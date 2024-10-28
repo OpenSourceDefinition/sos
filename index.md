@@ -47,7 +47,7 @@ In aviation, when pilots encounter an emergency, they follow three steps: Aviate
 
 ## Why This Matters
 
-Protecting the integrity of the Open Source Definition is about more than semantics—it’s about preserving a shared commitment to freedom. With AI systems touching, transforming, and potentially poisoning every aspect of human endeavour, the stakes are high. By supporting this declaration, developers, users, academics, and other stakeholders affirm that true Open Source principles can only be defined by the open source community itself.
+Protecting the integrity of the Open Source Definition is about more than semantics—it’s about preserving a shared commitment to freedom. With AI systems touching, transforming, and potentially poisoning every aspect of human endeavour, the stakes are high. By supporting this declaration, developers, users, academics, and other stakeholders affirm that true Open Source principles can only be defined by the community itself.
 
 Signing this declaration is an act of support for transparency, collaboration, and the collective ownership of the Open Source ethos. Together, we can ensure that Open Source continues to be shaped by those who build, use, and believe in it, rather than primarily corporate interests. Your support not only affirms your commitment but also sends a message to those who would ignore the community’s voice that it must be heeded.
 
