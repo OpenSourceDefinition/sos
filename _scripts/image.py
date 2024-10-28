@@ -85,10 +85,10 @@ def resize_logo(image, scale_factor, max_width, max_height):
 scale_factor = 2  # Scale the logo to approximately 2x its original size
 logo_size = (500, 500)  # Maximum size constraints
 logo_image = resize_logo(logo_image, scale_factor, *logo_size)
-logo_position = (background_image.width - logo_image.width - 20, 20)  # Closer to the top right corner
+logo_position = (background_image.width - logo_image.width - 40, 40)  # Closer to the top right corner
 
 # Load the main font
-main_font = ImageFont.truetype(str(FONT_PATH), 50)  # Adjust the size as needed
+main_font = ImageFont.truetype(str(FONT_PATH), 62)  # Adjust the size as needed
 
 # Load the button font
 button_font = ImageFont.truetype(str(FONT_PATH), 30)  # Adjust the size as needed
@@ -123,7 +123,7 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # Draw additional text in top left
     #additional_text = "CALL TO OPEN SOURCE SOFTWARE USERS"
     draw.text(
-        (40, 40),  # Top left with padding
+        (20, 20),  # Top left with padding
         text_call_to_action.upper(),
         font=button_font,  # Use smaller font
         fill=TEXT_COLOR
@@ -132,7 +132,7 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # Draw the main title text, wrapping to fit and increase size
     text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))  # Adjust width for wrapping
     draw.text(
-        (40, logo_image.height + 80),  # Position below the logo with more padding
+        (40, logo_image.height - 20),  # Position below the logo with more padding
         text_main_wrapped,
         font=main_font,  # Consider using a larger font size
         fill=TEXT_COLOR
