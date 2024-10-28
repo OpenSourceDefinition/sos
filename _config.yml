@@ -1,0 +1,30 @@
+title: A community statement supporting the Open Source Definition (OSD).
+baseurl: ""
+url: "https://SaveOpenSource.github.io"
+
+github_username: OpenSourceDefinition
+repository: OpenSourceDefinition/SaveOpenSource
+
+collections:
+  translations:
+    output: true
+    permalink: /:name:output_ext
+
+
+# Build settings
+theme: minima
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - migrate.py
+  - CONTRIBUTING.md
+  - README*.md
