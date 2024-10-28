@@ -6,6 +6,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from pathlib import Path
 import cairosvg
 import io
+import textwrap
 
 # Determine the script's directory
 script_dir = Path(__file__).resolve().parent
@@ -75,9 +76,9 @@ def resize_logo(image, max_width, max_height):
     return image.resize((new_width, new_height), Image.LANCZOS)
 
 # Resize and position the logo
-logo_size = (200, 200)  # Adjust max size as needed
+logo_size = (600, 600)  # Increase max size significantly
 logo_image = resize_logo(logo_image, *logo_size)
-logo_position = (background_image.width - logo_image.width - 20, 20)  # Top right with padding
+logo_position = (background_image.width - logo_image.width - 40, 40)  # Top right with more padding
 
 # Load the main font
 main_font = ImageFont.truetype(str(FONT_PATH), 40)  # Adjust the size as needed
@@ -112,13 +113,13 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
     # Paste the logo
     img.paste(logo_image, logo_position, logo_image)
 
-    # Draw main text, wrapping to fit
+    # Draw the main title text, wrapping to fit
+    text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))  # Adjust width for wrapping
     draw.text(
-        (20, logo_image.height + 40),  # Position below the logo
-        text_main,
+        (40, logo_image.height + 60),  # Position below the logo with more padding
+        text_main_wrapped,
         font=main_font,
-        fill=TEXT_COLOR,
-        width=background_image.width - 40  # Allow some padding on the sides
+        fill=TEXT_COLOR
     )
 
     # Draw call-to-action text
@@ -131,20 +132,30 @@ def create_image(text_main, text_call_to_action, button_text, language_code):
         fill=TEXT_COLOR
     )
 
-    # Adjust button color and position
-    button_color = "#0072CE"  # Blue color from the logo
-    button_size = (150, 50)  # Adjust size as needed
-    button_position = (background_image.width - button_size[0] - 20, background_image.height - button_size[1] - 20)  # Bottom right with padding
+    # Draw additional text in bottom left
+    additional_text = "CALL TO OPEN SOURCE SOFTWARE USERS"
+    draw.text(
+        (40, background_image.height - 80),  # Bottom left with padding
+        additional_text,
+        font=button_font,  # Use smaller font
+        fill=TEXT_COLOR
+    )
 
-    # Draw the button
-    draw.rectangle(
+    # Adjust button color, position, and shape
+    button_color = "#0072CE"  # Blue color from the logo
+    button_size = (250, 70)  # Adjust size for pill shape
+    button_position = (background_image.width - button_size[0] - 40, background_image.height - button_size[1] - 40)  # Bottom right with more padding
+
+    # Draw the pill-shaped button
+    draw.rounded_rectangle(
         [button_position, (button_position[0] + button_size[0], button_position[1] + button_size[1])],
+        radius=35,  # Radius for pill shape
         fill=button_color
     )
 
     # Draw button text
     draw.text(
-        (button_position[0] + 10, button_position[1] + 10),  # Center text within the button
+        (button_position[0] + 20, button_position[1] + 15),  # Center text within the button
         button_text,
         font=button_font,
         fill="white"
