@@ -91,8 +91,8 @@ def create_pill_button(draw, position, size, color, text, font, text_color):
 
 # Function to create a preview image with translations
 def create_image(text_main, text_call_to_action, button_text, language_code, font_file):
-    # Print the font path to verify
     font_path = fonts_dir / font_file
+    #print(f"Using font path: {font_path}")
 
     img = background_image.copy()
     draw = ImageDraw.Draw(img)
@@ -104,6 +104,21 @@ def create_image(text_main, text_call_to_action, button_text, language_code, fon
 
     # Paste the logo
     img.paste(logo_image, logo_position, logo_image)
+    
+    # Function to adjust font size if text is too long
+    def adjust_font_size(draw, text, font, max_width):
+        while draw.textbbox((0, 0), text, font=font)[2] > max_width:
+            font = ImageFont.truetype(font.path, font.size - 1)
+        return font
+
+    # Adjust main text font size or wrap
+    max_main_text_width = background_image.width - 80
+    main_font = adjust_font_size(draw, text_main, main_font, max_main_text_width)
+    text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))
+
+    # Adjust call to action text font size or wrap
+    max_cta_text_width = background_image.width - 40
+    cta_font = adjust_font_size(draw, text_call_to_action, cta_font, max_cta_text_width)
 
     # Draw additional text in top left
     draw.text(
@@ -113,8 +128,7 @@ def create_image(text_main, text_call_to_action, button_text, language_code, fon
         fill=TEXT_COLOR
     )
 
-    # Draw the main title text, wrapping to fit and increase size
-    text_main_wrapped = "\n".join(textwrap.wrap(text_main, width=30))
+    # Draw the main title text
     draw.text(
         (40, logo_image.height - 10),
         text_main_wrapped,

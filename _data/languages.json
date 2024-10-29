@@ -1,5 +1,5 @@
 {
-    "ar-AE": ["العربية", "🇦🇪", "NotoSans-Bold.ttf"],
+    "ar-AE": ["العربية", "🇦🇪", "NotoSansArabic-Bold.ttf"],
     "bn-BD": ["বাংলা", "🇧🇩", "NotoSansBengali-Bold.ttf"],
     "cs-CZ": ["Čeština", "🇨🇿", "NotoSans-Bold.ttf"],
     "de-DE": ["Deutsch", "🇩🇪", "NotoSans-Bold.ttf"],
@@ -7,9 +7,9 @@
     "en-US": ["English (US)", "🇺🇸", "NotoSans-Bold.ttf"],
     "en-GB": ["English (UK)", "🇬🇧", "NotoSans-Bold.ttf"],
     "es-ES": ["Español", "🇪🇸", "NotoSans-Bold.ttf"],
-    "fa-IR": ["فارسی", "🇮🇷", "NotoSans-Bold.ttf"],
+    "fa-IR": ["فارسی", "🇮🇷", "NotoSansArabic-Bold.ttf"],
     "fr-FR": ["Français", "🇫🇷", "NotoSans-Bold.ttf"],
-    "he-IL": ["עברית", "🇮🇱", "NotoSans-Bold.ttf"],
+    "he-IL": ["עברית", "🇮🇱", "NotoSansHebrew-Bold.ttf"],
     "hi-IN": ["हिन्दी", "🇮🇳", "NotoSansDevanagari-Bold.ttf"],
     "hu-HU": ["Magyar", "🇭🇺", "NotoSans-Bold.ttf"],
     "id-ID": ["Bahasa Indonesia", "🇮🇩", "NotoSans-Bold.ttf"],
