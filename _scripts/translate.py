@@ -242,9 +242,10 @@ def main():
         if translate_target in ["images", "all"]:
             logging.info(f"Translating image texts to {lang_name[0]} ({lang_code}) ({index}/{total_languages})...")
             translated_image_texts = translate_image_texts(lang_code, client)
-            translations_path = Path(config['directories']['translations']) / "image.json"
+            # Save each language's translations in a separate file
+            translations_path = Path(config['directories']['translations']) / f"image-{lang_code}.json"
             with translations_path.open("w", encoding='utf-8') as f:
-                json.dump({lang_code: translated_image_texts}, f, ensure_ascii=False, indent=4)
+                json.dump(translated_image_texts, f, ensure_ascii=False, indent=4)
             logging.info(f"Saved translated image texts for {lang_name[0]} ({lang_code})")
 
 if __name__ == "__main__":
