@@ -55,7 +55,8 @@ def restore_links(translated_text, links):
 
 def translate_file(file_path: str, target_language: str, client: openai.AzureOpenAI) -> str:
     """Translate the title, description, and body of a file to the target language."""
-    with open(file_path, "r") as f:
+    file_path = Path(file_path)
+    with file_path.open("r", encoding="utf-8") as f:
         content = f.read()
 
     # Check if the content has front matter
@@ -85,17 +86,19 @@ def translate_file(file_path: str, target_language: str, client: openai.AzureOpe
     # Restore links in the translated body
     translated_body = restore_links(translated_data["body"], links)
 
-    # Update the front matter with translated fields and locale
+    # Update the front matter with translated fields
     for key, value in translated_data["front_matter"].items():
         front_matter_data[key] = value
-    front_matter_data['locale'] = target_language
+
+    # Only add locale if the file has front matter
+    if front_matter_data:
+        front_matter_data['locale'] = target_language
 
     # Update image link in front matter
     if 'image' in front_matter_data:
-        image_path = front_matter_data['image']
-        base_name = os.path.basename(image_path)
-        new_image_name = f"{os.path.splitext(base_name)[0]}-{target_language}.png"
-        front_matter_data['image'] = os.path.join(os.path.dirname(image_path), new_image_name)
+        image_path = Path(front_matter_data['image'])
+        new_image_name = f"{image_path.stem}-{target_language}.png"
+        front_matter_data['image'] = str(image_path.with_name(new_image_name))
 
     # Reconstruct the file content
     if front_matter_data:
@@ -104,11 +107,10 @@ def translate_file(file_path: str, target_language: str, client: openai.AzureOpe
     else:
         return translated_body
 
-def save_translated_file(content: str, file_name: str):
-    """Save the translated content to a file."""
-    translations_dir = config['directories']['translations']
-    file_path = os.path.join(translations_dir, file_name)
-    with open(file_path, "w", encoding="utf-8") as f:
+def save_translated_file(content: str, directory: Path, file_name: str):
+    """Save the translated content to a specified directory."""
+    file_path = directory / file_name
+    with file_path.open("w", encoding="utf-8") as f:
         f.write(content)
 
 def translate_image_texts(target_language: str, client: openai.AzureOpenAI):
@@ -117,20 +119,19 @@ def translate_image_texts(target_language: str, client: openai.AzureOpenAI):
     translated_texts = translate_texts(image_texts, target_language, client)
     return translated_texts
 
-def update_readme_flag_list(readme_path: str):
-    """Update the README file with a list of available language flags."""
-    # Load the current README content
-    with open(readme_path, "r", encoding="utf-8") as f:
-        readme_content = f.readlines()
-
-    # Define the start marker for the language section
+def update_readme_flag_list(readme_content: str) -> str:
+    """Update the README content with a list of available language flags."""
+    # Define the start and end markers for the language section
     start_marker = "<!-- TRANSLATIONS_START -->"
     end_marker = "<!-- TRANSLATIONS_END -->"
 
-    # Find the index for the start marker and the first blank line after it
+    # Split the content into lines
+    readme_lines = readme_content.splitlines(keepends=True)
+
+    # Find the index for the start marker and the end marker
     start_index = None
     end_index = None
-    for i, line in enumerate(readme_content):
+    for i, line in enumerate(readme_lines):
         if start_marker in line:
             start_index = i
         elif end_marker in line:
@@ -139,23 +140,20 @@ def update_readme_flag_list(readme_path: str):
 
     if start_index is None or end_index is None:
         logging.warning("Language section markers not found in README.")
-        return
+        return readme_content
 
     # Generate the new language section content
     language_section = [f"{start_marker}\n"]
-    language_section.append("[🇺🇳](README.md)\n")  # Add UN flag for the canonical source
+    language_section.append("[🇺🇳](README.md)")  # Add UN flag for the canonical source
     for lang_code, (lang_name, flag) in languages.items():
-        language_section.append(f"[{flag}](README_{lang_code}.md)\n")
-    language_section.append(f"{end_marker}\n")
+        language_section.append(f"[{flag}](README_{lang_code}.md)")
+    language_section.append(f"\n{end_marker}\n")
 
     # Replace the old language section with the new one
-    readme_content[start_index:end_index + 1] = language_section
+    readme_lines[start_index:end_index + 1] = language_section
 
-    # Write the updated content back to the README
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.writelines(readme_content)
-
-    logging.info("Updated README with available language flags.")
+    # Return the updated content
+    return ''.join(readme_lines)
 
 def print_usage_and_exit():
     """Print usage information and exit."""
@@ -165,31 +163,6 @@ def print_usage_and_exit():
     for lang_code, (lang_name, _) in languages.items():
         print(f"  {lang_code}: {lang_name}")
     sys.exit(1)
-
-def save_translated_readme(content, lang_code):
-    # Determine the root directory to save the translated README
-    root_dir = Path(__file__).resolve().parent.parent
-    file_path = root_dir / f"README-{lang_code}.md"
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(content)
-
-def translate_readme(lang_code, client):
-    """Translate the README file to the specified language."""
-    # Load the original README content
-    with open('README.md', 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    # Replace the flag emojis with those from languages.json
-    translation_list = "\n".join(
-        f"[{flag}](README_{code}.md)" for code, (name, flag) in languages.items()
-    )
-    content = content.replace("<!-- TRANSLATIONS_START -->", f"<!-- TRANSLATIONS_START -->\n[🇺🇳](README.md)\n{translation_list}")
-
-    # Simulate translation (replace this with actual translation logic)
-    translated_content = content.replace("A community statement", f"A community statement in {languages[lang_code][0]}")
-
-    # Save the translated content
-    save_translated_readme(translated_content, lang_code)
 
 def main():
     # Set up argument parser
@@ -219,7 +192,7 @@ def main():
     )
     
     # Load environment variables from .env file in the parent directory
-    load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+    load_dotenv(Path(__file__).resolve().parent.parent / '.env')
     
     # Initialize OpenAI client
     client = openai.AzureOpenAI(
@@ -233,6 +206,20 @@ def main():
     selected_languages = args.languages
 
     total_languages = len(selected_languages)
+    # Calculate the project root directory
+    project_root = Path(__file__).resolve().parent.parent
+    translations_dir = project_root / '_translations'
+
+    if translate_target in ["readme", "all"]:
+        # Update the README.md with the language flags
+        readme_path = project_root / "README.md"
+        with readme_path.open("r", encoding="utf-8") as f:
+            readme_content = f.read()
+
+        updated_readme_content = update_readme_flag_list(readme_content)
+        save_translated_file(updated_readme_content, project_root, "README.md")
+        logging.info("Updated README.md with language flags.")
+
     for index, lang_code in enumerate(selected_languages, start=1):
         lang_name = languages.get(lang_code)
         if not lang_name:
@@ -242,26 +229,23 @@ def main():
         if translate_target in ["readme", "all"]:
             logging.info(f"Translating README to {lang_name[0]} ({lang_code}) ({index}/{total_languages})...")
             translated_content = translate_file("README.md", lang_code, client)
-            save_translated_file(translated_content, f"README-{lang_code}.md")
+            translated_content = update_readme_flag_list(translated_content)
+            save_translated_file(translated_content, project_root, f"README-{lang_code}.md")
             logging.info(f"Saved translated README for {lang_name[0]} ({lang_code})")
 
         if translate_target in ["index", "all"]:
             logging.info(f"Translating index.md to {lang_name[0]} ({lang_code}) ({index}/{total_languages})...")
             translated_content = translate_file("index.md", lang_code, client)
-            save_translated_file(translated_content, f"index-{lang_code}.md")
+            save_translated_file(translated_content, translations_dir, f"index-{lang_code}.md")
             logging.info(f"Saved translated index for {lang_name[0]} ({lang_code})")
 
         if translate_target in ["images", "all"]:
             logging.info(f"Translating image texts to {lang_name[0]} ({lang_code}) ({index}/{total_languages})...")
             translated_image_texts = translate_image_texts(lang_code, client)
-            translations_path = os.path.join(config['directories']['translations'], "image.json")
-            with open(translations_path, "w", encoding='utf-8') as f:
+            translations_path = Path(config['directories']['translations']) / "image.json"
+            with translations_path.open("w", encoding='utf-8') as f:
                 json.dump({lang_code: translated_image_texts}, f, ensure_ascii=False, indent=4)
             logging.info(f"Saved translated image texts for {lang_name[0]} ({lang_code})")
-
-    # Update the README flag list
-    if translate_target in ["readme", "all"]:
-        update_readme_flag_list("README.md")
 
 if __name__ == "__main__":
     main()
