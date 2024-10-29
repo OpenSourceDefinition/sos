@@ -43,3 +43,11 @@
 		width: calc(30% - (30px / 2));
 	}
 }
+
+.site-header,
+.page-content,
+.site-footer {
+    border: none; // Remove any borders
+    margin: 0;    // Remove any margins
+    padding: 0;   // Remove any padding
+}

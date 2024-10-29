@@ -1,4 +1,4 @@
-title: A community statement supporting the Open Source Definition (OSD).
+title: Community Commitment to Open Source Definition
 baseurl: ""
 url: "https://osd.fyi"
 
@@ -28,3 +28,6 @@ exclude:
   - migrate.py
   - CONTRIBUTING.md
   - README*.md
+  - CNAME
+  - config.json
+  - requirements.txt
