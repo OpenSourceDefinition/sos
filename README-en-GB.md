@@ -7,26 +7,26 @@ This README is available in:
 
 ### Signing
 
-To sign by email, send a [plain-text email](https://useplaintext.email/) with any or no contents to [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-To sign on GitHub, please [comment on this issue](https://github.com/OpenSourceDefinition/sos/issues/1), [use the web interface to create a new file](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), or [submit a pull request](https://github.com/OpenSourceDefinition/sos/pulls).
-To sign on Codeberg, please [comment on this issue](https://codeberg.org/osd/sos/issues/1) or [submit a pull request](https://codeberg.org/osd/sos/pulls).
+To sign by email, send a [plain-text email](https://useplaintext.email/)) with any or no contents to [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+To sign on GitHub, please [comment on this issue](https://github.com/OpenSourceDefinition/sos/issues/1),), [use the web interface to create a new file](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), or [submit a pull request](https://github.com/OpenSourceDefinition/sos/pulls).).
+To sign on Codeberg, please [comment on this issue](https://codeberg.org/osd/sos/issues/1)) or [submit a pull request](https://codeberg.org/osd/sos/pulls).).
 Alternatively, fork and clone the repo, create the file `_data/signed/<username>.yaml` manually, then commit and submit a PR.
 
-You can also propose changes to the informative letter above the line by [opening an issue](https://codeberg.org/osd/sos/issues).
+You can also propose changes to the informative letter above the line by [opening an issue](https://codeberg.org/osd/sos/issues).).
 
 ### Signature file format
 
 To sign, create a file in `_data/signed/` named `<username>.yaml` with the following content:
 
 ```yaml
-name: Real Name (Organization)
+name: Real Name (Organisation)
 link: https://path/to/your/site-or-gitrepo OR mailto:email@address.nul
 ```
 
 ### Suggestions
 - Share the letter on your website, forums, and social media.
 - Use your real name if possible.
-- Add affiliated organizations or projects if applicable (e.g. `Sam Johnston (Kwaai Open Source AI Lab, pAI-OS Developer)`).
+- Add affiliated organisations or projects if applicable (e.g. `Sam Johnston (Kwaai Open Source AI Lab, pAI-OS Developer)`).
 - Organisations and corporations should link or post the letter so we can verify your signature.
 
 ### Example
@@ -38,9 +38,9 @@ link: https://samjohnston.org
 
 ### Suggestions
 
-- Don't use `<>` in this file, as well as non-ascii symbols in file name.
+- Don't use `<>` in this file, as well as non-ASCII symbols in the file name.
 - If you're using your email as a link, prepend it with `mailto:`.
-- If you are able to, please use your real name and add projects and affiliated organizations in parentheses.
+- If you can, please use your real name and add projects and affiliated organisations in parentheses.
 - Consider sharing this letter on your forums and social media and notify journalists who might be helpful to our cause.
 
 ## Discussion
@@ -48,7 +48,7 @@ link: https://samjohnston.org
 - **Discourse:** [https://discuss.opensourcedefinition.org](https://discuss.opensourcedefinition.org)
 
 ## Contact
-If you are a member of the press, a youtuber, or representing other news outlets, you can contact us under this email:
+If you are a member of the press, a YouTuber, or representing other news outlets, you can contact us via this email:
 - [contact@opensourcedefinition.org](mailto:contact@opensourcedefinition.org)
 
 ## Licensing
