@@ -119,19 +119,19 @@ def translate_image_texts(target_language: str, client: openai.AzureOpenAI):
     translated_texts = translate_texts(image_texts, target_language, client)
     return translated_texts
 
-def update_readme_flag_list(readme_content: str) -> str:
+def update_README-flag_list(README-content: str) -> str:
     """Update the README content with a list of available language flags."""
     # Define the start and end markers for the language section
     start_marker = "<!-- TRANSLATIONS_START -->"
     end_marker = "<!-- TRANSLATIONS_END -->"
 
     # Split the content into lines
-    readme_lines = readme_content.splitlines(keepends=True)
+    README-lines = README-content.splitlines(keepends=True)
 
     # Find the index for the start marker and the end marker
     start_index = None
     end_index = None
-    for i, line in enumerate(readme_lines):
+    for i, line in enumerate(README-lines):
         if start_marker in line:
             start_index = i
         elif end_marker in line:
@@ -140,20 +140,20 @@ def update_readme_flag_list(readme_content: str) -> str:
 
     if start_index is None or end_index is None:
         logging.warning("Language section markers not found in README.")
-        return readme_content
+        return README-content
 
     # Generate the new language section content
     language_section = [f"{start_marker}\n"]
     language_section.append("[🇺🇳](README.md)")  # Add UN flag for the canonical source
     for lang_code, (lang_name, flag) in languages.items():
-        language_section.append(f"[{flag}](README_{lang_code}.md)")
+        language_section.append(f"[{flag}](README-{lang_code}.md)")
     language_section.append(f"\n{end_marker}\n")
 
     # Replace the old language section with the new one
-    readme_lines[start_index:end_index + 1] = language_section
+    README-lines[start_index:end_index + 1] = language_section
 
     # Return the updated content
-    return ''.join(readme_lines)
+    return ''.join(README-lines)
 
 def print_usage_and_exit():
     """Print usage information and exit."""
@@ -212,12 +212,12 @@ def main():
 
     if translate_target in ["readme", "all"]:
         # Update the README.md with the language flags
-        readme_path = project_root / "README.md"
-        with readme_path.open("r", encoding="utf-8") as f:
-            readme_content = f.read()
+        README-path = project_root / "README.md"
+        with README-path.open("r", encoding="utf-8") as f:
+            README-content = f.read()
 
-        updated_readme_content = update_readme_flag_list(readme_content)
-        save_translated_file(updated_readme_content, project_root, "README.md")
+        updated_README-content = update_README-flag_list(README-content)
+        save_translated_file(updated_README-content, project_root, "README.md")
         logging.info("Updated README.md with language flags.")
 
     for index, lang_code in enumerate(selected_languages, start=1):
@@ -229,7 +229,7 @@ def main():
         if translate_target in ["readme", "all"]:
             logging.info(f"Translating README to {lang_name[0]} ({lang_code}) ({index}/{total_languages})...")
             translated_content = translate_file("README.md", lang_code, client)
-            translated_content = update_readme_flag_list(translated_content)
+            translated_content = update_README-flag_list(translated_content)
             save_translated_file(translated_content, project_root, f"README-{lang_code}.md")
             logging.info(f"Saved translated README for {lang_name[0]} ({lang_code})")
 
