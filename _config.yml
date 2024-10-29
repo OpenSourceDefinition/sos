@@ -31,3 +31,5 @@ exclude:
   - CNAME
   - config.json
   - requirements.txt
+  - _translations/*.json
+  
