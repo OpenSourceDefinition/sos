@@ -1,0 +1,11 @@
+{
+    "directories": {
+        "translations": "_translations",
+        "assets": "assets"
+    },
+    "image_fields": {
+        "button_text": "Sign it now",
+        "main_text": "A community statement supporting the Open Source Definition (OSD)",
+        "call_to_action_text": "Call to Open Source Software users"
+    }
+}
