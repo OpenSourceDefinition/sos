@@ -20,3 +20,4 @@ twitter:
 - Untuk menandatangani melalui emel, hantarkan [emel teks-biasa](https://useplaintext.email/)) dengan sebarang atau tiada kandungan ke [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
 - Untuk menandatangani di GitHub, sila [komen pada isu ini](https://github.com/OpenSourceDefinition/sos/issues/1),), [gunakan antara muka web untuk mencipta fail baru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), atau [hantar permintaan pull](https://github.com/OpenSourceDefinition/sos/pulls).).
 - Untuk menandatangani di Codeberg, sila [komen pada isu ini](https://codeberg.org/osd/sos/issues/1)) atau [hantar permintaan pull](https://codeberg.org/osd/sos/pulls).).
+- Atau, fork dan clone repo, cipta fail `_data/signed/<username>.yaml` secara manual, kemudian commit dan hantar PR.
