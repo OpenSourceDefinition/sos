@@ -31,6 +31,16 @@ export class SignatureStack extends cdk.Stack {
       autoDeleteObjects: true,
     });
 
+    // S3 bucket for email logs
+    const logBucket = new s3.Bucket(this, 'EmailLogBucket', {
+      removalPolicy: cdk.RemovalPolicy.RETAIN,  // Keep logs even if stack is destroyed
+      lifecycleRules: [
+        {
+          expiration: cdk.Duration.days(90),  // Optional: delete logs after 90 days
+        },
+      ],
+    });
+
     // Lambda layer for dependencies
     const layer = new lambda.LayerVersion(this, 'DependenciesLayer', {
       code: lambda.Code.fromAsset('lambda-layer'),
@@ -47,7 +57,9 @@ export class SignatureStack extends cdk.Stack {
       environment: {
         GITHUB_TOKEN: process.env.GITHUB_TOKEN || '',
         GITHUB_REPO: process.env.GITHUB_REPO || '',
+        CODEBERG_TOKEN: process.env.CODEBERG_TOKEN || '',
         REVOCATION_SECRET: process.env.REVOCATION_SECRET || '',
+        LOG_BUCKET_NAME: logBucket.bucketName,  // Add bucket name to environment
       },
       layers: [layer],
     });
@@ -84,6 +96,7 @@ export class SignatureStack extends cdk.Stack {
       actions: ['ses:SendRawEmail'],
       resources: ['*'],
     }));
+    logBucket.grantWrite(processSignatureLambda);  // Allow Lambda to write logs
 
     // SES Rule Set
     const ruleSet = new ses.ReceiptRuleSet(this, 'RuleSet', {
