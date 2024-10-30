@@ -38,20 +38,22 @@ def translate_texts(texts, target_language, client):
 
 def extract_links(text):
     """Extract links from the text and replace them with placeholders."""
-    link_pattern = re.compile(r'(https?://\S+)')
+    # Updated pattern to specifically match markdown links
+    link_pattern = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
     links = link_pattern.findall(text)
     placeholder_text = text
-    for i, link in enumerate(links):
+    for i, (link_text, link_url) in enumerate(links):
         placeholder = f"__LINK_{i}__"
-        placeholder_text = placeholder_text.replace(link, placeholder)
+        placeholder_text = placeholder_text.replace(f'[{link_text}]({link_url})', f'[{link_text}]({placeholder})')
     return placeholder_text, links
 
 def restore_links(translated_text, links):
     """Restore links in the translated text using placeholders."""
-    for i, link in enumerate(links):
+    result = translated_text
+    for i, (link_text, link_url) in enumerate(links):
         placeholder = f"__LINK_{i}__"
-        translated_text = translated_text.replace(placeholder, link)
-    return translated_text
+        result = result.replace(f'({placeholder})', f'({link_url})')
+    return result
 
 def translate_file(file_path: str, target_language: str, client: openai.AzureOpenAI) -> str:
     """Translate the title, description, and body of a file to the target language."""
