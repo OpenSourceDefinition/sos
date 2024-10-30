@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function redirectToLanguage(lang) {
         const currentPath = window.location.pathname;
-        const newPath = `/index-${lang}.html`;
+        const newPath = `/index-${lang.toLowerCase()}.html`;
         if (currentPath !== newPath) {
             window.location.href = newPath;
         }
