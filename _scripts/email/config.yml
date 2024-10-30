@@ -13,3 +13,6 @@ email:
 paths:
   templates: "_templates"
   signatures: "_data/signed"
+
+storage:
+  bucket: "opensourcedeclaration-email"

@@ -9,6 +9,8 @@ import re
 from github import Github
 import hashlib
 import base64
+import json
+from datetime import datetime
 
 # Load config once when Lambda container starts
 with open('config.yml', 'r') as f:
@@ -34,6 +36,21 @@ def get_template(template_name):
         print(f"Error reading template {template_name}: {str(e)}")
         return None
 
+def log_email(s3_client, email_content, direction):
+    """Log email in mbox format
+    direction: 'inbound' or 'outbound'
+    """
+    try:
+        timestamp = datetime.utcnow()
+        s3_client.put_object(
+            Bucket=os.environ['LOG_BUCKET_NAME'],
+            Key=f"emails/{direction}/{timestamp.strftime('%Y/%m/%d')}.mbox",
+            Body=format_mbox_entry(email_content, timestamp),
+            ContentType='application/mbox'
+        )
+    except Exception as e:
+        print(f"Warning: Failed to log {direction} email: {str(e)}")
+
 def send_confirmation_email(ses_client, email_addr, name, revocation_token):
     """Send confirmation email with revocation link"""
     template = get_template('confirmation_email')
@@ -58,13 +75,16 @@ def send_confirmation_email(ses_client, email_addr, name, revocation_token):
     )
     
     msg.attach(MIMEText(body, 'plain'))
+    raw_email = msg.as_string()
 
     try:
         ses_client.send_raw_email(
             Source=CONFIG['email']['from'],
             Destinations=[email_addr],
-            RawMessage={'Data': msg.as_string()}
+            RawMessage={'Data': raw_email}
         )
+        # Log outbound email
+        log_email(boto3.client('s3'), raw_email, 'outbound')
         return True
     except Exception as e:
         print(f"Error sending confirmation email: {str(e)}")
@@ -79,6 +99,9 @@ def process_email(event, context):
     key = event['Records'][0]['s3']['object']['key']
     email_obj = s3.get_object(Bucket=bucket, Key=key)
     email_content = email_obj['Body'].read().decode('utf-8')
+    
+    # Log the incoming email
+    log_email(s3, email_content, 'inbound')
     
     # Parse the email
     msg = email.message_from_string(email_content)
