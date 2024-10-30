@@ -1,22 +1,22 @@
 ---
-description: คำแถลงจากชุมชนสนับสนุนคำนิยามโอเพนซอร์ส (OSD) เวอร์ชัน 1.9
+description: คำประกาศจากชุมชนเพื่อสนับสนุนการกำหนดโอเพนซอร์ส (OSD) เวอร์ชัน 1.9
 image: /assets/social-media-preview-th-TH.png
 layout: signed
 locale: th-TH
-title: ความมุ่งมั่นของชุมชนต่อคำนิยามโอเพนซอร์ส
+title: ความมุ่งมั่นของชุมชนต่อการกำหนดโอเพนซอร์ส
 twitter:
   card: summary_large_image
 ---
 # **คำประกาศ**
 
-## *พวกเรา สมาชิกที่ลงชื่อแนบนี้จากชุมชนโอเพนซอร์ส ขอยืนยันว่าโอเพนซอร์สนั้นนิยามไว้เพียงโดยคำนิยามโอเพนซอร์ส (OSD) เวอร์ชัน 1.9 เท่านั้น*
+## *เราขอประกาศว่าโอเพนซอร์สถูกกำหนดไว้โดยการกำหนดโอเพนซอร์ส (OSD) เวอร์ชัน 1.9 เท่านั้น*
 
-## *การแก้ไขหรือคำนิยามใหม่ใด ๆ จะรับรองได้ก็ต่อเมื่อได้รับความเห็นชอบชัดเจนจากชุมชนผ่านกระบวนการเปิดเผยและโปร่งใสที่จะกำหนดขึ้น*
+## *การแก้ไขหรือการกำหนดใหม่จะได้รับการยอมรับก็ต่อเมื่อมีฉันทามติที่ชัดเจนจากชุมชนผ่านกระบวนการที่เปิดเผยและโปร่งใสเท่านั้น*
 
 ---
 <br>
 
-- หากต้องการลงชื่อทางอีเมล กรุณาส่ง [อีเมลธรรมดา](https://useplaintext.email/)) พร้อมเนื้อหาหรือไม่มีก็ได้ไปที่ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- หากต้องการลงชื่อบน GitHub กรุณา [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/sos/issues/1),) [ใช้หน้าเว็บเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) หรือ [ส่งคำขอเปลี่ยนแปลง](https://github.com/OpenSourceDefinition/sos/pulls).)
-- หากต้องการลงชื่อบน Codeberg กรุณา [แสดงความคิดเห็นในประเด็นนี้](https://codeberg.org/osd/sos/issues/1)) หรือ [ส่งคำขอเปลี่ยนแปลง](https://codeberg.org/osd/sos/pulls).)
-- หรืออีกทางหนึ่ง คือ fork และ clone repo สร้างไฟล์ `_data/signed/<username>.yaml` ด้วยตนเอง จากนั้น commit และส่ง PR
+- เพื่อเซ็นชื่อผ่านอีเมล โปรดส่ง [อีเมลง่ายๆ](https://useplaintext.email/)) ที่มีหรือไม่มีเนื้อหาไปที่ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)
+- เพื่อเซ็นชื่อบน GitHub โปรด [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/sos/issues/1),) [ใช้เว็บอินเทอร์เฟซเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) หรือ [ส่งคำขอ pull](https://github.com/OpenSourceDefinition/sos/pulls).)
+- เพื่อเซ็นชื่อบน Codeberg โปรด [แสดงความคิดเห็นในประเด็นนี้](https://codeberg.org/osd/sos/issues/1)) หรือ [ส่งคำขอ pull](https://codeberg.org/osd/sos/pulls).)
+- หรือวิธีอื่น ให้ fork และ clone repo สร้างไฟล์ `_data/signed/<username>.yaml` ด้วยตนเอง แล้ว commit และส่ง PR.

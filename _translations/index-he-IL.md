@@ -1,5 +1,5 @@
 ---
-description: הצהרה מהקהילה בתמיכה בהגדרה של קוד פתוח (OSD) גרסה 1.9
+description: הצהרה מהקהילה בתמיכה בהגדרת הקוד הפתוח (OSD) גרסה 1.9
 image: /assets/social-media-preview-he-IL.png
 layout: signed
 locale: he-IL
@@ -9,14 +9,14 @@ twitter:
 ---
 # **הצהרה**
 
-## *אנחנו, החברים החתומים של קהילת הקוד הפתוח, מצהירים כי קוד פתוח מוגדר באופן בלעדי על ידי ההגדרה של קוד פתוח (OSD) גרסה 1.9.*
+## *אנחנו מכריזים שקוד פתוח מוגדר אך ורק על ידי הגדרת הקוד הפתוח (OSD) גרסה 1.9.*
 
-## *כל תיקון או הגדרה חדשה יוכרו רק אם יוכרזו בקונצנזוס ברור של הקהילה בתהליך פתוח ושקוף שייקבע.*
+## *כל תיקון או הגדרה חדשה יוכרו רק בהסכמה ברורה של הקהילה באמצעות תהליך פתוח ושקוף.*
 
 ---
 <br>
 
-- כדי לחתום בדוא"ל, שלח [דוא"ל בפורמט טקסט פשוט](https://useplaintext.email/)) ללא תוכן או עם כל תוכן ל-[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- כדי לחתום ב-GitHub, אנא [הגיב על הנושא הזה](https://github.com/OpenSourceDefinition/sos/issues/1),) [השתמש בממשק האינטרנט כדי ליצור קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) או [שלח בקשת משיכה](https://github.com/OpenSourceDefinition/sos/pulls).)
-- כדי לחתום ב-Codeberg, אנא [הגיב על הנושא הזה](https://codeberg.org/osd/sos/issues/1)) או [שלח בקשת משיכה](https://codeberg.org/osd/sos/pulls).)
-- לחלופין, הפצל ושכפל את המאגר, צור את הקובץ `_data/signed/<username>.yaml` בצורה ידנית, לאחר מכן בצע קומיט ושלח PR.
+- כדי לחתום באימייל, שלחו [אימייל בטקסט פשוט](https://useplaintext.email/)) עם או ללא תוכן ל-[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- כדי לחתום ב-GitHub, אנא [הגיבו לנושא זה](https://github.com/OpenSourceDefinition/sos/issues/1),), [השתמשו בממשק לאינטרנט ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) או [שלחו בקשת Pull](https://github.com/OpenSourceDefinition/sos/pulls).).
+- כדי לחתום ב-Codeberg, אנא [הגיבו לנושא זה](https://codeberg.org/osd/sos/issues/1)) או [שלחו בקשת Pull](https://codeberg.org/osd/sos/pulls).).
+- לחלופין, תעשו פורק ותשכפלו את הריפו, צרו את הקובץ `_data/signed/<username>.yaml` ידנית, ולאחר מכן התחייבו ושלחו PR.
