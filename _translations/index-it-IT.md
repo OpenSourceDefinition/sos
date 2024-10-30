@@ -12,7 +12,7 @@ twitter:
 
 ## *Noi, membri sottoscritti della comunità Open Source, dichiariamo che l'Open Source è definito esclusivamente dalla Definizione Open Source (OSD) versione 1.9.*
 
-## *Qualsiasi emendamento o nuova definizione sarà riconosciuto solo se dichiarato da un chiaro consenso della comunità attraverso un processo aperto e trasparente da determinare.*
+## *Eventuali modifiche o nuove definizioni saranno riconosciute solo se dichiarate da un chiaro consenso della comunità attraverso un processo aperto e trasparente da determinare.*
 
 ---
 <br>
