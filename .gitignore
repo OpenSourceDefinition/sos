@@ -8,4 +8,5 @@ vendor
 __pycache__/
 translate.log
 .DS_Store
+node_modules
 
