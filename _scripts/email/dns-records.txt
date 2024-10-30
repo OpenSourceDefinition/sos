@@ -1,0 +1,13 @@
+; Main domain MX record to receive emails
+mail.opensourcedeclaration.org.    IN MX 10 inbound-smtp.{region}.amazonaws.com.
+
+; SES DKIM verification
+{dkim1}._domainkey.mail.opensourcedeclaration.org.  IN CNAME {dkim1}.dkim.amazonses.com.
+{dkim2}._domainkey.mail.opensourcedeclaration.org.  IN CNAME {dkim2}.dkim.amazonses.com.
+{dkim3}._domainkey.mail.opensourcedeclaration.org.  IN CNAME {dkim3}.dkim.amazonses.com.
+
+; SPF record
+mail.opensourcedeclaration.org.    IN TXT "v=spf1 include:amazonses.com ~all"
+
+; API Gateway custom domain
+mail.opensourcedeclaration.org.    IN A     {CloudFront-IP}
