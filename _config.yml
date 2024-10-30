@@ -10,7 +10,6 @@ collections:
     output: true
     permalink: /:name:output_ext
 
-
 # Build settings
 theme: minima
 
