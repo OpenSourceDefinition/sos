@@ -21,4 +21,3 @@ twitter:
 - Щоб підписати на GitHub, будь ласка, [прокоментуйте цю тему](https://github.com/OpenSourceDefinition/sos/issues/1),) [використайте веб-інтерфейс, щоб створити новий файл](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) або [надішліть pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Щоб підписати на Codeberg, будь ласка, [прокоментуйте цю тему](https://codeberg.org/osd/sos/issues/1)) або [надішліть pull request](https://codeberg.org/osd/sos/pulls).
 - Або ж, форкніть і клонуте репозиторій, створіть файл `_data/signed/<username>.yaml` вручну, потім зробіть commit і надішліть PR.
-- Ви також можете запропонувати зміни до інформаційного листа вище по лінії, [відкривши issue](https://codeberg.org/osd/sos/issues).

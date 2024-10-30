@@ -20,4 +20,3 @@ twitter:
 - GitHub पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://github.com/OpenSourceDefinition/sos/issues/1), [नई फ़ाइल बनाने के लिए वेब इंटरफ़ेस का उपयोग करें](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), या [पुल अनुरोध सबमिट करें](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codeberg पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://codeberg.org/osd/sos/issues/1) या [पुल अनुरोध सबमिट करें](https://codeberg.org/osd/sos/pulls).
 - वैकल्पिक रूप से, रिपॉजिटरी को फोर्क और क्लोन करें, मैन्युअली फ़ाइल `_data/signed/<username>.yaml` बनाएं, फिर कमिट करें और PR सबमिट करें।
-- आप ऊपर दी गयी जानकारीपूर्ण पत्र में परिवर्तन प्रस्तावित करने के लिए भी [एक मुद्दा खोल सकते हैं](https://codeberg.org/osd/sos/issues).

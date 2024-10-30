@@ -21,4 +21,3 @@ twitter:
 - Untuk menandatangani di GitHub, silakan [komentar pada isu ini](https://github.com/OpenSourceDefinition/sos/issues/1),), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), atau [ajukan pull request](https://github.com/OpenSourceDefinition/sos/pulls).)
 - Untuk menandatangani di Codeberg, silakan [komentar pada isu ini](https://codeberg.org/osd/sos/issues/1)) atau [ajukan pull request](https://codeberg.org/osd/sos/pulls).)
 - Atau, fork dan clone repo, buat file `_data/signed/<username>.yaml` secara manual, lalu commit dan ajukan PR.
-- Anda juga dapat mengusulkan perubahan pada surat informatif di atas garis dengan [membuka isu](https://codeberg.org/osd/sos/issues).)

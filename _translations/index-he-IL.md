@@ -20,4 +20,3 @@ twitter:
 - כדי לחתום ב-GitHub, אנא [הגיב על הנושא הזה](https://github.com/OpenSourceDefinition/sos/issues/1),) [השתמש בממשק האינטרנט כדי ליצור קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) או [שלח בקשת משיכה](https://github.com/OpenSourceDefinition/sos/pulls).)
 - כדי לחתום ב-Codeberg, אנא [הגיב על הנושא הזה](https://codeberg.org/osd/sos/issues/1)) או [שלח בקשת משיכה](https://codeberg.org/osd/sos/pulls).)
 - לחלופין, הפצל ושכפל את המאגר, צור את הקובץ `_data/signed/<username>.yaml` בצורה ידנית, לאחר מכן בצע קומיט ושלח PR.
-- אתה יכול גם להציע שינויים למכתב המידעי שמעל הקו על ידי [פתיחת נושא](https://codeberg.org/osd/sos/issues).)}

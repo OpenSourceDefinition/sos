@@ -20,4 +20,3 @@ twitter:
 - Pro podepsání na GitHubu, prosím [komentujte tuto záležitost](https://github.com/OpenSourceDefinition/sos/issues/1),), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) nebo [odešlete pull request](https://github.com/OpenSourceDefinition/sos/pulls).).
 - Pro podepsání na Codebergu, prosím [komentujte tuto záležitost](https://codeberg.org/osd/sos/issues/1)) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).).
 - Alternativně, fork a klonování repozitáře, vytvořte soubor `_data/signed/<username>.yaml` ručně, pak commitněte a odešlete PR.
-- Můžete také navrhnout změny informačního dopisu nad čarou [otevřením problému](https://codeberg.org/osd/sos/issues).).

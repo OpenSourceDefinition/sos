@@ -20,4 +20,3 @@ twitter:
 - GitHubで署名するには、[このイシューにコメントする](https://github.com/OpenSourceDefinition/sos/issues/1),)か、[新しいファイルを作成するウェブインターフェースを使用](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),)するか、[プルリクエストを送信する](https://github.com/OpenSourceDefinition/sos/pulls).)してください。
 - Codebergで署名するには、[このイシューにコメントする](https://codeberg.org/osd/sos/issues/1))か、[プルリクエストを送信する](https://codeberg.org/osd/sos/pulls).)してください。
 - あるいは、リポジトリをフォークしてクローンし、ディレクトリに手動で`_data/signed/<username>.yaml`というファイルを作成し、それをコミットしてPRを提出してください。
-- また、上記の説明文に変更を提案するには、[イシューを開く](https://codeberg.org/osd/sos/issues).)ことができます。

@@ -21,4 +21,3 @@ twitter:
 - Para lumagda sa GitHub, mangyaring [magkomento sa isyung ito](https://github.com/OpenSourceDefinition/sos/issues/1),) [gamitin ang web interface upang lumikha ng bagong file](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) o [magsumite ng pull request](https://github.com/OpenSourceDefinition/sos/pulls).)
 - Para lumagda sa Codeberg, mangyaring [magkomento sa isyung ito](https://codeberg.org/osd/sos/issues/1)) o [magsumite ng pull request](https://codeberg.org/osd/sos/pulls).)
 - Bilang alternatibo, i-fork at i-clone ang repo, manu-manong gumawa ng file na `_data/signed/<username>.yaml`, pagkatapos ay i-commit at magsumite ng PR.
-- Maaari ka ring magmungkahi ng mga pagbabago sa impormatibong liham sa itaas ng linya sa pamamagitan ng [pagbukas ng isyu](https://codeberg.org/osd/sos/issues).)

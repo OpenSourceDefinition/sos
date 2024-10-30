@@ -20,4 +20,3 @@ twitter:
 - GitHub இல் கையொப்பமிட, தயவுசெய்து [இந்த பிரச்சினையில் கருத்துரைக்கவும்](https://github.com/OpenSourceDefinition/sos/issues/1),) அல்லது [ஒரு புதிய கோப்பு உருவாக்க சர்வதேச இடைமுகத்தைப் பயன்படுத்தவும்](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) அல்லது [ஒரு மாற்றமற்ற கோரிக்கையைச் சமர்ப்பிக்கவும்](https://github.com/OpenSourceDefinition/sos/pulls).)
 - Codeberg இல் கையொப்பமிட, [இந்த பிரச்சினையில் கருத்துரைக்கவும்](https://codeberg.org/osd/sos/issues/1)) அல்லது [ஒரு மாற்றமற்ற கோரிக்கையைச் சமர்ப்பிக்கவும்](https://codeberg.org/osd/sos/pulls).)
 - மாற்றாக, ஒதுக்குபவர் உறுப்பு மற்றும் கோப்பகத்தை கிளோன் செய்யவும், `_data/signed/<username>.yaml` கோப்பை கைகொடுப்பாக உருவாக்கி, பின்னர் உறுத்துகையுடன் சமர்ப்பிக்கவும்.
-- மேலே உள்ள அறிவுரைக் கடிதத்திற்கு மாற்றங்களை பரிந்துரைக்க [ஒரு பிரச்சினையைத் திறக்கவும்](https://codeberg.org/osd/sos/issues).)

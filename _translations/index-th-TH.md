@@ -20,4 +20,3 @@ twitter:
 - หากต้องการลงชื่อบน GitHub กรุณา [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/sos/issues/1),) [ใช้หน้าเว็บเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) หรือ [ส่งคำขอเปลี่ยนแปลง](https://github.com/OpenSourceDefinition/sos/pulls).)
 - หากต้องการลงชื่อบน Codeberg กรุณา [แสดงความคิดเห็นในประเด็นนี้](https://codeberg.org/osd/sos/issues/1)) หรือ [ส่งคำขอเปลี่ยนแปลง](https://codeberg.org/osd/sos/pulls).)
 - หรืออีกทางหนึ่ง คือ fork และ clone repo สร้างไฟล์ `_data/signed/<username>.yaml` ด้วยตนเอง จากนั้น commit และส่ง PR
-- คุณสามารถเสนอการเปลี่ยนแปลงจดหมายข้อมูลข้างบนเส้นโดย [เปิดประเด็น](https://codeberg.org/osd/sos/issues).)

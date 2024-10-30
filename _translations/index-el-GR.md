@@ -21,4 +21,3 @@ twitter:
 - Για να υπογράψετε στο GitHub, παρακαλούμε [σχολιάστε σε αυτό το ζήτημα](https://github.com/OpenSourceDefinition/sos/issues/1), [χρησιμοποιήστε τη διεπαφή web για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ή [υποβάλετε ένα αίτημα έλξης](https://github.com/OpenSourceDefinition/sos/pulls).
 - Για να υπογράψετε στο Codeberg, παρακαλούμε [σχολιάστε σε αυτό το ζήτημα](https://codeberg.org/osd/sos/issues/1) ή [υποβάλετε ένα αίτημα έλξης](https://codeberg.org/osd/sos/pulls).
 - Εναλλακτικά, αντιγράψτε και κλωνοποιήστε το repo, δημιουργήστε το αρχείο `_data/signed/<username>.yaml` χειροκίνητα, στη συνέχεια δεσμεύστε και υποβάλετε ένα PR.
-- Μπορείτε επίσης να προτείνετε αλλαγές στην ενημερωτική επιστολή πάνω από τη γραμμή ανοίγοντας [ένα ζήτημα](https://codeberg.org/osd/sos/issues).

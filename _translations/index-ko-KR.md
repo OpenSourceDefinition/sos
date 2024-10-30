@@ -20,4 +20,3 @@ twitter:
 - GitHub에서 서명하려면, [이 이슈에 댓글 남기기](https://github.com/OpenSourceDefinition/sos/issues/1),) 또는 [새 파일을 생성](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),)하거나 [풀 리퀘스트 제출](https://github.com/OpenSourceDefinition/sos/pulls).)하세요.
 - Codeberg에서 서명하려면, [이 이슈에 댓글 남기기](https://codeberg.org/osd/sos/issues/1)) 또는 [풀 리퀘스트 제출](https://codeberg.org/osd/sos/pulls).)하세요.
 - 또는 레포를 포크하고 클론한 뒤, '_data/signed/<username>.yaml' 파일을 직접 생성하고 커밋하여 PR을 제출하세요.
-- 위 줄의 안내문을 변경하려면 [이슈를 열어](https://codeberg.org/osd/sos/issues).) 제안할 수 있습니다.

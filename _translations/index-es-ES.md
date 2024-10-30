@@ -21,4 +21,3 @@ twitter:
 - Para firmar en GitHub, por favor [comente en este tema](https://github.com/OpenSourceDefinition/sos/issues/1),) [use la interfaz web para crear un nuevo archivo](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) o [envíe una solicitud de extracción](https://github.com/OpenSourceDefinition/sos/pulls).
 - Para firmar en Codeberg, por favor [comente en este tema](https://codeberg.org/osd/sos/issues/1)) o [envíe una solicitud de extracción](https://codeberg.org/osd/sos/pulls).
 - Alternativamente, bifurque y clone el repositorio, cree manualmente el archivo `_data/signed/<nombredeusuario>.yaml`, luego confirme y envíe un PR.
-- También puede proponer cambios a la carta informativa arriba de la línea abriendo [un tema](https://codeberg.org/osd/sos/issues).

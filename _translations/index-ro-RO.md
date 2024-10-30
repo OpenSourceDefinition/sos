@@ -21,4 +21,3 @@ twitter:
 - Pentru a semna pe GitHub, vă rugăm să [comentați la această problemă](https://github.com/OpenSourceDefinition/sos/issues/1),, [folosiți interfața web pentru a crea un fișier nou](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), sau [trimiteți un pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Pentru a semna pe Codeberg, vă rugăm să [comentați la această problemă](https://codeberg.org/osd/sos/issues/1) sau [trimiteți un pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativ, clonați și forkați repo-ul, creați manual fișierul `_data/signed/<username>.yaml`, apoi comiteți și trimiteți un PR.
-- De asemenea, puteți propune schimbări la scrisoarea informativă de mai sus de linie prin [deschiderea unei probleme](https://codeberg.org/osd/sos/issues).

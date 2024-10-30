@@ -21,4 +21,3 @@ twitter:
 - För att skriva under på GitHub, vänligen [kommentera på denna fråga](https://github.com/OpenSourceDefinition/sos/issues/1),), [använd webbgränssnittet för att skapa en ny fil](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) eller [skicka in en pull-begäran](https://github.com/OpenSourceDefinition/sos/pulls).)
 - För att skriva under på Codeberg, vänligen [kommentera på denna fråga](https://codeberg.org/osd/sos/issues/1)) eller [skicka in en pull-begäran](https://codeberg.org/osd/sos/pulls).)
 - Alternativt kan du forka och klona repot, skapa filen `_data/signed/<användarnamn>.yaml` manuellt, sedan begå och skicka in en PR.
-- Du kan också föreslå ändringar till informationsbrevet ovanför linjen genom att [öppna en fråga](https://codeberg.org/osd/sos/issues).).

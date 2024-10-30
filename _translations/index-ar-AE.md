@@ -20,4 +20,3 @@ twitter:
 - للتوقيع على GitHub، يرجى [التعليق على هذا الموضوع](https://github.com/OpenSourceDefinition/sos/issues/1), [استخدام الواجهة لإضافة ملف جديد](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), أو [إرسال طلب سحب](https://github.com/OpenSourceDefinition/sos/pulls).
 - للتوقيع على Codeberg، يرجى [التعليق على هذا الموضوع](https://codeberg.org/osd/sos/issues/1) أو [إرسال طلب سحب](https://codeberg.org/osd/sos/pulls).
 - بدلاً من ذلك، يمكنك استنساخ المشروع، إنشاء الملف `_data/signed/<username>.yaml` يدويًا، ثم الالتزام وإرسال PR.
-- يمكنك أيضًا اقتراح تغييرات على الرسالة التوضيحية أعلى السطر عن طريق [فتح قضية](https://codeberg.org/osd/sos/issues).

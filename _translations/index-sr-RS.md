@@ -20,4 +20,3 @@ twitter:
 - За потписивање на GitHub-у, молимо [коментаришите на овом питању](https://github.com/OpenSourceDefinition/sos/issues/1),, [користите веб интерфејс за креирање нове датотеке](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), или [пошаљите захтев за измену](https://github.com/OpenSourceDefinition/sos/pulls).).
 - За потписивање на Codeberg-у, молимо [коментаришите на овом питању](https://codeberg.org/osd/sos/issues/1)) или [пошаљите захтев за измену](https://codeberg.org/osd/sos/pulls).)
 - Алтернативно, форкујте и клонирајте репо, направите датотеку `_data/signed/<корисничко име>.yaml` ручно, затим пошаљите и поднесите PR.
-- Такође можете предложити измене у описном писму изнад линије отварањем [новог питања](https://codeberg.org/osd/sos/issues).).

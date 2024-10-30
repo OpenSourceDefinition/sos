@@ -20,4 +20,3 @@ twitter:
 - برای امضا در گیت‌هاب، لطفاً [روی این موضوع نظر دهید](https://github.com/OpenSourceDefinition/sos/issues/1),) [از رابط وب برای ایجاد یک فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) یا [یک درخواست برای پول بدهید](https://github.com/OpenSourceDefinition/sos/pulls).)
 - برای امضا در کودبرگ، لطفاً [روی این موضوع نظر دهید](https://codeberg.org/osd/sos/issues/1)) یا [یک درخواست برای پول بدهید](https://codeberg.org/osd/sos/pulls).)
 - به‌طور مستقل، مخزن را فورک و کلون کرده، فایل `_data/signed/<username>.yaml` را به‌صورت دستی ایجاد کنید، سپس تعهد و درخواست PR بدهید.
-- همچنین می‌توانید پیشنهاد تغییرات به نامه اطلاع‌رسانی بالای خط را با [باز کردن یک موضوع](https://codeberg.org/osd/sos/issues).) ارائه دهید.
