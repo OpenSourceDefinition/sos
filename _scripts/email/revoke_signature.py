@@ -48,13 +48,16 @@ def send_revocation_confirmation(ses_client, email_addr):
     )
     
     msg.attach(MIMEText(body, 'plain'))
+    raw_email = msg.as_string()
 
     try:
         ses_client.send_raw_email(
             Source=CONFIG['email']['from'],
             Destinations=[email_addr],
-            RawMessage={'Data': msg.as_string()}
+            RawMessage={'Data': raw_email}
         )
+        # Log outbound email
+        log_email(boto3.client('s3'), raw_email, 'outbound')
         return True
     except Exception as e:
         print(f"Error sending revocation confirmation: {str(e)}")
