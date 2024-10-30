@@ -21,4 +21,3 @@ twitter:
 - Om op GitHub te ondertekenen, graag [reageer op dit issue](https://github.com/OpenSourceDefinition/sos/issues/1),) [gebruik de webinterface om een nieuw bestand te maken](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) of [dien een pull-request in](https://github.com/OpenSourceDefinition/sos/pulls).).
 - Om op Codeberg te ondertekenen, graag [reageer op dit issue](https://codeberg.org/osd/sos/issues/1)) of [dien een pull-request in](https://codeberg.org/osd/sos/pulls).).
 - Als alternatief, fork en kloon de repo, maak het bestand `_data/signed/<gebruikersnaam>.yaml` handmatig aan, commit en dien een PR in.
-- Je kunt ook wijzigingen voorstellen aan de informatieve brief boven de lijn door [een issue te openen](https://codeberg.org/osd/sos/issues).).

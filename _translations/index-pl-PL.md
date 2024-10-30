@@ -21,4 +21,4 @@ twitter:
 - Aby podpisać się na GitHub, proszę [skomentować ten temat](https://github.com/OpenSourceDefinition/sos/issues/1),) [użyj interfejsu sieciowego do stworzenia nowego pliku](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) lub [zgłoś pull request](https://github.com/OpenSourceDefinition/sos/pulls).)
 - Aby podpisać się na Codeberg, proszę [skomentować ten temat](https://codeberg.org/osd/sos/issues/1)) lub [zgłoś pull request](https://codeberg.org/osd/sos/pulls).)
 - Alternatywnie, sforkuj i sklonuj repozytorium, utwórz plik `_data/signed/<username>.yaml` ręcznie, następnie zatwierdź i wyślij PR.
-- Możesz również proponować zmiany w informacyjnym liście powyżej linii, [otwierając temat](https://codeberg.org/osd/sos/issues).)}
+

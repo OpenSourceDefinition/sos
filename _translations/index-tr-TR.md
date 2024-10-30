@@ -20,4 +20,3 @@ twitter:
 - GitHub'da imzalamak için, lütfen [bu konuya yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1), veya [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ya da [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codeberg'de imzalamak için, lütfen [bu konuya yorum yapın](https://codeberg.org/osd/sos/issues/1) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).
 - Alternatif olarak, depoyu çatallayıp kopyalayabilir, `_data/signed/<kullanıcıadı>.yaml` dosyasını manuel olarak oluşturabilir, ardından değişiklikleri gönderip bir PR sunabilirsiniz.
-- Ayrıca, yukarıdaki bilgilendirici mektuba yönelik değişiklik teklifinde bulunmak için [bir konu açabilirsiniz](https://codeberg.org/osd/sos/issues).)

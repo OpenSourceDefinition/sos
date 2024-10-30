@@ -21,4 +21,3 @@ twitter:
 - Um auf GitHub zu unterschreiben, bitte [kommentieren Sie dieses Issue](https://github.com/OpenSourceDefinition/sos/issues/1), [verwenden Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), oder [reichen Sie einen Pull-Request ein](https://github.com/OpenSourceDefinition/sos/pulls).
 - Um auf Codeberg zu unterschreiben, bitte [kommentieren Sie dieses Issue](https://codeberg.org/osd/sos/issues/1) oder [reichen Sie einen Pull-Request ein](https://codeberg.org/osd/sos/pulls).
 - Alternativ: Forken und klonen Sie das Repository, erstellen Sie die Datei `_data/signed/<Benutzername>.yaml` manuell, dann committen und reichen Sie einen PR ein.
-- Sie können auch Änderungen am informativen Schreiben über der Linie vorschlagen, indem Sie [ein Issue öffnen](https://codeberg.org/osd/sos/issues).

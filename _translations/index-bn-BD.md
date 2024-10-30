@@ -20,4 +20,3 @@ twitter:
 - GitHub এ স্বাক্ষর করতে, এই [মন্তব্যে ইস্যু করুন](https://github.com/OpenSourceDefinition/sos/issues/1),), অথবা [ওয়েব ইন্টারফেসে নতুন ফাইল তৈরি করুন](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), অথবা [পুল রিকোয়েস্ট জমা দিন](https://github.com/OpenSourceDefinition/sos/pulls).)।
 - Codeberg এ স্বাক্ষর করতে, এই [মন্তব্যে ইস্যু করুন](https://codeberg.org/osd/sos/issues/1)) অথবা [পুল রিকোয়েস্ট জমা দিন](https://codeberg.org/osd/sos/pulls).)।
 - অন্যথায়, রিপো ফর্ক এবং ক্লোন করুন, `_data/signed/<username>.yaml` ফাইলটি নিজে তৈরি করুন, তারপর কমিট করে একটি PR জমা দিন।
-- উপরের লাইনের তথ্যমূলক চিঠিতে পরিবর্তনের প্রস্তাব করতে পারেন [একটি ইস্যু খুলুন](https://codeberg.org/osd/sos/issues).)।

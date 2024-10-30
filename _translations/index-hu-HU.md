@@ -21,4 +21,3 @@ twitter:
 - GitHub felületen való aláíráshoz kérjük, [kommentáljon erre az issue-ra](https://github.com/OpenSourceDefinition/sos/issues/1),), [a webfelületen hozzon létre egy új fájlt](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) vagy [küldjön be egy pull requestet](https://github.com/OpenSourceDefinition/sos/pulls).).
 - Codeberg felületen való aláíráshoz kérjük, [kommentáljon erre az issue-ra](https://codeberg.org/osd/sos/issues/1)) vagy [küldjön be egy pull requestet](https://codeberg.org/osd/sos/pulls).).
 - Alternatív megoldásként forkolja és klónozza a repót, manuálisan készítse el a `_data/signed/<felhasználónév>.yaml` fájlt, majd commitolja és küldjön be egy PR-t.
-- Javasolhat változtatásokat az információs levél vonala fölött is azzal, hogy [nyit egy issue-t](https://codeberg.org/osd/sos/issues).).
