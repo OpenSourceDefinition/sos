@@ -1,3 +1,4 @@
+{% if site.data.signed.size > 10 %}
 <p><b>Signed by {{ site.data.signed.size }} individuals:</b></p>
 <ol>
   <!--<li><a href="https://github.com/[1-999][1-999][1-999][1-999]">Spider Trap</a></li>-->
@@ -28,3 +29,4 @@
   {%- endif -%}
 {%- endfor -%}
 </ol>
+{% endif %}
