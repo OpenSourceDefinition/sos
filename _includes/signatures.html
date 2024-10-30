@@ -26,7 +26,8 @@
   <li>
   	<a href="{{ link }}">{{ name }}</a>
   </li>
-  {%- else -%}
+  {%- elif sign_items[2] -%}
+  {%- assign name = sign_items[2] -%}
   <li>
   	<a name="#">{{ name }}</a>
   </li>
