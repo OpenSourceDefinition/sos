@@ -26,6 +26,10 @@
   <li>
   	<a href="{{ link }}">{{ name }}</a>
   </li>
+  {%- else -%}
+  <li>
+  	<a name="#">{{ name }}</a>
+  </li>
   {%- endif -%}
 {%- endfor -%}
 </ol>
