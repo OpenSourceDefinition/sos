@@ -1,22 +1,22 @@
 ---
-description: திறந்த மூல வரையறை (OSD) பதிப்பு 1.9க்கு ஆதரவாக சமுதாயத்தின் அறிக்கை
+description: திறந்த மூல வரையறை (OSD) பதிப்பு 1.9 க்கு ஆதரவு அளிக்கும் ஒரு அறிவிப்பு
 image: /assets/social-media-preview-ta-IN.png
 layout: signed
 locale: ta-IN
-title: திறந்த மூல வரையறைக்கு சமூகத்தின் அர்ப்பணிப்பு
+title: திறந்த மூல வரையறைக்கு சமுதாயத்தின் அர்ப்பணிப்பு
 twitter:
   card: summary_large_image
 ---
 # **அறிக்கை**
 
-## *திறந்த மூலத்தின் வரையறை திறந்த மூல வரையறை (OSD) பதிப்பு 1.9 மூலம் மட்டுமே வரையறுக்கப்படுகிறது என்பது நாங்கள் அறிவிக்கிறோம்.*
+## *திறந்த மூலத்தை [திறந்த மூல வரையறை (OSD) பதிப்பு 1.9](https://opensourcedefinition.org/) மட்டுமே வரையறுக்கிறது என்று நாம் அறிவிக்கிறோம்.*
 
-## *எந்த மாற்றங்கள் அல்லது புதிய வரையறைகளும் திறந்த மற்றும் வெளிப்பட்ட செயல்முறையின் மூலம் சமுதாயத்தின் தெளிவான இணக்கப்பாட்டுடன் மட்டுமே அமலாக்கப்படும்.*
+## *ஏதேனும் திருத்தங்கள் அல்லது புதிய வரையறைகள் தெளிவான சமுதாய அங்கீகாரம் மூலம் திறந்த மற்றும் விளக்கமான செயன்முறையால் மட்டுப்பொறுக்கப்படும்.*
 
 ---
 <br>
 
-- மின்னஞ்சல் மூலம் கையொப்பமிட, எந்தவொரு உள்ளடக்கம் இல்லாமல் [பிளெயின்-டெக்ஸ்ட் மின்னஞ்சல்](https://useplaintext.email/)ஐ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)க்கு அனுப்பவும்.
-- GitHub இல் கையொப்பமிட, தயவுசெய்து [இந்த பிரச்சினையில் கருத்து](https://github.com/OpenSourceDefinition/sos/issues/1), [புதிய கோப்பை உருவாக்க வெப் இடைமுகத்தைப் பயன்படுத்தவும்](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) அல்லது [புல் கோரிக்கையை சமர்ப்பிக்கவும்](https://github.com/OpenSourceDefinition/sos/pulls).
-- Codeberg இல் கையொப்பமிட, தயவுசெய்து [இந்த பிரச்சினையில் கருத்து](https://codeberg.org/osd/sos/issues/1) அல்லது [புல் கோரிக்கையை சமர்ப்பிக்கவும்](https://codeberg.org/osd/sos/pulls).
-- மாற்றாக, ரெப்போவை ஃபோர்க் மற்றும் கிளோன் செய்து, `_data/signed/<username>.yaml` என்ற கோப்பை கைமுறையாக உருவாக்கி, பின்னர் கமிட் செய்து PR சமர்ப்பிக்கவும்.
+- மின்னஞ்சல் மூலமாக கையொப்பமிட, [level-உரையாடல் மின்னஞ்சல்](https://useplaintext.email/) ஒன்றை [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht). என்ற முகவரிக்கு, உள்ளடக்கம் உள்ளதோ இல்லாமலா அனுப்புக.
+- GitHub இல் கையொப்பமிட, [இந்த விவகாரத்தில் கருத்துரைக்கவும்](https://github.com/OpenSourceDefinition/sos/issues/1), [வலை இடைமுகத்தைப் பயன்படுத்தி புதிய கோப்பை உருவாக்கவும்](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), அல்லது [pull request சமர்ப்பிக்கவும்](https://github.com/OpenSourceDefinition/sos/pulls).
+- Codeberg இல் கையொப்பமிட, [இந்த விவகாரத்தில் கருத்துரைக்கவும்](https://codeberg.org/osd/sos/issues/1) அல்லது [pull request சமர்ப்பிக்கவும்](https://codeberg.org/osd/sos/pulls).
+- மாற்றாக, repo-ஐ கிளை செய்து, `_data/signed/<username>.yaml` கையை சுயமாக உருவாக்கி, commit செய்து PR அனுப்பவும்.

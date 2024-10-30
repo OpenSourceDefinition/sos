@@ -10,7 +10,7 @@ twitter:
 
 # **Declaration**
 
-## *We declare that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.*
+## *We declare that Open Source is defined solely by the [Open Source Definition (OSD) version 1.9](https://opensourcedefinition.org/).*
 
 ## *Any amendments or new definitions shall only be recognized with clear community consensus via an open and transparent process.*
 

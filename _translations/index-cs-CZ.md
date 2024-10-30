@@ -1,22 +1,22 @@
 ---
-description: Prohlášení komunity na podporu definice open source (OSD) verze 1.9
+description: Prohlášení komunity na podporu Definice Open Source (OSD) verze 1.9
 image: /assets/social-media-preview-cs-CZ.png
 layout: signed
 locale: cs-CZ
-title: Závazek komunity k definici open source
+title: Závazek Komunity k Definici Open Source
 twitter:
   card: summary_large_image
 ---
 # **Prohlášení**
 
-## *Prohlašujeme, že Open Source je definován výhradně definicí open source (OSD) verze 1.9.*
+## *Prohlašujeme, že Open Source je definováno výhradně [Definicí Open Source (OSD) verze 1.9](https://opensourcedefinition.org/).*
 
-## *Jakékoliv změny nebo nové definice budou uznány pouze s jasným konsensem komunity prostřednictvím otevřeného a transparentního procesu.*
+## *Jakékoliv úpravy nebo nové definice budou uznávány pouze s jasným konsenzem komunity prostřednictvím otevřeného a transparentního procesu.*
 
 ---
 <br>
 
-- Chcete-li se přihlásit e-mailem, pošlete [prostý textový e-mail](https://useplaintext.email/) s libovolným obsahem na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
-- Chcete-li se přihlásit na GitHubu, prosím [komentujte tento problém](https://github.com/OpenSourceDefinition/sos/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) nebo [odešlete pull request](https://github.com/OpenSourceDefinition/sos/pulls).
-- Chcete-li se přihlásit na Codebergu, prosím [komentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
-- Alternativně můžete forknout a naklonovat repozitář, ručně vytvořit soubor `_data/signed/<username>.yaml`, poté commitněte a odešlete PR.
+- Chcete-li podepsat e-mailem, pošlete [textový e-mail](https://useplaintext.email/) s jakýmkoliv obsahem či bez něj na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Chcete-li podepsat na GitHubu, prosím [okomentujte tento problém](https://github.com/OpenSourceDefinition/sos/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), nebo [odešlete pull request](https://github.com/OpenSourceDefinition/sos/pulls).
+- Chcete-li podepsat na Codebergu, prosím [okomentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
+- Alternativně, fork a clone repo, vytvořte soubor `_data/signed/<uživatelské jméno>.yaml` ručně, poté commitněte a odešlete PR.

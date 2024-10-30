@@ -4,15 +4,15 @@ description: A statement from the community in support of the Open Source Defini
 image: /assets/social-media-preview-en-GB.png
 layout: signed
 locale: en-GB
-title: Community Commitment to Open Source Definition
+title: Community Commitment to the Open Source Definition
 twitter:
   card: summary_large_image
 ---
 # **Declaration**
 
-## *We declare that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.*
+## *We declare that Open Source is defined solely by the [Open Source Definition (OSD) version 1.9](https://opensourcedefinition.org/).*
 
-## *Any amendments or new definitions shall only be recognised with clear community consensus via an open and transparent process.*
+## *Any amendments or new definitions will only be recognised with clear community consensus through an open and transparent process.*
 
 ---
 <br>

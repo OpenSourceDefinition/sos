@@ -1,5 +1,5 @@
 ---
-description: Topluluktan, Açık Kaynak Tanımı (OSD) sürüm 1.9'u destekleme beyanı
+description: Açık Kaynak Tanımı (OSD) 1.9 sürümünü destekleyen topluluk bildirisi
 image: /assets/social-media-preview-tr-TR.png
 layout: signed
 locale: tr-TR
@@ -9,14 +9,14 @@ twitter:
 ---
 # **Bildiri**
 
-## *Açık Kaynak'ın yalnızca Açık Kaynak Tanımı (OSD) sürüm 1.9 tarafından tanımlandığını beyan ediyoruz.*
+## *Açık Kaynak'ın yalnızca [Açık Kaynak Tanımı (OSD) 1.9 sürümü](https://opensourcedefinition.org/) ile tanımlandığını beyan ederiz.*
 
-## *Herhangi bir değişiklik veya yeni tanımlar, yalnızca açık ve şeffaf bir süreçle net topluluk mutabakatı olması halinde tanınacaktır.*
+## *Herhangi bir değişiklik veya yeni tanımlar, yalnızca açık ve şeffaf bir süreçle topluluk tarafından açıkça kabul edildiğinde tanınacaktır.*
 
 ---
 <br>
 
-- E-posta yoluyla imzalamak için, herhangi bir içerikle veya içeriği olmadan [düz metin bir e-posta](https://useplaintext.email/) [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) adresine gönderin.
-- GitHub'da imzalamak için lütfen [bu sorun üzerine yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1), [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).
-- Codeberg'de imzalamak için lütfen [bu sorun üzerine yorum yapın](https://codeberg.org/osd/sos/issues/1) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).
-- Alternatif olarak, deposu çatallayın ve klonlayın, `_data/signed/<kullanıcıadı>.yaml` dosyasını elle oluşturun, ardından taahhütte bulunup bir PR gönderin.
+- E-posta ile imzalamak için, [düz metin e-posta](https://useplaintext.email/) ile herhangi bir içerik olmadan veya içerikle [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) adresine gönderin.
+- GitHub'da imzalamak için lütfen [bu konuya yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1), [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).
+- Codeberg'de imzalamak için lütfen [bu konuya yorum yapın](https://codeberg.org/osd/sos/issues/1) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).
+- Alternatif olarak, depoyu çatallayıp kopyalayın, `-data/signed/<kullanıcıadı>.yaml` dosyasını manuel olarak oluşturun, ardından taahhüt edin ve bir PR gönderin.
