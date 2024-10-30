@@ -1,3 +1,4 @@
 lambda/
 lambda-layer/
 .env
+node_modules
