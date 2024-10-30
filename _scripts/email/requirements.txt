@@ -1,0 +1,4 @@
+PyGithub
+PyYAML
+boto3
+beautifulsoup4

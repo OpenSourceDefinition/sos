@@ -1,0 +1,15 @@
+urls:
+  base: "https://opensourcedeclaration.org"
+  github_repo: "https://github.com/OpenSourceDefinition/sos"
+  file_base: "https://github.com/OpenSourceDefinition/sos/blob/main"
+
+email:
+  from: "noreply@opensourcedeclaration.org"
+  sign_address: "sign@opensourcedeclaration.org"
+  subjects:
+    confirmation: "Thank you for signing the Open Source Definition Declaration"
+    revocation: "Signature Revocation Confirmation - Open Source Definition"
+
+paths:
+  templates: "_templates"
+  signatures: "_data/signed"
