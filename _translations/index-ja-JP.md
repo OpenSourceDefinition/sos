@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- メールで署名するには、[プレーンテキストメール](https://useplaintext.email/)に内容を記載するかせずに[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)へ送信してください。
+- メールで署名するには、[プレーンテキストメール](https://useplaintext.email/)に内容を記載するかせずに[u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)へ送信してください。
 - GitHub で署名するには、[このイシューにコメント](https://github.com/OpenSourceDefinition/sos/issues/1)、[ウェブインターフェースを使用して新しいファイルを作成](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)、または[プルリクエストを提出](https://github.com/OpenSourceDefinition/sos/pulls)してください。
 - Codeberg で署名するには、[このイシューにコメント](https://codeberg.org/osd/sos/issues/1)するか[プルリクエストを提出](https://codeberg.org/osd/sos/pulls)してください。
 - 代わりにリポジトリをフォークしクローンして、ファイル `_data/signed/<username>.yaml` を手動で作成し、コミットしてPRを提出してください。

@@ -7,7 +7,7 @@
 
 ### Підписання
 
-Щоб підписати через електронну пошту, надішліть [текстовий лист](https://useplaintext.email/)) із будь-яким або без вмісту на [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Щоб підписати через електронну пошту, надішліть [текстовий лист](https://useplaintext.email/)) із будь-яким або без вмісту на [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Щоб підписати на GitHub, будь ласка, [залиште коментар у цій темі](https://github.com/OpenSourceDefinition/sos/issues/1),), [використовуйте веб-інтерфейс для створення нового файлу](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) або [надішліть запит на злиття](https://github.com/OpenSourceDefinition/sos/pulls).).
 Щоб підписати на Codeberg, будь ласка, [залиште коментар у цій темі](https://codeberg.org/osd/sos/issues/1)) або [надішліть запит на злиття](https://codeberg.org/osd/sos/pulls).).
 Альтернативно, форкніть і клонувати репозиторій, створіть файл `_data/signed/<username>.yaml` вручну, потім комітніть і надішліть PR.

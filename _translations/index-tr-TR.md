@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- E-posta ile imzalamak için, [düz metin e-posta](https://useplaintext.email/) ile herhangi bir içerik olmadan veya içerikle [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) adresine gönderin.
+- E-posta ile imzalamak için, [düz metin e-posta](https://useplaintext.email/) ile herhangi bir içerik olmadan veya içerikle [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) adresine gönderin.
 - GitHub'da imzalamak için lütfen [bu konuya yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1), [yeni bir dosya oluşturmak için web arayüzünü kullanın](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codeberg'de imzalamak için lütfen [bu konuya yorum yapın](https://codeberg.org/osd/sos/issues/1) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).
 - Alternatif olarak, depoyu çatallayıp kopyalayın, `-data/signed/<kullanıcıadı>.yaml` dosyasını manuel olarak oluşturun, ardından taahhüt edin ve bir PR gönderin.

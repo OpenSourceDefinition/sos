@@ -7,7 +7,7 @@
 
 ### امضا
 
-برای امضا از طریق ایمیل، یک [ایمیل متنی ساده](https://useplaintext.email/)) با محتوای دلخواه یا بدون محتوا به [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) ارسال کنید.
+برای امضا از طریق ایمیل، یک [ایمیل متنی ساده](https://useplaintext.email/)) با محتوای دلخواه یا بدون محتوا به [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) ارسال کنید.
 برای امضا در GitHub، لطفاً [نظر خود را در این مورد بنویسید](https://github.com/OpenSourceDefinition/sos/issues/1),) [از رابط وب برای ایجاد فایل جدید استفاده کنید](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) یا [یک درخواست pull ارائه دهید](https://github.com/OpenSourceDefinition/sos/pulls).)
 برای امضا در Codeberg، لطفاً [نظر خود را در این مورد بنویسید](https://codeberg.org/osd/sos/issues/1)) یا [یک درخواست pull ارائه دهید](https://codeberg.org/osd/sos/pulls).).
 به‌طور جایگزین، ریپازیتوری را فورک و کلون کنید، فایل `_data/signed/<username>.yaml` را به طور دستی ایجاد کرده و سپس commit و PR ارسال کنید.

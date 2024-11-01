@@ -7,7 +7,7 @@ Ez a README elérhető a következő nyelveken:
 
 ### Aláírás
 
-Ha emailben szeretne aláírni, küldjön egy [egyszerű szövegű emailt](https://useplaintext.email/)) bármilyen vagy üres tartalommal a [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) címre.
+Ha emailben szeretne aláírni, küldjön egy [egyszerű szövegű emailt](https://useplaintext.email/)) bármilyen vagy üres tartalommal a [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) címre.
 GitHub-on aláíráshoz kérjük, [kommenteljen erre az ügyre](https://github.com/OpenSourceDefinition/sos/issues/1),), [használja a webfelületet egy új fájl létrehozásához](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) vagy [nyújtson be egy pull requestet](https://github.com/OpenSourceDefinition/sos/pulls).)
 Codeberg-en aláíráshoz kérjük, [kommenteljen erre az ügyre](https://codeberg.org/osd/sos/issues/1)) vagy [nyújtson be egy pull requestet](https://codeberg.org/osd/sos/pulls).)
 Alternatív megoldásként forkolja és klónozza a repót, hozzon létre egy `_data/signed/<felhasználónév>.yaml` fájlt manuálisan, majd commitálja és nyújtson be egy PR-t.

@@ -7,7 +7,7 @@ README זה זמין ב:
 
 ### חתימה
 
-כדי לחתום באימייל, שלח [אימייל בטקסט פשוט](https://useplaintext.email/) עם כל תוכן או בלי תוכן ל- [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+כדי לחתום באימייל, שלח [אימייל בטקסט פשוט](https://useplaintext.email/) עם כל תוכן או בלי תוכן ל- [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 כדי לחתום ב-GitHub, נא [להגיב לנושא זה](https://github.com/OpenSourceDefinition/sos/issues/1), [להשתמש בממשק האינטרנט ליצירת קובץ חדש](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) או [לשלוח בקשת משיכה](https://github.com/OpenSourceDefinition/sos/pulls).
 כדי לחתום ב-Codeberg, נא [להגיב לנושא זה](https://codeberg.org/osd/sos/issues/1)) או [לשלוח בקשת משיכה](https://codeberg.org/osd/sos/pulls).
 לחילופין, ניתן לפצל ולשכפל את המאגר, ליצור את הקובץ `_data/signed/<username>.yaml` ידנית, ואז לחתום ולשלוח בקשת משיכה.

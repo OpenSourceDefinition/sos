@@ -7,7 +7,7 @@ Bu README şu dillerde mevcuttur:
 
 ### İmza
 
-E-posta yoluyla imzalamak için, içeriği olan veya olmayan bir [düz metin e-posta](https://useplaintext.email/)), [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) adresine gönderin.
+E-posta yoluyla imzalamak için, içeriği olan veya olmayan bir [düz metin e-posta](https://useplaintext.email/)), [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) adresine gönderin.
 GitHub'da imzalamak için, lütfen [bu gönderi üzerine yorum yapın](https://github.com/OpenSourceDefinition/sos/issues/1),), [web arayüzünü kullanarak yeni bir dosya oluşturun](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),), veya [bir çekme isteği gönderin](https://github.com/OpenSourceDefinition/sos/pulls).).
 Codeberg'de imzalamak için, lütfen [bu gönderi üzerine yorum yapın](https://codeberg.org/osd/sos/issues/1)) veya [bir çekme isteği gönderin](https://codeberg.org/osd/sos/pulls).).
 Alternatif olarak, depo'yu çatallayın ve klonlayın, `_data/signed/<kullanıcıadı>.yaml` dosyasını manuel olarak oluşturun, ardından bir PR gönderin.

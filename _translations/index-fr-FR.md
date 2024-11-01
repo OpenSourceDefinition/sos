@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Pour signer par email, envoyez un [email en texte brut](https://useplaintext.email/) avec ou sans contenu à [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Pour signer par email, envoyez un [email en texte brut](https://useplaintext.email/) avec ou sans contenu à [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Pour signer sur GitHub, veuillez [commenter sur ce sujet](https://github.com/OpenSourceDefinition/sos/issues/1), [utiliser l'interface web pour créer un nouveau fichier](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) ou [soumettre une demande de tirage](https://github.com/OpenSourceDefinition/sos/pulls).
 - Pour signer sur Codeberg, veuillez [commenter sur ce sujet](https://codeberg.org/osd/sos/issues/1) ou [soumettre une demande de tirage](https://codeberg.org/osd/sos/pulls).
 - Alternativement, forkez et clonez le dépôt, créez manuellement le fichier `_data/signed/<username>.yaml`, puis validez et soumettez une PR.

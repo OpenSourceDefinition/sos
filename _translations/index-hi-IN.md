@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- ईमेल द्वारा हस्ताक्षर करने के लिए, [सादा-पाठ ईमेल](https://useplaintext.email/) के साथ कुछ या बिना किसी सामग्री के [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) पर भेजें।
+- ईमेल द्वारा हस्ताक्षर करने के लिए, [सादा-पाठ ईमेल](https://useplaintext.email/) के साथ कुछ या बिना किसी सामग्री के [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) पर भेजें।
 - GitHub पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://github.com/OpenSourceDefinition/sos/issues/1), [नई फ़ाइल बनाने के लिए वेब इंटरफ़ेस का उपयोग करें](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), या [पुल अनुरोध सबमिट करें](https://github.com/OpenSourceDefinition/sos/pulls)।
 - Codeberg पर हस्ताक्षर करने के लिए, कृपया [इस मुद्दे पर टिप्पणी करें](https://codeberg.org/osd/sos/issues/1) या [पुल अनुरोध सबमिट करें](https://codeberg.org/osd/sos/pulls)।
 - वैकल्पिक रूप से, रिपॉजिटरी को फोर्क और क्लोन करें, फ़ाइल `_data/signed/<username>.yaml` को मैन्युअली बनाएं, फिर कमिट करें और PR सबमिट करें।

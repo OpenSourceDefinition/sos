@@ -7,7 +7,7 @@
 
 ### Υπογραφή
 
-Για υπογραφή μέσω email, στείλτε ένα [plain-text email](https://useplaintext.email/)) με οποιοδήποτε ή χωρίς περιεχόμενο στο [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Για υπογραφή μέσω email, στείλτε ένα [plain-text email](https://useplaintext.email/)) με οποιοδήποτε ή χωρίς περιεχόμενο στο [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Για υπογραφή στο GitHub, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://github.com/OpenSourceDefinition/sos/issues/1),), [χρησιμοποιήστε τη διεπαφή web για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) ή [υποβάλετε ένα pull request](https://github.com/OpenSourceDefinition/sos/pulls).).
 Για υπογραφή στο Codeberg, [σχολιάστε σε αυτό το θέμα](https://codeberg.org/osd/sos/issues/1)) ή [υποβάλετε ένα pull request](https://codeberg.org/osd/sos/pulls).).
 Εναλλακτικά, κάντε fork και clone το repo, δημιουργήστε το αρχείο `_data/signed/<όνομα_χρήστη>.yaml` χειροκίνητα, στη συνέχεια δεσμεύστε και υποβάλετε ένα PR.

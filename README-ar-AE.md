@@ -7,7 +7,7 @@
 
 ### التوقيع
 
-للتوقيع عبر البريد الإلكتروني، أرسل بريدًا نصيًا عاديًا [https://useplaintext.email/) مع أي محتوى أو بدونه إلى [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+للتوقيع عبر البريد الإلكتروني، أرسل بريدًا نصيًا عاديًا [https://useplaintext.email/) مع أي محتوى أو بدونه إلى [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 للتوقيع على GitHub، يرجى [التعليق على هذه المسألة](https://github.com/OpenSourceDefinition/sos/issues/1), [استخدام واجهة الويب لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), أو [تقديم طلب سحب](https://github.com/OpenSourceDefinition/sos/pulls).
 للتوقيع على Codeberg، يرجى [التعليق على هذه المسألة](https://codeberg.org/osd/sos/issues/1) أو [تقديم طلب سحب](https://codeberg.org/osd/sos/pulls).
 بدلاً من ذلك، يمكنك نسخ المستودع وإنشاء ملف يدويًا في `_data/signed/<username>.yaml`، ثم التزامه وتقديم طلب PR.

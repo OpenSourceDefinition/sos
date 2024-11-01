@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Untuk menandatangani melalui email, kirim [email teks biasa](https://useplaintext.email/) dengan atau tanpa isi ke [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Untuk menandatangani melalui email, kirim [email teks biasa](https://useplaintext.email/) dengan atau tanpa isi ke [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Untuk menandatangani di GitHub, silakan [komentar pada issue ini](https://github.com/OpenSourceDefinition/sos/issues/1), [gunakan antarmuka web untuk membuat file baru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), atau [kirim pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Untuk menandatangani di Codeberg, silakan [komentar pada issue ini](https://codeberg.org/osd/sos/issues/1) atau [kirim pull request](https://codeberg.org/osd/sos/pulls).
 - Alternatifnya, fork dan clone repositori, buat file `_data/signed/<username>.yaml` secara manual, kemudian commit dan kirim PR.

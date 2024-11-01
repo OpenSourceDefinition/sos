@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- للتوقيع عبر البريد الإلكتروني، أرسل [بريدًا نصيًا عاديًا](https://useplaintext.email/) بأي محتوى أو بدونه إلى [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- للتوقيع عبر البريد الإلكتروني، أرسل [بريدًا نصيًا عاديًا](https://useplaintext.email/) بأي محتوى أو بدونه إلى [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - للتوقيع على GitHub، يرجى [التعليق على هذه القضية](https://github.com/OpenSourceDefinition/sos/issues/1)، أو [استخدام واجهة الويب لإنشاء ملف جديد](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed)، أو [تقديم طلب دمج](https://github.com/OpenSourceDefinition/sos/pulls).
 - للتوقيع على Codeberg، يرجى [التعليق على هذه القضية](https://codeberg.org/osd/sos/issues/1) أو [تقديم طلب دمج](https://codeberg.org/osd/sos/pulls).
 - أو بدلاً من ذلك، قم بعمل فرع واستنساخ المستودع، ثم أنشئ الملف `_data/signed/<username>.yaml` يدويًا، ثم قم بالتأكيد وتقديم طلب دمج.

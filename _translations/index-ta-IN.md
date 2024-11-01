@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- மின்னஞ்சல் மூலமாக கையொப்பமிட, [level-உரையாடல் மின்னஞ்சல்](https://useplaintext.email/) ஒன்றை [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht). என்ற முகவரிக்கு, உள்ளடக்கம் உள்ளதோ இல்லாமலா அனுப்புக.
+- மின்னஞ்சல் மூலமாக கையொப்பமிட, [level-உரையாடல் மின்னஞ்சல்](https://useplaintext.email/) ஒன்றை [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht). என்ற முகவரிக்கு, உள்ளடக்கம் உள்ளதோ இல்லாமலா அனுப்புக.
 - GitHub இல் கையொப்பமிட, [இந்த விவகாரத்தில் கருத்துரைக்கவும்](https://github.com/OpenSourceDefinition/sos/issues/1), [வலை இடைமுகத்தைப் பயன்படுத்தி புதிய கோப்பை உருவாக்கவும்](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), அல்லது [pull request சமர்ப்பிக்கவும்](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codeberg இல் கையொப்பமிட, [இந்த விவகாரத்தில் கருத்துரைக்கவும்](https://codeberg.org/osd/sos/issues/1) அல்லது [pull request சமர்ப்பிக்கவும்](https://codeberg.org/osd/sos/pulls).
 - மாற்றாக, repo-ஐ கிளை செய்து, `_data/signed/<username>.yaml` கையை சுயமாக உருவாக்கி, commit செய்து PR அனுப்பவும்.

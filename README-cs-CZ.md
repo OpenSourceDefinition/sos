@@ -7,7 +7,7 @@ Tento README je dostupný v:
 
 ### Podepisování
 
-Chcete-li podepsat e-mailem, pošlete [plain-text email](https://useplaintext.email/)) s jakýmkoliv nebo žádným obsahem na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Chcete-li podepsat e-mailem, pošlete [plain-text email](https://useplaintext.email/)) s jakýmkoliv nebo žádným obsahem na [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Chcete-li podepsat na GitHubu, prosím [komentujte tento otazník](https://github.com/OpenSourceDefinition/sos/issues/1),), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) nebo [podejte pull request](https://github.com/OpenSourceDefinition/sos/pulls).)
 Chcete-li podepsat na Codeberg, prosím [komentujte tento otazník](https://codeberg.org/osd/sos/issues/1)) nebo [podejte pull request](https://codeberg.org/osd/sos/pulls).)
 Alternativně, fork a klonování repo, vytvořte soubor `_data/signed/<uživatelské_jméno>.yaml` ručně, poté commit a podání PR.

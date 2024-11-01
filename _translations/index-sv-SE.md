@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- För att skriva under via e-post, skicka ett [plain-text e-postmeddelande](https://useplaintext.email/) med valfritt innehåll till [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- För att skriva under via e-post, skicka ett [plain-text e-postmeddelande](https://useplaintext.email/) med valfritt innehåll till [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - För att skriva under på GitHub, vänligen [kommentera på detta ärende](https://github.com/OpenSourceDefinition/sos/issues/1), [använd webbgränssnittet för att skapa en ny fil](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), eller [skicka in en pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - För att skriva under på Codeberg, vänligen [kommentera på detta ärende](https://codeberg.org/osd/sos/issues/1) eller [skicka in en pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativt, fork och klona repo, skapa filen `_data/signed/<användarnamn>.yaml` manuellt, sedan commit och skicka in en PR.

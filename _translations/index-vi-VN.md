@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- Để ký bằng email, hãy gửi một [email văn bản đơn giản](https://useplaintext.email/) với nội dung bất kỳ hoặc không có nội dung tới [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Để ký bằng email, hãy gửi một [email văn bản đơn giản](https://useplaintext.email/) với nội dung bất kỳ hoặc không có nội dung tới [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Để ký trên GitHub, vui lòng [bình luận vào vấn đề này](https://github.com/OpenSourceDefinition/sos/issues/1), [sử dụng giao diện web để tạo tệp mới](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), hoặc [gửi yêu cầu kéo](https://github.com/OpenSourceDefinition/sos/pulls).
 - Để ký trên Codeberg, vui lòng [bình luận vào vấn đề này](https://codeberg.org/osd/sos/issues/1) hoặc [gửi yêu cầu kéo](https://codeberg.org/osd/sos/pulls).
 - Ngoài ra, tạo nhánh và sao chép repo, tạo tệp `_data/signed/<username>.yaml` thủ công, sau đó cam kết và gửi PR.

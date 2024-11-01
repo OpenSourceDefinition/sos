@@ -7,7 +7,7 @@
 
 ### স্বাক্ষর
 
-ইমেইলের মাধ্যমে স্বাক্ষর করার জন্য, কোনো বিষয়বস্তু ছাড়াই [সাদামাটা ইমেইল](https://useplaintext.email/) পাঠান [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)-এ।
+ইমেইলের মাধ্যমে স্বাক্ষর করার জন্য, কোনো বিষয়বস্তু ছাড়াই [সাদামাটা ইমেইল](https://useplaintext.email/) পাঠান [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)-এ।
 GitHub-এ স্বাক্ষর করতে, অনুগ্রহ করে [এই ইস্যুতে মন্তব্য করুন](https://github.com/OpenSourceDefinition/sos/issues/1), [নতুন ফাইল তৈরি করতে ওয়েব ইন্টারফেস ব্যবহার করুন](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), অথবা [একটি পুল রিকোয়েস্ট জমা দিন](https://github.com/OpenSourceDefinition/sos/pulls).
 Codeberg-এ স্বাক্ষর করতে, অনুগ্রহ করে [এই ইস্যুতে মন্তব্য করুন](https://codeberg.org/osd/sos/issues/1) অথবা [একটি পুল রিকোয়েস্ট জমা দিন](https://codeberg.org/osd/sos/pulls).
 অথবা, রিপোজিটরি ফর্ক এবং ক্লোন করুন, ম্যানুয়ালি `_data/signed/<username>.yaml` ফাইল তৈরি করুন, তারপর কমিট ও পিআর জমা দিন।

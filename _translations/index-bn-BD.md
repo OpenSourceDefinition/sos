@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- ইমেইলে স্বাক্ষর করতে চাইলে, [সাধারণ-টেকস্ট ইমেইল](https://useplaintext.email/) যেকোনো বিষয়বস্তুসহ বা না সহ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) এ পাঠান।
+- ইমেইলে স্বাক্ষর করতে চাইলে, [সাধারণ-টেকস্ট ইমেইল](https://useplaintext.email/) যেকোনো বিষয়বস্তুসহ বা না সহ [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) এ পাঠান।
 - গিটহাবে স্বাক্ষর করতে চাইলে, অনুগ্রহ করে [এই ইস্যুতে মন্তব্য করুন](https://github.com/OpenSourceDefinition/sos/issues/1), [ওয়েব ইন্টারফেস ব্যবহার করে একটি নতুন ফাইল তৈরি করুন](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), অথবা [একটি পুল রিকোয়েস্ট জমা দিন](https://github.com/OpenSourceDefinition/sos/pulls)।
 - কোডবার্গে স্বাক্ষর করতে চাইলে, অনুগ্রহ করে [এই ইস্যুতে মন্তব্য করুন](https://codeberg.org/osd/sos/issues/1) অথবা [একটি পুল রিকোয়েস্ট জমা দিন](https://codeberg.org/osd/sos/pulls)।
 - বিকল্পভাবে, রিপো ফর্ক এবং ক্লোন করুন, `_data/signed/<username>.yaml` ফাইলটি নিজে তৈরি করুন, তারপর কমিট করে একটি পিআর জমা দিন।

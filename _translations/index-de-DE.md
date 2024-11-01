@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Um per E-Mail zu unterschreiben, senden Sie eine [Text-E-Mail](https://useplaintext.email/) mit beliebigem oder keinem Inhalt an [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Um per E-Mail zu unterschreiben, senden Sie eine [Text-E-Mail](https://useplaintext.email/) mit beliebigem oder keinem Inhalt an [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Um auf GitHub zu unterschreiben, kommentieren Sie bitte [dieses Problem](https://github.com/OpenSourceDefinition/sos/issues/1), [verwenden Sie die Weboberfläche, um eine neue Datei zu erstellen](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), oder [reichen Sie eine Pull-Anfrage ein](https://github.com/OpenSourceDefinition/sos/pulls).
 - Um auf Codeberg zu unterschreiben, kommentieren Sie bitte [dieses Problem](https://codeberg.org/osd/sos/issues/1) oder [reichen Sie eine Pull-Anfrage ein](https://codeberg.org/osd/sos/pulls).
 - Alternativ können Sie das Repo forken und klonen, die Datei `_data/signed/<username>.yaml` manuell erstellen, dann committen und eine PR einreichen.

@@ -7,7 +7,7 @@
 
 ### 署名
 
-メールで署名するには、任意の内容または内容なしの[プレーンテキストメール](https://useplaintext.email/))を[~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)に送信してください。
+メールで署名するには、任意の内容または内容なしの[プレーンテキストメール](https://useplaintext.email/))を[u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)に送信してください。
 GitHubで署名するには、[この問題にコメントしてください](https://github.com/OpenSourceDefinition/sos/issues/1),)。[新しいファイルを作成するには、ウェブインターフェースを使用してください](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),)。または[プルリクエストを送信してください](https://github.com/OpenSourceDefinition/sos/pulls).)。
 Codebergで署名するには、[この問題にコメントしてください](https://codeberg.org/osd/sos/issues/1))。または[プルリクエストを送信してください](https://codeberg.org/osd/sos/pulls).)。
 

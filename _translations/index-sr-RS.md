@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Да бисте се пријавили путем е-поште, пошаљите [текстуалну е-пошту](https://useplaintext.email/) са садржајем или без њега на [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Да бисте се пријавили путем е-поште, пошаљите [текстуалну е-пошту](https://useplaintext.email/) са садржајем или без њега на [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Да бисте се пријавили на GitHub, молимо [коментаришите на овом питању](https://github.com/OpenSourceDefinition/sos/issues/1), [користите веб интерфејс да креирате нови фајл](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), или [поднесите захтев за повлачење (pull request)](https://github.com/OpenSourceDefinition/sos/pulls).
 - Да бисте се пријавили на Codeberg, молимо [коментаришите на овом питању](https://codeberg.org/osd/sos/issues/1) или [поднесите захтев за повлачење (pull request)](https://codeberg.org/osd/sos/pulls).
 - Алтернативно, форкујте и клонирајте репозиторијум, ручно креирајте фајл `_data/signed/<username>.yaml`, затим направите commit и пошаљите PR.

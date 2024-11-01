@@ -7,7 +7,7 @@ Este README está disponible en:
 
 ### Firma
 
-Para firmar por correo electrónico, envía un [correo electrónico en texto plano](https://useplaintext.email/)) con cualquier contenido o sin él a [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Para firmar por correo electrónico, envía un [correo electrónico en texto plano](https://useplaintext.email/)) con cualquier contenido o sin él a [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Para firmar en GitHub, por favor [comentario en este issue](https://github.com/OpenSourceDefinition/sos/issues/1),), [usa la interfaz web para crear un nuevo archivo](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) o [envía un pull request](https://github.com/OpenSourceDefinition/sos/pulls).).
 Para firmar en Codeberg, por favor [comentario en este issue](https://codeberg.org/osd/sos/issues/1)) o [envía un pull request](https://codeberg.org/osd/sos/pulls).).
 Alternativamente, haz fork y clona el repositorio, crea el archivo `_data/signed/<usuario>.yaml` manualmente, luego confirma y envía un PR.

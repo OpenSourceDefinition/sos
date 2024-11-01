@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- Chcete-li podepsat e-mailem, pošlete [textový e-mail](https://useplaintext.email/) s jakýmkoliv obsahem či bez něj na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Chcete-li podepsat e-mailem, pošlete [textový e-mail](https://useplaintext.email/) s jakýmkoliv obsahem či bez něj na [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Chcete-li podepsat na GitHubu, prosím [okomentujte tento problém](https://github.com/OpenSourceDefinition/sos/issues/1), [použijte webové rozhraní k vytvoření nového souboru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), nebo [odešlete pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Chcete-li podepsat na Codebergu, prosím [okomentujte tento problém](https://codeberg.org/osd/sos/issues/1) nebo [odešlete pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativně, fork a clone repo, vytvořte soubor `_data/signed/<uživatelské jméno>.yaml` ručně, poté commitněte a odešlete PR.

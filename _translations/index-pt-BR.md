@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Para assinar por e-mail, envie um [e-mail em texto simples](https://useplaintext.email/) com qualquer conteúdo ou sem conteúdo para [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Para assinar por e-mail, envie um [e-mail em texto simples](https://useplaintext.email/) com qualquer conteúdo ou sem conteúdo para [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Para assinar no GitHub, por favor [comente neste issue](https://github.com/OpenSourceDefinition/sos/issues/1), [use a interface web para criar um novo arquivo](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ou [envie um pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Para assinar no Codeberg, por favor [comente neste issue](https://codeberg.org/osd/sos/issues/1) ou [envie um pull request](https://codeberg.org/osd/sos/pulls).
 - Alternativamente, faça um fork e clone o repositório, crie manualmente o arquivo `_data/signed/<username>.yaml`, então cometa e envie um PR.

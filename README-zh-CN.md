@@ -7,7 +7,7 @@
 
 ### 签名
 
-通过电子邮件签名，请发送 [纯文本邮件](https://useplaintext.email/)) （内容任意或无内容）至 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)。
+通过电子邮件签名，请发送 [纯文本邮件](https://useplaintext.email/)) （内容任意或无内容）至 [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)。
 通过 GitHub 签名，请 [在此问题中留言](https://github.com/OpenSourceDefinition/sos/issues/1),)， [使用网页界面创建新文件](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),)，或 [提交拉取请求](https://github.com/OpenSourceDefinition/sos/pulls).)。
 通过 Codeberg 签名，请 [在此问题中留言](https://codeberg.org/osd/sos/issues/1))，或 [提交拉取请求](https://codeberg.org/osd/sos/pulls).)。
 或者，fork 和克隆仓库，手动创建文件 `_data/signed/<username>.yaml`，然后提交和提交 PR。

@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Emailes aláíráshoz küldj egy [egyszerű szöveges emailt](https://useplaintext.email/) bármilyen vagy üres tartalommal a [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht) címre.
+- Emailes aláíráshoz küldj egy [egyszerű szöveges emailt](https://useplaintext.email/) bármilyen vagy üres tartalommal a [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht) címre.
 - GitHubos aláíráshoz kérjük, [írj kommentet ehhez az issue-hoz](https://github.com/OpenSourceDefinition/sos/issues/1), [használd a webes felületet új fájl létrehozásához](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), vagy [nyújts be egy pull requestet](https://github.com/OpenSourceDefinition/sos/pulls).
 - Codebergen való aláíráshoz kérjük, [írj kommentet ehhez az issue-hoz](https://codeberg.org/osd/sos/issues/1), vagy [nyújts be egy pull requestet](https://codeberg.org/osd/sos/pulls).
 - Alternatív megoldásként forkolhatod és klónozhatod a repót, manuálisan létrehozhatod a `_data/signed/<felhasználónév>.yaml` fájlt, majd commitold és nyújts be egy PR-t.

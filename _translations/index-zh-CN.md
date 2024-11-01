@@ -16,7 +16,7 @@ twitter:
 ---
 <br>
 
-- 通过电子邮件签署，请发送[纯文本电子邮件](https://useplaintext.email/)，内容可有可无，至 [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)。
+- 通过电子邮件签署，请发送[纯文本电子邮件](https://useplaintext.email/)，内容可有可无，至 [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)。
 - 要在 GitHub 上签署，请[评论此问题](https://github.com/OpenSourceDefinition/sos/issues/1)，[使用网页界面创建新文件](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed) 或[提交拉取请求](https://github.com/OpenSourceDefinition/sos/pulls)。
 - 要在 Codeberg 上签署，请[评论此问题](https://codeberg.org/osd/sos/issues/1) 或[提交拉取请求](https://codeberg.org/osd/sos/pulls)。
 - 或者，分叉并克隆仓库，手动创建文件 `_data/signed/<username>.yaml`，然后提交并提交 PR。

@@ -7,7 +7,7 @@ Denna README är tillgänglig på:
 
 ### Signering
 
-För att signera via e-post, skicka ett [plaintext-meddelande](https://useplaintext.email/)) med något eller inget innehåll till [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+För att signera via e-post, skicka ett [plaintext-meddelande](https://useplaintext.email/)) med något eller inget innehåll till [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 För att signera på GitHub, vänligen [kommentera detta ärende](https://github.com/OpenSourceDefinition/sos/issues/1),), [använd webgränssnittet för att skapa en ny fil](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) eller [skicka en pull-begäran](https://github.com/OpenSourceDefinition/sos/pulls).).
 För att signera på Codeberg, vänligen [kommentera detta ärende](https://codeberg.org/osd/sos/issues/1)) eller [skicka en pull-begäran](https://codeberg.org/osd/sos/pulls).).
 Du kan även gaffla och klona repot, skapa filen `_data/signed/<användarnamn>.yaml` manuellt, därefter göra en commit och skicka in en PR.

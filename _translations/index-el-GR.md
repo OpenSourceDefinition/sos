@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Για να υπογράψετε μέσω email, στείλτε ένα [απλό κείμενο email](https://useplaintext.email/) με περιεχόμενο ή χωρίς στο [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Για να υπογράψετε μέσω email, στείλτε ένα [απλό κείμενο email](https://useplaintext.email/) με περιεχόμενο ή χωρίς στο [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Για να υπογράψετε στο GitHub, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://github.com/OpenSourceDefinition/sos/issues/1), [χρησιμοποιήστε τη διεπαφή ιστού για να δημιουργήσετε ένα νέο αρχείο](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), ή [υποβάλετε ένα αίτημα έλξης](https://github.com/OpenSourceDefinition/sos/pulls).
 - Για να υπογράψετε στο Codeberg, παρακαλώ [σχολιάστε σε αυτό το θέμα](https://codeberg.org/osd/sos/issues/1) ή [υποβάλετε ένα αίτημα έλξης](https://codeberg.org/osd/sos/pulls).
 - Εναλλακτικά, κάντε fork και clone το αποθετήριο, δημιουργήστε το αρχείο `_data/signed/<username>.yaml` χειροκίνητα και στη συνέχεια κάντε commit και υποβάλετε ένα PR.

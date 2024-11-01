@@ -17,7 +17,7 @@ twitter:
 ---
 <br>
 
-- Upang pumirma sa pamamagitan ng email, magpadala ng [plain-text email](https://useplaintext.email/) na may o walang laman sa [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+- Upang pumirma sa pamamagitan ng email, magpadala ng [plain-text email](https://useplaintext.email/) na may o walang laman sa [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 - Upang pumirma sa GitHub, mangyaring [magkomento sa isyung ito](https://github.com/OpenSourceDefinition/sos/issues/1), [gamitin ang web interface upang lumikha ng bagong file](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), o [magsumite ng pull request](https://github.com/OpenSourceDefinition/sos/pulls).
 - Upang pumirma sa Codeberg, mangyaring [magkomento sa isyung ito](https://codeberg.org/osd/sos/issues/1) o [magsumite ng pull request](https://codeberg.org/osd/sos/pulls).
 - Bilang alternatibo, i-fork at i-clone ang repo, manu-manong lumikha ng file `_data/signed/<username>.yaml`, pagkatapos ay i-commit at magsumite ng PR.

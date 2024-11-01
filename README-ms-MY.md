@@ -7,7 +7,7 @@ README ini tersedia dalam:
 
 ### Menandatangani
 
-Untuk menandatangani melalui e-mel, hantar [e-mel teks biasa](https://useplaintext.email/) dengan sebarang atau tiada kandungan kepada [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Untuk menandatangani melalui e-mel, hantar [e-mel teks biasa](https://useplaintext.email/) dengan sebarang atau tiada kandungan kepada [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Untuk menandatangani di GitHub, sila [komen pada isu ini](https://github.com/OpenSourceDefinition/sos/issues/1),; [gunakan antara muka web untuk buat fail baru](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),; atau [hantar permintaan tarik](https://github.com/OpenSourceDefinition/sos/pulls).
 Untuk menandatangani di Codeberg, sila [komen pada isu ini](https://codeberg.org/osd/sos/issues/1); atau [hantar permintaan tarik](https://codeberg.org/osd/sos/pulls).
 Sebagai alternatif, fork dan klon repositori, cipta fail `_data/signed/<username>.yaml` secara manual, kemudian komit dan hantar PR.

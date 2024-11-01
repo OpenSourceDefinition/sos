@@ -7,7 +7,7 @@ Ten README jest dostępny w:
 
 ### Podpisywanie
 
-Aby podpisać się przez email, wyślij [wiadomość w formacie tekstowym](https://useplaintext.email/)) z dowolną treścią lub bez niej na [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht).
+Aby podpisać się przez email, wyślij [wiadomość w formacie tekstowym](https://useplaintext.email/)) z dowolną treścią lub bez niej na [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht).
 Aby podpisać na GitHub, prosimy [skomentować to zagadnienie](https://github.com/OpenSourceDefinition/sos/issues/1),), [użyć interfejsu webowego do stworzenia nowego pliku](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) lub [złożyć pull request](https://github.com/OpenSourceDefinition/sos/pulls).).
 Aby podpisać na Codeberg, prosimy [skomentować to zagadnienie](https://codeberg.org/osd/sos/issues/1)) lub [złożyć pull request](https://codeberg.org/osd/sos/pulls).).
 Alternatywnie, sklonuj repozytorium, stwórz plik `_data/signed/<nazwa_użytkownika>.yaml` ręcznie, następnie zatwierdź i złóż PR.

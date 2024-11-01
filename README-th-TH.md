@@ -7,7 +7,7 @@ README นี้มีให้บริการใน:
 
 ### การลงนาม
 
-หากต้องการลงนามทางอีเมล ให้ส่ง [อีเมลข้อความธรรมดา](https://useplaintext.email/)) โดยไม่ต้องมีเนื้อหาหรือมีเนื้อหาใดๆ ไปที่ [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)
+หากต้องการลงนามทางอีเมล ให้ส่ง [อีเมลข้อความธรรมดา](https://useplaintext.email/)) โดยไม่ต้องมีเนื้อหาหรือมีเนื้อหาใดๆ ไปที่ [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)
 
 หากต้องการลงนามใน GitHub โปรด [แสดงความคิดเห็นในประเด็นนี้](https://github.com/OpenSourceDefinition/sos/issues/1),) [ใช้เว็บอินเตอร์เฟสเพื่อสร้างไฟล์ใหม่](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed),) หรือ [ส่งคำร้องขอดึงข้อมูล](https://github.com/OpenSourceDefinition/sos/pulls).)
 

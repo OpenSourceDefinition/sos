@@ -7,7 +7,7 @@
 
 ### கையொப்பம்
 
-மின்னஞ்சல் மூலம் கையொப்பமிட, [plain-text email](https://useplaintext.email/) [~osd/sos@lists.sr.ht](mailto:~osd/sos@lists.sr.ht)க்கு அனுப்பவும்.
+மின்னஞ்சல் மூலம் கையொப்பமிட, [plain-text email](https://useplaintext.email/) [u.osd.sos@lists.sr.ht](mailto:u.osd.sos@lists.sr.ht)க்கு அனுப்பவும்.
 GitHubல் கையொப்பமிட, [இந்த பிரச்சனைக்குப் பின்னூட்டம் இடவும்](https://github.com/OpenSourceDefinition/sos/issues/1), புதிய கோப்பைக் உருவாக்க [அதரவுப்பணி பயன்படுத்தவும்](https://github.com/OpenSourceDefinition/sos/new/main/_data/signed), அல்லது உரிமம் கோர [pull request சமர்ப்பிக்கவும்](https://github.com/OpenSourceDefinition/sos/pulls).
 Codebergல் கையொப்பமிட, [இந்த பிரச்சனைக்குப் பின்னூட்டம் இடவும்](https://codeberg.org/osd/sos/issues/1) அல்லது [pull request சமர்ப்பிக்கவும்](https://codeberg.org/osd/sos/pulls).
 மாற்றீடு, களஞ்சியத்தை fork மற்றும் clone செய்து, `_data/signed/<username>.yaml` என்ற கோப்பைக் கைவினையாக துவைத்து, இடுகையிட்டு PR சமர்ப்பிக்கவும்.
