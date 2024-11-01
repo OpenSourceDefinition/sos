@@ -9,4 +9,5 @@ __pycache__/
 translate.log
 .DS_Store
 node_modules
-
+cdk.out
+lambda-layer
