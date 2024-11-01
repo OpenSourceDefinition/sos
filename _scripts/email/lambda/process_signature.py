@@ -11,6 +11,7 @@ import hashlib
 import base64
 import json
 from datetime import datetime
+import requests
 
 # Load config once when Lambda container starts
 with open('config.yml', 'r') as f:
@@ -90,6 +91,59 @@ def send_confirmation_email(ses_client, email_addr, name, revocation_token):
         print(f"Error sending confirmation email: {str(e)}")
         return False
 
+def create_codeberg_pr(email_addr, signature_data):
+    """Create a branch and PR in Codeberg for the new signature"""
+    api_token = os.environ['CODEBERG_TOKEN']
+    headers = {
+        'Authorization': f'token {api_token}',
+        'Content-Type': 'application/json'
+    }
+    base_url = 'https://codeberg.org/api/v1'
+    repo = 'osd/sos'
+    
+    branch_name = f"signature/{sanitize_filename(email_addr)}"
+    file_path = f"{CONFIG['paths']['signatures']}/{sanitize_filename(email_addr)}.yaml"
+    
+    try:
+        # 1. Get the current main branch SHA
+        r = requests.get(f'{base_url}/repos/{repo}/branches/main', headers=headers)
+        r.raise_for_status()
+        main_sha = r.json()['commit']['sha']
+        
+        # 2. Create new branch
+        data = {
+            'ref': f'refs/heads/{branch_name}',
+            'sha': main_sha
+        }
+        r = requests.post(f'{base_url}/repos/{repo}/git/refs', headers=headers, json=data)
+        r.raise_for_status()
+        
+        # 3. Create file in new branch
+        content = base64.b64encode(yaml.dump(signature_data).encode()).decode()
+        data = {
+            'branch': branch_name,
+            'content': content,
+            'message': f'Add signature via email for {email_addr}'
+        }
+        r = requests.post(f'{base_url}/repos/{repo}/contents/{file_path}', 
+                         headers=headers, json=data)
+        r.raise_for_status()
+        
+        # 4. Create PR
+        data = {
+            'title': f'Add signature for {email_addr}',
+            'body': f'Signature request received via email from {email_addr}',
+            'head': branch_name,
+            'base': 'main'
+        }
+        r = requests.post(f'{base_url}/repos/{repo}/pulls', headers=headers, json=data)
+        r.raise_for_status()
+        
+        return r.json()['html_url']  # Return PR URL
+        
+    except requests.exceptions.RequestException as e:
+        raise Exception(f"Failed to create PR: {str(e)}")
+
 def process_email(event, context):
     s3 = boto3.client('s3')
     ses = boto3.client('ses')
@@ -122,19 +176,16 @@ def process_email(event, context):
         'link': f'mailto:{email_addr}'
     }
     
-    # Initialize GitHub client
-    g = Github(os.environ['GITHUB_TOKEN'])
-    repo = g.get_repo(os.environ['GITHUB_REPO'])
-    
     try:
-        # Create signature file
-        file_path = f"{CONFIG['paths']['signatures']}/{sanitize_filename(email_addr)}.yaml"
-        repo.create_file(
-            path=file_path,
-            message=f"Add signature via email for {email_addr}",
-            content=yaml.dump(signature_data, default_flow_style=False),
-            branch="main"
-        )
+        # Create PR in Codeberg
+        pr_url = create_codeberg_pr(email_addr, signature_data)
+        
+        # Log the PR creation
+        log_event(s3, 'signature_request', {
+            'email': email_addr,
+            'name': name,
+            'pr_url': pr_url
+        })
         
         # Send confirmation
         revocation_token = generate_revocation_token(email_addr)
@@ -142,17 +193,10 @@ def process_email(event, context):
             
         return {
             'statusCode': 200,
-            'body': f'Signature added successfully for {email_addr} and confirmation sent'
+            'body': f'Signature request received for {email_addr}, PR created at {pr_url}'
         }
     except Exception as e:
-        if "Not possible to fast-forward" in str(e):
-            revocation_token = generate_revocation_token(email_addr)
-            send_confirmation_email(ses, email_addr, name, revocation_token)
-            return {
-                'statusCode': 200,
-                'body': f'Signature already exists for {email_addr}, confirmation sent'
-            }
         return {
             'statusCode': 500,
-            'body': f'Error processing signature: {str(e)}'
+            'body': f'Error processing signature request: {str(e)}'
         }

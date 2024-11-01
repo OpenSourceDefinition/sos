@@ -1,0 +1,13 @@
+Your signature has been removed from the Community Commitment to Open Source Definition.
+
+If this was done in error, you can sign again by:
+
+1. Sending a plain-text email to {sign_address}
+2. Using the web interface at https://opensourcedeclaration.org/
+3. Creating a pull request at {github_repo}
+
+Thank you for your interest in Open Source.
+
+--
+Open Source Definition Community
+https://opensourcedeclaration.org/

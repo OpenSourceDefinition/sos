@@ -15,4 +15,8 @@ paths:
   signatures: "_data/signed"
 
 storage:
-  bucket: "opensourcedeclaration-email"
+  email_bucket: "opensourcedeclaration-email"
+  log_bucket: "opensourcedeclaration-email-logs"
+
+domain:
+  mail: "mail.opensourcedeclaration.org"

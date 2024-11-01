@@ -1,0 +1,24 @@
+Thank you for signing the Community Commitment to Open Source Definition!
+
+Declaration:
+We declare that Open Source is defined solely by the Open Source Definition (OSD) version 1.9.
+Any amendments or new definitions shall only be recognized with clear community consensus via an open and transparent process.
+
+Your signature has been recorded with the following details:
+Name: {name}
+Email: {email}
+
+Your signature file has been created at:
+{github_repo}/blob/main/{signature_file}
+
+You can view all signatures at:
+https://opensourcedeclaration.org/
+
+If you wish to revoke your signature in the future, you can use this link:
+{revocation_url}
+
+Thank you for your support of Open Source!
+
+--
+Open Source Definition Community
+https://opensourcedeclaration.org/
