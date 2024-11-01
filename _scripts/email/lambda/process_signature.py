@@ -12,6 +12,7 @@ import base64
 import json
 from datetime import datetime
 import requests
+from config import config
 
 # Load config once when Lambda container starts
 with open('config.yml', 'r') as f:
@@ -145,17 +146,17 @@ def create_codeberg_pr(email_addr, signature_data):
         raise Exception(f"Failed to create PR: {str(e)}")
 
 def process_email(event, context):
-    s3 = boto3.client('s3')
+    s3_client = boto3.client('s3')
     ses = boto3.client('ses')
     
     # Get the email from S3
     bucket = event['Records'][0]['s3']['bucket']['name']
     key = event['Records'][0]['s3']['object']['key']
-    email_obj = s3.get_object(Bucket=bucket, Key=key)
+    email_obj = s3_client.get_object(Bucket=bucket, Key=key)
     email_content = email_obj['Body'].read().decode('utf-8')
     
     # Log the incoming email
-    log_email(s3, email_content, 'inbound')
+    log_email(s3_client, email_content, 'inbound')
     
     # Parse the email
     msg = email.message_from_string(email_content)
@@ -181,7 +182,7 @@ def process_email(event, context):
         pr_url = create_codeberg_pr(email_addr, signature_data)
         
         # Log the PR creation
-        log_event(s3, 'signature_request', {
+        log_event(s3_client, 'signature_request', {
             'email': email_addr,
             'name': name,
             'pr_url': pr_url
